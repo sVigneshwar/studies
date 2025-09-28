@@ -129,3 +129,28 @@ test(10,1,2,3,4,5) // here the 10 is b. 1,2,3,4,5 is an seperate array values.
 // 8 
 // 9 
 // 10 
+
+//----------------------------------------------------------------------------
+
+var arr = [100, "q","Vicky", 10, 8 , "C"];
+
+var num = [];
+var str = [];
+var ch = [];
+
+arr.map(val => {
+    if(typeof val === "number"){
+        num.push(val);
+    }else {
+        console.log(val.length)
+        if(typeof val == "string" && val.length == 1){
+            ch.push(val);
+        }else{
+            str.push(val);
+        }
+    }
+})
+
+console.log(num);
+console.log(str);
+console.log(ch);

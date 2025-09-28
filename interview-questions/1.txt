@@ -1,0 +1,73 @@
+storage:
+
+cookie - 4kb  -server, client 
+local storage - more storage - stored for state level changes in the browser like dark and light theme
+session storage - for checkout pages forminputs (temp storage), which will clear out once page is closed
+
+-------------------
+
+optimization:
+
+client side optimization:
+module bundler:
+1) polyfill - using this to check if arrow function, or spread operatorns not working in some browsers and polyfille the code
+-treeshaking (happens in most bundelers, webpack)
+2)bundlecompression
+-uglify js
+-compress js
+-source maps - when compress, we can find issue in production since it will convert the variables to different names, so source maps can figure out where to find and fix bugs
+3)code splitting:
+
+-------------------
+
+image size:
+dimension: minimum
+compression and image optimization (use less color data)
+webp format
+cdn - caching policy
+lazy loading / loda on scroll
+specify width and height
+srcset - ship diff image size on devices / viewport
+
+--------------------------------------
+
+code optimization: 
+
+linting: use same linter so everyone writes same code, easy to get into others code while are using same linter/pretter code
+unit test - e2e test
+dependency scan - check node modules which is mostly vulnarable for attacks
+lighthouse sentry - for checking performance overtime, like if we intro new image or fonts, it may detect the performance drop and we can fix it early on
+
+--------------------------------------
+
+XSS attack: (cross orgin javascript attack)
+
+Meaning: can inject js comments or file into our database and when user runs it, they may accidently give away credentials back to them using their code
+
+-sanitize input:
+never render html/js from the user. nver let js or comments run in our database.
+even if ran, need to __dangerouslySetHTML in react (avoid at all cost)
+
+--------------------------------------
+
+cdn (content delivery network)
+
+1) if i have server, i spread the cdn all over the globe
+2) if no cdn the user from all over the globe fetch data from same server
+3)but if cdn set, the user gets data from the closest location based in the latency from the user.
+
+for setting up cdns:
+AWS cloud front
+cloudfare
+
+--------------------------------------
+
+what are micro frontend and when use this kinda frontend architecture:
+
+lets say if i have header, body, sidebar, for solo it is easier, 
+but if there are more people and the scale is large we can seperate each code and start working seperately.
+
+but this one is very huge because there may be state dependency within each components, 
+so there may be issue while deploying and may have to revert back
+
+need to set certain criteria before planning structure for micro frontends, it may get more complex so why.
