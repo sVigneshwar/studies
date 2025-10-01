@@ -1,3 +1,56 @@
+// -----------------------------------------------------------------------------------
+// basic fetch strucuture
+fetch("someurl")
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(err=> console.log(err))
+
+
+// -----------------------------------------------------------------------------------
+// basic async await strucuture
+
+function wait(ms){
+    return new Promise((resolve, reject) => {
+        var something = false;
+        setTimeout(()=>{
+            if(something){
+                resolve("Success")
+            }else{
+                reject("Failed")
+            }
+        }, ms)
+    })
+}
+
+
+async function test(){
+    try{
+        var p = await wait(2000)
+        console.log(p)        
+    }catch(err){
+        throw Error(err)
+    }
+    console.log("ended after 2000 ms")
+}
+
+test()
+
+// -----------------------------------------------------------------------------------
+// basic promise strcuture
+
+var data = new Promise((res, rej) => {
+    var something = true;
+    if(something){
+        return res("Resolved")
+    }else{
+        return  rej("Rejected")
+    }
+})
+
+data.then(res => console.log(res)).catch(err => console.log(err));
+
+
+// -----------------------------------------------------------------------------------
 // Example function: resolves or rejects randomly
 const prom = () => {
   return new Promise((resolve, reject) => {

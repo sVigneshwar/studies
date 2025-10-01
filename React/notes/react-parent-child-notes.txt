@@ -1,0 +1,23 @@
+Start
+  |
+  |-- Does the data CHANGE over time?
+  |        |
+  |        |-- NO → Just use a normal prop/variable.
+  |        |
+  |        |-- YES → Needs STATE.
+  |
+  |-- Who NEEDS this state?
+          |
+          |-- Only ONE component → keep state LOCAL in that component.
+          |
+          |-- Multiple SIBLINGS need it → LIFT state UP to their parent.
+          |
+          |-- Many UNRELATED components need it (passing too many props) →
+                 → Use CONTEXT (or Redux if complex).
+
+
+------------------------------------------------------------------------------------------------
+
+“Data down, actions up”
+
+------------------------------------------------------------------------------------------------
