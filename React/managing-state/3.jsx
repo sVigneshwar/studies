@@ -1,11 +1,29 @@
 import { useState } from 'react';
 
-const initialItems = [
-  { title: 'pretzels', id: 0 },
-  { title: 'crispy seaweed', id: 1 },
-  { title: 'granola bar', id: 2 },
-];
+export default function SyncedInputs() {
+  const [text, setText] = useState('');
 
-export default function Menu() {
-    
+  return (
+    <>
+      <Input value={text} label="First input" onUpdate={setText} />
+      <Input value={text} label="Second input" onUpdate={setText} />
+    </>
+  );
+}
+
+function Input({ label, value, onUpdate }) {
+  
+
+  
+
+  return (
+    <label>
+      {label}
+      {' '}
+      <input
+        value={value}
+        onChange={e => onUpdate(e.target.value)}
+      />
+    </label>
+  );
 }
