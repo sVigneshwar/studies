@@ -1,8 +1,17 @@
 *{
-    font-family:sans-serif
+    font-family:sans-serif;
+    color: #fff;
 }
 
 h1{
     font-size: 22px;
     font-weight: 600;
+    color: #fff;
+}
+body{
+    background-color:#141414;
+}
+
+input, button{
+    color: #000;
 }
