@@ -30,7 +30,7 @@ export default function Todo2() {
     function handleSubmit(e){
         e.preventDefault()
         dispatch({type: ACTIONS.ADD_TODO, payload: {name: name}})
-        setName("")        
+        setName("")
     }
     return (
         <>

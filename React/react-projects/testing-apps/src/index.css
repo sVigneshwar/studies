@@ -12,6 +12,6 @@ body{
     background-color:#141414;
 }
 
-input, button{
+input, button, textarea{
     color: #000;
 }
