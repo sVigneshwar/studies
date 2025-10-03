@@ -1,0 +1,16 @@
+const contacts = [
+  {id: 0, name: 'Taylor', email: 'taylor@mail.com'},
+  {id: 1, name: 'Alice', email: 'alice@mail.com'},
+  {id: 2, name: 'Bob', email: 'bob@mail.com'},
+];
+
+create a chat app using this data
+
+LHS should have the tabs of each user
+RHS should have chatbox, and send button with email id in button
+
+
+while type, the text should be updated
+while send, the text should be alerted with email address
+after alert, reset the chat text box
+while changing tab, the text should be reset (check if the text can be restored for each user while switching tabs atlast)
