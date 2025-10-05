@@ -14,3 +14,58 @@ while type, the text should be updated
 while send, the text should be alerted with email address
 after alert, reset the chat text box
 while changing tab, the text should be reset (check if the text can be restored for each user while switching tabs atlast)
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Main Hooks:
+
+useState:
+manage state using useState
+ex - const[count, seCount] = useState("0");
+---------
+useReducer:
+we can call dispatcher for to perform certain action, along with passing state values
+ex - 
+const [todo, dispatch] = useReducer(reducer, [])
+
+onClick={()=>dispatch({type: 'add-todo', payload: {name: name}})}
+
+on reducer function we can write like below (use if conditon or switch condition)
+
+function reducer(todo, action){
+  switch(action.type){
+    case: 'add-todo':
+      return [...todo, {name: name}]
+  }
+}
+---------
+useEffect:
+basically this function calls if anything is re-rendere/ or rendered for the first time. 
+state must need to be changed if called
+ex - useEffect(()=>console.log(reder), [count]) - if the final [] array passed empty, then it only runs 1st time (only while mounting)
+when return inside useEffectcalled, it is cleanup. it cleans up and then proceed other updated. if component is removed, the cleanup code runs once. so it is good code method to cleanup.
+---------
+useMemo
+---------
+useRef
+---------
+useContext
+---------
+useCallback
+---------
+Custom Hooks
+---------
+
+others hooks:
+
+useLayoutEffect
+useTransition
+useDefferedValue
+useImperativeHandle
+useDebugValue
+useID
+useEffectEvent
+condition Hooks?
+useFormStatus
+useOptimistic
+useActionState
