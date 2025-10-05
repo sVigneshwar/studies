@@ -5,6 +5,9 @@ import Todo2 from './testing-projects/todo2/todo'
 import ChatApp from './testing-projects/chat-app/chat-app'
 import Posts from './testing-projects/useeffect-test/1'
 import WindowWidth from './testing-projects/useeffect-test/2'
+import CounterAndTheme from './testing-projects/usememo-test/usememo'
+import CounterAndTheme2 from './testing-projects/usecallback-test/usecallback'
+import ThemeToggle from './testing-projects/usecontext-test/usecontext'
 
 export default function App() {
   return(
@@ -12,9 +15,12 @@ export default function App() {
     {/* <CounterApp /> */}
     {/* <Todo /> */}
     {/* <Todo2 /> */}
-    <ChatApp />
+    {/* <ChatApp /> */}
     {/* <Posts /> */}
     {/* <WindowWidth /> */}
+    {/* <CounterAndTheme /> */}
+    {/* <CounterAndTheme2 /> */}
+    <ThemeToggle />
     </>
   )
 }

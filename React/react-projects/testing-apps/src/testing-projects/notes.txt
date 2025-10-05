@@ -17,14 +17,43 @@ while changing tab, the text should be reset (check if the text can be restored 
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+what is createcontext?
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Main Hooks:
+useState - understood
+useReducer - understood
+useEffect - understood
+useMemo - understood
+useRef
+useContext
+useCallback
+Custom Hooks
+
+others hooks:
+useLayoutEffect
+useTransition
+useDefferedValue
+useImperativeHandle
+useDebugValue
+useID
+useEffectEvent
+condition Hooks?
+useFormStatus
+useOptimistic
+useActionState
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Main Hooks:
 
 useState:
-manage state using useState
+1) manage state using useState
 ex - const[count, seCount] = useState("0");
 ---------
 useReducer:
-we can call dispatcher for to perform certain action, along with passing state values
+1) we can call dispatcher for to perform certain action, along with passing state values
 ex - 
 const [todo, dispatch] = useReducer(reducer, [])
 
@@ -40,18 +69,29 @@ function reducer(todo, action){
 }
 ---------
 useEffect:
-basically this function calls if anything is re-rendere/ or rendered for the first time. 
-state must need to be changed if called
-ex - useEffect(()=>console.log(reder), [count]) - if the final [] array passed empty, then it only runs 1st time (only while mounting)
-when return inside useEffectcalled, it is cleanup. it cleans up and then proceed other updated. if component is removed, the cleanup code runs once. so it is good code method to cleanup.
+1)basically this function calls if anything is re-rendere/ or rendered for the first time. 
+2)state must need to be changed if called
+3)ex - useEffect(()=>console.log(reder), [count]) - if the final [] array passed empty, then it only runs 1st time (only while mounting)
+4)when return inside useEffectcalled, it is cleanup. it cleans up and then proceed other updated. if component is removed, the cleanup code runs once. so it is good code method to cleanup.
 ---------
-useMemo
+useMemo:
+1) if a component has two state dependency, one is slow and one if fast, if we re-render component by changing a state value, the slow function also re-render, making the performance slow.
+so we can avoid re-rendering slow function, but using useMemo, so that the slow function only runs when the actual value for the slow function is changed.
+
+2) tricky situation (referential memorization): if we are using useEffect, while rendering a comopnent, it works, but while changing a another component also, this useEffect may run.
+so we can avoid re-rendering useeffect, by using useMemo, so that the changes happens only on changing specific values.
+this case comes while calling static variable inside a component, like theme. (memorization of object inside a component)
+3)useCallback returns memoised function, whereas useMemo returns a memoised value.
+---------
+useCallback:
+1)syntax same as useMemo
+2)useMemo returns a value, but useCallback return the whole function, so we can use any paramerter of the function
+3)it is used to remove recreation of function each time unnecassarily
+4)useCallback returns memoised function, whereas useMemo returns a memoised value.
 ---------
 useRef
 ---------
 useContext
----------
-useCallback
 ---------
 Custom Hooks
 ---------
