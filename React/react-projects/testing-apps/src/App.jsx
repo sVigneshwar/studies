@@ -8,6 +8,7 @@ import WindowWidth from './testing-projects/useeffect-test/2'
 import CounterAndTheme from './testing-projects/usememo-test/usememo'
 import CounterAndTheme2 from './testing-projects/usecallback-test/usecallback'
 import ThemeToggle from './testing-projects/usecontext-test/usecontext'
+import UseContextApp from './testing-projects/usecontext-test2/usecontext-app'
 
 export default function App() {
   return(
@@ -20,7 +21,8 @@ export default function App() {
     {/* <WindowWidth /> */}
     {/* <CounterAndTheme /> */}
     {/* <CounterAndTheme2 /> */}
-    <ThemeToggle />
+    {/* <ThemeToggle /> */}
+    <UseContextApp />
     </>
   )
 }
