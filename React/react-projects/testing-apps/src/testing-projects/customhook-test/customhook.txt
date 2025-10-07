@@ -1,0 +1,7 @@
+1)for saving local storage create a new custom hook, in which we pass a key and value (name, '')
+2)in uselocalstorage custom hook, we get key and initialvalue from the parent (name, '') coming from parent
+3)we need usestate, since we are replicating usestate hook
+4)we save value, setvalue in usestate(()=>getlocalstorage()), usestate can be passed as function, which will take the return value as initial(render) state
+5)in getlocalstorage, we check if name is in localstorage, if not we pass initialvalue coming from parent, or we take get localstorage value and return it to useState hook
+6)in the render function we use useeffect for to keep on updating the name key in localstorage using setitem for each render
+7)finaly we return the value and setvalue from uselocalstorage, to the parent function

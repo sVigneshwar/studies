@@ -28,7 +28,7 @@ useEffect - understood
 useMemo - understood
 useCallback - understood
 useContext - understood
-useRef
+useRef - understood
 Custom Hooks
 
 others hooks:
@@ -92,7 +92,11 @@ useCallback:
 useContext:
 1) pass value throughout the component using react.createcontext() hook, used to avoid prop drilling in deeply nested components
 ---------
-useRef
+useRef:
+1) useref stores a value in a object with the current key.
+2) it can be used to target a element using red attribute. 
+3) it can be used to store a previous value state
+4) can get how much time a component is rendered
 ---------
 
 Custom Hooks
