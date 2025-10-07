@@ -144,6 +144,8 @@
 - Weather app (API + useEffect)
 - Notes app with localStorage (state persistence)
 
+### Meanwhile start leetcode problem solving too
+
 ### After TypeScript + React
 - E-commerce cart (typed products & cart state)
 - Form validation with types

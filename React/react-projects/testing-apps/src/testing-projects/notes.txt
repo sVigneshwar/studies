@@ -26,9 +26,9 @@ useState - understood
 useReducer - understood
 useEffect - understood
 useMemo - understood
+useCallback - understood
+useContext - understood
 useRef
-useContext
-useCallback
 Custom Hooks
 
 others hooks:
@@ -89,10 +89,12 @@ useCallback:
 3)it is used to remove recreation of function each time unnecassarily
 4)useCallback returns memoised function, whereas useMemo returns a memoised value.
 ---------
+useContext:
+1) pass value throughout the component using react.createcontext() hook, used to avoid prop drilling in deeply nested components
+---------
 useRef
 ---------
-useContext
----------
+
 Custom Hooks
 ---------
 
