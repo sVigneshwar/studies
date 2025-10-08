@@ -29,7 +29,7 @@ useMemo - understood
 useCallback - understood
 useContext - understood
 useRef - understood
-Custom Hooks
+Custom Hooks - foundation understood (but need to train more creating custom hooks)
 
 others hooks:
 useLayoutEffect
@@ -93,13 +93,14 @@ useContext:
 1) pass value throughout the component using react.createcontext() hook, used to avoid prop drilling in deeply nested components
 ---------
 useRef:
+(mainly it does not re-render while component re-renders, it walys stays static)
 1) useref stores a value in a object with the current key.
-2) it can be used to target a element using red attribute. 
+2) it can be used to target a element using ref attribute. 
 3) it can be used to store a previous value state
 4) can get how much time a component is rendered
 ---------
-
-Custom Hooks
+Custom Hooks:
+1)we can use other hook method to our advantage and create a custom hook based for our requirements and use it throughout our project.
 ---------
 
 others hooks:
