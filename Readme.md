@@ -39,7 +39,7 @@
 - `async/await`
 - `fetch` API
 
-### Advanced
+### Advanced (Completed)
 - Closures
 - `this` keyword (and binding)
 - Prototype & Classes
@@ -51,14 +51,14 @@
 
 > Now apply JS concepts in React.
 
-### Basics
+### Basics (Completed)
 - What is React & JSX
 - Functional components
 - Props (passing data)
 - State (`useState`)
 - Event handling (`onClick`, `onChange`)
 
-### Intermediate
+### Intermediate (Completed)
 - Conditional rendering
 - Rendering lists (`map` + `key`)
 - Forms: controlled vs uncontrolled
