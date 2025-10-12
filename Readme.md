@@ -66,7 +66,7 @@
 - `useRef` (DOM refs, store values)
 - Context API (global state)
 
-### Advanced
+### Advanced (Completed)
 - Custom hooks
 - `useMemo` & `useCallback` (performance)
 - Code splitting (`React.lazy`, `Suspense`)
