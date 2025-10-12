@@ -119,12 +119,39 @@ useActionState
 ---------
 
 1 a, can you please explain this concept
-2 
-3 
-4 
-5 
+2 b
+3 b
+4 b
+5 not sure
 6 
 7 
 8 
 9 
 10 
+
+------------------------------------------------------------------------------------------------------------------------------
+
+3 - advanced topics:
+react example from web dev simplified
+routes
+4 - ecosystem:
+- api calls, what is restful api? (axios? )
+- redux (state management)
+- jest + react testing library
+
+--------
+
+Do the below mini projects in react:
+To-Do List (arrays, events)
+Fetch & display GitHub users (API + async/await)
+Counter app (state & props)
+Weather app (API + useEffect)
+Notes app with localStorage (state persistence)
+
+--------
+
+watch the ecommerce site from the tamil youtube channel
+
+--------
+
+Typescript:

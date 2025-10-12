@@ -11,6 +11,7 @@ import ThemeToggle from './testing-projects/usecontext-test/usecontext'
 import UseContextApp from './testing-projects/usecontext-test2/usecontext-app'
 import UseRef from './testing-projects/useref-test/useref'
 import Customhook from './testing-projects/customhook-test/Customhook'
+import AdvancedReactTopics from './testing-projects/3-advanced-react-topics/AdvancedReactTopics'
 
 export default function App() {
   return(
@@ -26,7 +27,8 @@ export default function App() {
     {/* <ThemeToggle /> */}
     {/* <UseContextApp /> */}
     {/* <UseRef /> */}
-    <Customhook />
+    {/* <Customhook /> */}
+    <AdvancedReactTopics />
     </>
   )
 }
