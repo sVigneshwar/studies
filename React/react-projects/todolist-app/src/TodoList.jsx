@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import TodoItem from './TodoItem'
+import { ListContext } from './App'
 
-export default function TodoList({todo, handleCheckbox, deleteTodo}) {
+export default function TodoList() {
+    const [todo] = useContext(ListContext)
   return (
     <>
      <ul>
@@ -9,7 +11,7 @@ export default function TodoList({todo, handleCheckbox, deleteTodo}) {
       {
         todo.map(val => {
           return (
-            <TodoItem key={val.id} {...val} handleCheckbox={handleCheckbox} deleteTodo={deleteTodo} />
+            <TodoItem key={val.id} {...val} />
           )
         })
       }

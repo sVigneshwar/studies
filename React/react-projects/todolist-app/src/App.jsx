@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import TodoForm from './TodoForm';
 import TodoList from './TodoList';
 
+export const FormContext = React.createContext()
+export const ListContext = React.createContext()
+
 export default function App() {
   const [todo, setTodo] = useState(()=>{
     var localValue = localStorage.getItem("ITEMS");
@@ -37,10 +40,16 @@ export default function App() {
 
   return (
     <>
-    <h1>Todo App</h1>
-    <TodoForm addTodo={addTodo} />
-    <h2>List</h2>
-    <TodoList todo={todo} handleCheckbox={handleCheckbox} deleteTodo={deleteTodo} />
+      <FormContext.Provider value={addTodo}>
+        <h1>Todo App</h1>
+        <TodoForm />
+      </FormContext.Provider>
+
+      <ListContext.Provider value={[todo, handleCheckbox, deleteTodo]}>
+        <h2>List</h2>
+        <TodoList />
+      </ListContext.Provider>      
     </>
+   
   )
 }

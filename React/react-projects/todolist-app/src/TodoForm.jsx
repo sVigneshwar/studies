@@ -1,9 +1,12 @@
-import React, { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
+import { FormContext } from './App';
 
-export default function TodoForm({addTodo}) {
+export default function TodoForm() {
     const [newTodo, setNewTodo] = useState("")
 
     const inputRef = useRef("")
+
+    const addTodo = useContext(FormContext)
 
     function handleSubmit(e){
         e.preventDefault()

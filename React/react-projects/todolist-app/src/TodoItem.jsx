@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ListContext } from './App'
 
-export default function TodoItem({id, value, completed, handleCheckbox, deleteTodo}) {
+export default function TodoItem({id, value, completed}) {
+    const [todo, handleCheckbox, deleteTodo] = useContext(ListContext)
   return (
     <>
       <li>
