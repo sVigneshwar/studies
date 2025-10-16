@@ -12,6 +12,7 @@ import UseContextApp from './testing-projects/usecontext-test2/usecontext-app'
 import UseRef from './testing-projects/useref-test/useref'
 import Customhook from './testing-projects/customhook-test/Customhook'
 import AdvancedReactTopics from './testing-projects/3-advanced-react-topics/AdvancedReactTopics'
+import Counter from './testing-projects/redux-test/Counter'
 
 export default function App() {
   return(
@@ -28,7 +29,8 @@ export default function App() {
     {/* <UseContextApp /> */}
     {/* <UseRef /> */}
     {/* <Customhook /> */}
-    <AdvancedReactTopics />
+    {/* <AdvancedReactTopics /> */}
+    <Counter />
     </>
   )
 }
