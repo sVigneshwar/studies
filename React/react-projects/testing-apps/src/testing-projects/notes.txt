@@ -142,17 +142,31 @@ useActionState
 ------------------------------------------------------------------------------------------------------------------------------
 
 3 - advanced topics: (Completed)
-react example from web dev simplified
+react example from web dev simplified (Completed)
+
+component lifecycle:
+constructor(), 
+render(), 
+componentDidMount(), 
+shouldComponentUpdate(), 
+componentDidUpdate(), and 
+componentWillUnmount(). 
+componentDidMount()  
+useEffect()
+
+
+
 
 4 - ecosystem:
 - api calls, what is restful api? (axios? )
 - redux (state management)
 - jest + react testing library
+- router
 
 --------
 
 Do the below mini projects in react:
-To-Do List (arrays, events)
+To-Do List (arrays, events) (Completed)
 Fetch & display GitHub users (API + async/await)
 Counter app (state & props)
 Weather app (API + useEffect)
