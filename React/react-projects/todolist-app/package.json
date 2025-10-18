@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://svigneshwar.github.io/studies/react/react-projects/todolist-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
