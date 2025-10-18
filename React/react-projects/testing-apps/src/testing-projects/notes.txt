@@ -144,24 +144,12 @@ useActionState
 3 - advanced topics: (Completed)
 react example from web dev simplified (Completed)
 
-component lifecycle:
-constructor(), 
-render(), 
-componentDidMount(), 
-shouldComponentUpdate(), 
-componentDidUpdate(), and 
-componentWillUnmount(). 
-componentDidMount()  
-useEffect()
-
-
-
-
 4 - ecosystem:
 - api calls, what is restful api? (axios? )
 - redux (state management)
-- jest + react testing library
 - router
+- jest + react testing library
+
 
 --------
 
@@ -179,3 +167,11 @@ watch the ecommerce site from the tamil youtube channel
 --------
 
 Typescript:
+
+------------------------------------------------------------------------------------------------------------------------------
+
+router (basic structure work) - ok
+fetch data (basic structure work)
+do basic counter app in useReducer
+redux (do basic counter app first)
+start doing mini projects using redux 

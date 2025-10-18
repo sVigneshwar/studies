@@ -13,6 +13,8 @@ import UseRef from './testing-projects/useref-test/useref'
 import Customhook from './testing-projects/customhook-test/Customhook'
 import AdvancedReactTopics from './testing-projects/3-advanced-react-topics/AdvancedReactTopics'
 import Counter from './testing-projects/redux-test/Counter'
+import RouterTest from './testing-projects/router-test/RouterTest'
+import FetchDataTest from './testing-projects/fetch-test/FetchDataTest'
 
 export default function App() {
   return(
@@ -30,7 +32,9 @@ export default function App() {
     {/* <UseRef /> */}
     {/* <Customhook /> */}
     {/* <AdvancedReactTopics /> */}
-    <Counter />
+    {/* <Counter /> */}
+    {/* <RouterTest /> */}
+    <FetchDataTest />
     </>
   )
 }
