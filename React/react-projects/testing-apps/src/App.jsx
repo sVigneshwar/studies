@@ -16,6 +16,7 @@ import Counter from './testing-projects/redux-test/Counter'
 import RouterTest from './testing-projects/router-test/RouterTest'
 import FetchDataTest from './testing-projects/fetch-test/FetchDataTest'
 import UseReducerTest from './testing-projects/usereducer-test/UseReducerTest'
+import UseReducerTest2 from './testing-projects/usereducer-test/useReducerTest2'
 
 export default function App() {
   return(
@@ -36,7 +37,8 @@ export default function App() {
     {/* <Counter /> */}
     {/* <RouterTest /> */}
     {/* <FetchDataTest /> */}    
-    <UseReducerTest />
+    {/* <UseReducerTest /> */}
+    <UseReducerTest2 />
     </>
   )
 }

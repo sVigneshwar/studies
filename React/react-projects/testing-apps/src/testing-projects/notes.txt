@@ -172,6 +172,7 @@ Typescript:
 
 router (basic structure work) - ok
 fetch data (basic structure work) - ok
-do basic counter app in useReducer
+do basic counter app in useReducer - ok
+do basic todo app in useReducer
 redux (do basic counter app first)
 start doing mini projects using redux 
