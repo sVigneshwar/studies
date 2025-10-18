@@ -41,7 +41,7 @@ export default function App() {
   return (
     <>
       <FormContext.Provider value={addTodo}>
-        <h1>Todo App</h1>
+        <h1>Todo App with React</h1>
         <TodoForm />
       </FormContext.Provider>
 
