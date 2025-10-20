@@ -178,7 +178,7 @@ git deploy page - ok
 redux (do basic counter app first)
 start doing mini projects using redux:
 
-- To-Do List (arrays, events)
+- To-Do List (arrays, events) + counter app in redux (with router nav for both app)
 - Fetch & display GitHub users (API + async/await)
 - Counter app (state & props)
 - Weather app (API + useEffect)
