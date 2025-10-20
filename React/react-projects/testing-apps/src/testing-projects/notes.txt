@@ -174,5 +174,12 @@ router (basic structure work) - ok
 fetch data (basic structure work) - ok
 do basic counter app in useReducer - ok
 do basic todo app in useReducer - ok
+git deploy page - ok
 redux (do basic counter app first)
-start doing mini projects using redux 
+start doing mini projects using redux:
+
+- To-Do List (arrays, events)
+- Fetch & display GitHub users (API + async/await)
+- Counter app (state & props)
+- Weather app (API + useEffect)
+- Notes app with localStorage (state persistence)
