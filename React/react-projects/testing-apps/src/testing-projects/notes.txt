@@ -175,11 +175,11 @@ fetch data (basic structure work) - ok
 do basic counter app in useReducer - ok
 do basic todo app in useReducer - ok
 git deploy page - ok
-redux (do basic counter app first)
+redux (do basic counter app first) - ok
 start doing mini projects using redux:
 
 - To-Do List (arrays, events) + counter app in redux (with router nav for both app)
-- Fetch & display GitHub users (API + async/await)
-- Counter app (state & props)
+- Fetch & display GitHub users (API + async/await) (check thunk in redux)
 - Weather app (API + useEffect)
 - Notes app with localStorage (state persistence)
+- do a ecommerce base app using redux
