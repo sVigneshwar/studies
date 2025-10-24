@@ -183,3 +183,14 @@ start doing mini projects using redux:
 - Weather app (API + useEffect)
 - Notes app with localStorage (state persistence)
 - do a ecommerce base app using redux
+
+------------------------------------------------------------------------------------------------------------------------------
+createAsyncThunk
+RTK Query
+RESTful APIs
+Axios / Fetch
+JWT (JSON Web Token) Auth
+Formik / React Hook Form
+Jest + React Testing Library
+TypeScript
+CI/CD pipeline (with GitHub Actions or Vercel)
