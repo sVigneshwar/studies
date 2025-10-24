@@ -1,40 +1,22 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { updateEndpoint, fetchData } from './slice/dataSlice';
 
 export default function App() {
-  const [endpoint, setEndpoint] = useState("users")
-  const [data, setData] = useState([])
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(false)
+  const {loading, error, data, endpoint} = useSelector(state => state.data)
+  const dispatch = useDispatch()
 
   useEffect(()=>{
-    const fetchData = async () => {
-      try{
-        setLoading(true)
-        const res = await fetch(`https://jsonplaceholder.typicode.com/${endpoint}`)
-        const result = await res.json()     
-        
-        if(!res.ok){
-          setError(true)
-          return;
-        }
-        setError(false)
-        setData(result)
-      }catch(err){
-        console.log(err);
-      }finally{
-        setLoading(false)
-      }
-    }
-    fetchData()
+    dispatch(fetchData())
   }, [endpoint])
 
   return (
     <div>
-      <button onClick={() => setEndpoint('users')}>Users</button>
-      <button onClick={() => setEndpoint('posts')}>Posts</button>
-      <button onClick={() => setEndpoint('postss')}>Faulty URL</button>
+      <button onClick={() => dispatch(updateEndpoint('users'))}>Users</button>
+      <button onClick={() => dispatch(updateEndpoint('posts'))}>Posts</button>
+      <button onClick={() => dispatch(updateEndpoint('postss'))}>Faulty URL</button>
       {loading && <p>Loading</p>}
-      {error && <p>Something wrong!</p>}
+      {error && <p>Something wrong!: {error}</p>}
       {!loading && !error && <pre>{JSON.stringify(data, null, 4)}</pre>}      
     </div>
   )
