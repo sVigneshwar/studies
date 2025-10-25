@@ -194,3 +194,16 @@ Formik / React Hook Form
 Jest + React Testing Library
 TypeScript
 CI/CD pipeline (with GitHub Actions or Vercel)
+------------------------------------------------------------------------------------------------------------------------------
+
+🗓️ Estimated Study Timeline (2 hours/day + weekend boost)
+Phase	Topic	Approx. Days	Total Hours (est.)	Notes
+🧩 1	createAsyncThunk	3 days	~6 hrs	Learn async logic, loading/error states
+	RTK Query	4 days	~8 hrs	Practice queries & mutations
+🌐 2	RESTful APIs	2 days	~4 hrs	Just theory + examples
+	Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors
+🔐 3	JWT Auth	5 days	~10 hrs	Practice full login/logout system
+🧠 4	Formik / React Hook Form	4 days	~8 hrs	Build a few forms + validation
+🧪 5	Jest + RTL (Testing)	6 days	~12 hrs	Unit + integration testing
+💪 6	TypeScript	14 days	~28 hrs	Slow but steady — essential
+⚙️ 7	CI/CD pipeline	3 days	~6 hrs	Learn GitHub Actions + Vercel

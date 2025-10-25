@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { updateEndpoint, fetchData } from './slice/dataSlice';
+import { updateEndpoint, fetchDatas } from './slice/dataSlice';
 
 export default function App() {
   const {loading, error, data, endpoint} = useSelector(state => state.data)
   const dispatch = useDispatch()
 
   useEffect(()=>{
-    dispatch(fetchData())
+    dispatch(fetchDatas())
   }, [endpoint])
 
   return (

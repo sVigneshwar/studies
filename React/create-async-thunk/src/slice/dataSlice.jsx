@@ -1,4 +1,6 @@
-import {createSlice} from '@reduxjs/toolkit'
+import {createAsyncThunk, createSlice} from '@reduxjs/toolkit'
+
+
 
 const initialState = {
     endpoint: 'users',
@@ -16,35 +18,36 @@ const data = createSlice({
             state.error = null,
             state.data= []
         },
-        fetchInit: (state)=>{
-            state.loading = true
-        },
-        fetchSuccess: (state, action) => {
-            state.loading = false
-            state.data = action.payload
-        },
-        fetchError: (state, action) => {
-            state.loading = false
-            state.error = action.payload
-        }
+    },
+    extraReducers: (builder) => {
+        builder
+            .addCase(fetchDatas.pending, state => {
+                state.loading = true
+            })
+            .addCase(fetchDatas.fulfilled, (state, action) => {
+                state.loading = false
+                state.data = action.payload
+            })
+            .addCase(fetchDatas.rejected, (state, action) => {
+                state.loading = false
+                state.error = action.payload
+            })
     }
 })
 
-export const fetchData = () => async (dispatch, getState) => {
-    
+export const fetchDatas = createAsyncThunk('data/fetchDatas', async(_,thunkAPI) => {
+    const state = thunkAPI.getState();
+    const {endpoint} = state.data;
     try{
-        const {endpoint} = getState().data
-        dispatch(fetchInit())
         const res = await fetch(`https://jsonplaceholder.typicode.com/${endpoint}`)
         if(!res.ok){
-            throw Error("URL Error")
+            return thunkAPI.rejectWithValue("URL Error")
         }
-        const result = await res.json()     
-        dispatch(fetchSuccess(result))
+        return res.json()
     }catch(err){
-        dispatch(fetchError(err.message))
+        return thunkAPI.rejectWithValue(err.message)
     }
-}
+})
 
 export const { updateEndpoint, fetchInit, fetchSuccess, fetchError } = data.actions;
 export default data.reducer;
