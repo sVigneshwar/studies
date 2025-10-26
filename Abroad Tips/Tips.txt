@@ -1,0 +1,97 @@
+Chatgpt work promts list:
+
+Prompt 1: Identifying Skills
+"My name is Abhishek Pal. I am a Network Engineer with 13 Years of experience living
+in
+India. I have Knowledge of following TECHNICAL Skills:
+1. Routing and Switching
+2. Network Security
+3. MPLS, WAN, Wireless, SDWAN, ACI
+I have Following technical Certifications or Training.
+1. Cisco CCIE#48843
+2. Microsoft Cloud Architect
+3. SD WAN trained
+Help me find the answer to the following question:
+Question1. Which countries (in APAC, EMEA) are the Top 5 in the world for hiring in my track, and most importantly are they open to hiring from India? and what is the Approximate average visa Processing time once I get the letter? Do not hallucinate
+
+
+
+
+Prompt 2: Identifying TOP Countries based on Your skillset.
+Question 2. What are the in-demand certifications or job roles for my track in Countries suggested Above and their average salaries?"
+Prompt 3: Identify 10 Companies Hiring internationally.
+Question 3. Which are the 10 companies hiring people in my track from India right now In each of Above 5 suggested Countries?" Also share their Career Page URL(not
+Hyperlink) in a table.
+
+
+Prompt 4: Identify Best Job Portals in These Countries
+Question4: Which are the 5 best Job Portals to apply for Jobs in each country stated above from India? Share a clear table with URL (not hyperlink). Priortize Portal that also provides Visa sponsorship Jobs roles.
+
+
+Prompt 5: Attract Recruiters.
+Question5: Write a compelling cover letter for the [Job Title] position (details in [Optional: Website Link]). Briefly showcase 3-4 relevant skills and accomplishments, explain your fit for the company, and express your enthusiasm for the interview.
+Note: Feel free to use Multiple A.I Tools for fetching latest Data like Gemini etc..
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+abroad tips:
+
+
+1.Before Traveling
+• Secure Your Visa
+- Ensure your visa is stamped in your passport before resigning from your Current
+Check Passport Validity.
+-Verify your passport has at least 6 months of validity left.
+-Secure all Soft SCANNED Copies of Important Documents in case of Document
+Health Check-up
+- Complete health check-ups (e.g., dentist) before moving as these may not be covered initially. Example Visting a Dentist is Super expensive..
+Insurance Coverage
+-Confirm whether you need to purchase health insurance or if your employer provides it, and ensure it's effective from day one.
+Accommodation Contract
+-Finalize and understand your housing contract to avoid surprises. - Housing is a major issue in many countries starts well in Advance. - Use the Official Website/App to safeguard from any Fraud.
+
+
+Indian Embassy Contact Details.
+-Note the contact details of the Indian Embassy or Consulate in your destination country for assistance.
+⚫ International ROAMING Enabled SIM Card.
+Airtel Works well in Most of the A world Countries until you get a local SIM.
+
+
+2.Immediately After Landing
+Local Apps (Commute, Medical, etc..)
+-Download essential local apps for transportation, food delivery, and communication (e.g., Google Maps, Uber).
+• Network Contacts
+
+• Network Contacts
+- Keep 2-3 local contact numbers from your network for emergencies and local advice.
+⚫ Forex Travel Card
+-Use a forex travel card for initial expenses and currency exchange.
+International Transactions (Backup)
+- Ensure your debit and credit cards are set up for international transactions.
+• Emergency Contacts
+- Local trusted contacts to share with your FAMILY.
+IDs).
+3. Within the First Month
+Register with Local Authorities
+-Complete necessary local registrations or paperwork (e.g., residence permits, local
+Health Insurance Enrollment
+-Finalize and activate your health insurance coverage.
+• Open a Local Bank Account
+- Set up a local bank account for transactions and salary deposits.
+Note: in a few countries opening account can take up to 45 days as well.
+• Indian Food stores/restaurants
+-It is quite easy to find Indian Grocery or Indian Restaurants.
+Cultural Adjustment
+- Understand cultural norms and local laws to integrate smoothly.
+
+
+
+4. Ongoing
+I
+Stay Updated on Visa Requirements
+-Monitor visa-related updates or renewals to avoid legal issues.
+Build Your Local Network
+- Expand your local network for both professional and social support.
+Take care of TAX in India as well as the Country you traveled. Connect with your CA for Indian TAX filing.
