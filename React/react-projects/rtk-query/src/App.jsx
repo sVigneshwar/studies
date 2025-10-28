@@ -1,20 +1,22 @@
 import React from 'react'
-import {useGetUsersQuery} from './service/api'
+import { useGetUserQuery } from './service/api'
 
 export default function App() {
-  const {data, error, isLoading} = useGetUsersQuery();
+  const {data, error, isLoading} = useGetUserQuery()
 
-  if(isLoading) return <p>Loading...</p>
-  if(error) return <p>Something Wrong</p>
   return (
     <>
-    <ul>
+    {isLoading && <p>Loading...</p>}
+    {error && <p>{error.error}</p>}
+    {
+    !isLoading 
+    && !error 
+    && <ul>
       {
-        data.map(val=>{
-          return <li key={val.id}>{val.name}</li>
-        })
+        data.map(val => <li key={val.id}>{val.name}</li>)
       }
     </ul>
+    }
     </>
   )
 }
