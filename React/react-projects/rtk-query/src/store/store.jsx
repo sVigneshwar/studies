@@ -1,9 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit'
-import {api} from '../service/api'
+import {postAPI} from '../service/api'
 
 export const store = configureStore({
     reducer: {
-        [api.reducerPath]: api.reducer
+        [postAPI.reducerPath]: postAPI.reducer
     },
-    middleware: getUserDefault => getUserDefault().concat(api.middleware)
+    middleware: getDefaultMiddleware => getDefaultMiddleware().concat(postAPI.middleware)
 })
