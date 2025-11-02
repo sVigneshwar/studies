@@ -1,0 +1,59 @@
+API:
+Application programming interface
+
+fetch("https://jsonplaceholder.typicode.com/users")
+
+---------------------------------------
+
+Rest API:
+Representational state transfer: 
+
+set of rules to call a API
+
+/users, /post/1/comments
+uses HTTP method to perform action on thise resource
+return data in JSON format
+is stateless (each request in independent)
+
+---------------------------------------
+
+HTTP Methods:
+GET - Get all the datas
+POST - creates new data and sends
+PUT - replaces existing data
+PATCH - updates a particular value in a data
+DELETE - deletes a data
+
+---------------------------------------
+
+HTTP Status codes:
+200 - success
+201 - created - new resource
+400 - client error - bad request or validation error
+401 - unauthorized - missing or invalid crendential
+403 - forbidden - authenticated but not allowed
+404 - not found - resource not found
+500 - server error - somthing went wrong on the server
+
+---------------------------------------
+
+Rest api structure:
+
+rest endpoint:
+https://api.example.com/resouce/
+
+/users - all users
+/users/1 - user with id 1
+/users/1/posts - all post from user with id 1
+
+a rest defined how to manipulate using http verbs (like we can call each of this individually using https methods)
+
+---------------------------------------
+
+Core REST Principles:
+
+statelessness - server doesnt remember previous call, each call are independent
+resouce based url - URL represent resource [/resouce/users] not [/getusers?id=1]
+uniform interface - same rules for all endpoints (consistent naming, JSON Format)
+client-server seperation - frontend and backend (client and server) are independent
+idempotency - repeating same request provides same result (important for put and delete)
