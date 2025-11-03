@@ -59,13 +59,13 @@ client-server seperation - frontend and backend (client and server) are independ
 idempotency - repeating same request provides same result (important for put and delete)
 
 
-1) i dont think there will be any issue, but giving that content type is necessary as that i know of
+1) i think 415 unsupported meadia type
 2) res.ok checks whther the response is true or false, res.status provides a number, with which what exact error happend like 200, 201, 400, 401, 402, 404, 500
 3) it means, it got deleted, but does not need to return any data from server side, so the status is 204
-4) 
-5) 
-6) 
-7) 
-8) 
-9) 
-10) 
+4) not studies axios that much, will study in future, so please explain the reason here itself
+5) need to add content-type
+6) need to use patch for partial updates
+7) i exactly dopnt know, may be using async await in production is preferable?
+8) dont know
+9) attackers can easily hack
+10) yes it violates, and proper way for rest principle is /post/5, fetches 5th post or we can send it like this, post/user/5 too
