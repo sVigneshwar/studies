@@ -57,3 +57,15 @@ resouce based url - URL represent resource [/resouce/users] not [/getusers?id=1]
 uniform interface - same rules for all endpoints (consistent naming, JSON Format)
 client-server seperation - frontend and backend (client and server) are independent
 idempotency - repeating same request provides same result (important for put and delete)
+
+
+1) i dont think there will be any issue, but giving that content type is necessary as that i know of
+2) res.ok checks whther the response is true or false, res.status provides a number, with which what exact error happend like 200, 201, 400, 401, 402, 404, 500
+3) it means, it got deleted, but does not need to return any data from server side, so the status is 204
+4) 
+5) 
+6) 
+7) 
+8) 
+9) 
+10) 
