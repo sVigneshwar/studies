@@ -190,7 +190,7 @@ start doing mini projects using redux:
 Phase	Topic	Approx. Days	Total Hours (est.)	Notes
 🧩 1	createAsyncThunk	3 days	~6 hrs	Learn async logic, loading/error states [COMPLETED]
 RTK Query	4 days	~8 hrs	Practice queries & mutations [COMPLETED]
-🌐 2	RESTful APIs	2 days	~4 hrs	Just theory + examples
+🌐 2	RESTful APIs	2 days	~4 hrs	Just theory + examples [COMPLETED]
 Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors
 🔐 3	JWT Auth	5 days	~10 hrs	Practice full login/logout system
 🧠 4	Formik / React Hook Form	4 days	~8 hrs	Build a few forms + validation
