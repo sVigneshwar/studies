@@ -3,6 +3,7 @@ import { fetchDataWithFetch, postDataWithFetch, fetchDataWithAxios, postDataWith
 import axios from 'axios'
 import { axiosDefaultGet } from './services/axiosDefaults'
 import { getPost, createPost } from './services/postService'
+import {getComments, postComment, updateComment, deleteComment} from './services/commentService'
 
 export default function App() {
 
@@ -17,21 +18,38 @@ export default function App() {
   //   axiosDefaultGet()
   // }, [])
 
+  // useEffect(() => {
+
+  //   const fetchData = async () => {
+  //     try{
+  //       const posts = await getPost()       
+  //       console.log("Data Fetched", posts.slice(0,3))
+
+  //       const newPost = await createPost({title: "Vigneshwar posted with axios"})
+  //       console.log("Data posted", newPost);
+  //     }catch(err){
+  //       console.log(err)
+  //     }
+  //   }
+
+  //   fetchData()
+  // }, [])
+
   useEffect(() => {
+    const handleComments = async () => {
+      const comments = await getComments()
+      console.log(comments.slice(0,3))
 
-    const fetchData = async () => {
-      try{
-        const posts = await getPost()       
-        console.log("Data Fetched", posts.slice(0,3))
+      const newComment = await postComment({postID: 1, name: "new comment added"})
+      console.log(newComment)
 
-        const newPost = await createPost({title: "Vigneshwar posted with axios"})
-        console.log("Data posted", newPost);
-      }catch(err){
-        console.log(err)
-      }
+      const updatedComment = await updateComment(1, {name: "updated comment name"})
+      console.log(updatedComment)
+
+      const deletedComment = await deleteComment(2)
+      console.log(deletedComment)
     }
-
-    fetchData()
+    handleComments()
   }, [])
 
   return (
