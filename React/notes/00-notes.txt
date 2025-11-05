@@ -201,4 +201,7 @@ Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 
-check german in youtube
+do task in each below tommorow:
+createasyncthunk
+rtk Query
+axios 

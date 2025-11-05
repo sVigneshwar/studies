@@ -53,10 +53,10 @@ export default function App() {
   //   handleComments()
   // }, [])
 
-  useEffect(() => {
-    api2.get("/userss")
-      .then(res => console.log(res.data))
-  }, [])
+  // useEffect(() => {
+  //   api2.get("/userss")
+  //     .then(res => console.log(res.data))
+  // }, [])
 
   return (
     <div>
