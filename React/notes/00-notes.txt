@@ -201,7 +201,17 @@ Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 
-do task in each below tommorow:
+-------------------
+
+create basic login/logout with react
+create basic login/logout with react+axios
+
+after quick this recap the below:
+createasyncthunk
+rtk Query
+axios 
+
+after that ask chatgpt to give seperate task covering all topic in each below:
 createasyncthunk
 rtk Query
 axios 
