@@ -206,7 +206,7 @@ can we move to next topic, [topic name] i think i have completed [previous topic
 create basic login/logout with react
 create basic login/logout with react+axios
 
-after quick this recap the below:
+after this quick recap the below:
 createasyncthunk
 rtk Query
 axios 
