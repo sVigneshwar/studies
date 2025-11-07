@@ -179,9 +179,9 @@ redux (do basic counter app first) - ok
 
 start doing mini projects using redux:
 - To-Do List (arrays, events) + counter app in redux (with router nav for both app)  - ok
-- Fetch & display GitHub users (API + async/await) (check thunk in redux)
+- Fetch & display GitHub users (API + async/await) (check thunk in redux) - ok
 - Weather app (API + useEffect)
-- Notes app with localStorage (state persistence)
+- Notes app with localStorage (state persistence) - ok
 - do a ecommerce base app using redux
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -203,7 +203,8 @@ can we move to next topic, [topic name] i think i have completed [previous topic
 
 -------------------
 
-create basic login/logout with react
+installed postman to check basic calls - completed
+create basic login/logout with react - completed
 create basic login/logout with react+axios
 
 after this quick recap the below:
@@ -215,3 +216,6 @@ after that ask chatgpt to give seperate task covering all topic in each below:
 createasyncthunk
 rtk Query
 axios 
+
+
+create temp resume and update in linked in
