@@ -204,8 +204,8 @@ can we move to next topic, [topic name] i think i have completed [previous topic
 -------------------
 
 installed postman to check basic calls - completed
-create basic login/logout with react - completed
-create basic login/logout with react+axios
+create basic login/logout with react+axios - completed
+create basic login/logout with react+axios+interceptors+router (login, dashboard)
 
 after this quick recap the below:
 createasyncthunk

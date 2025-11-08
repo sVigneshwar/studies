@@ -1,0 +1,15 @@
+login
+dashboard component
+
+
+flow:
+login page -> fill details -> post data -> set token in localstorage -> fetch data -> update in local state
+-> route to dashboard component -> show user data -> logout click -> route to login component
+
+route - setup done
+store setup - setup done
+slice setup - setup done
+html - added
+add axios api, interceptor request and response - setup done
+add useSelector and useNavigate in userService
+then handle functions
