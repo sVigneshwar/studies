@@ -191,7 +191,7 @@ Phase	Topic	Approx. Days	Total Hours (est.)	Notes
 🧩 1	createAsyncThunk	3 days	~6 hrs	Learn async logic, loading/error states [COMPLETED]
 RTK Query	4 days	~8 hrs	Practice queries & mutations [COMPLETED]
 🌐 2	RESTful APIs	2 days	~4 hrs	Just theory + examples [COMPLETED]
-Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors
+Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
 🔐 3	JWT Auth	5 days	~10 hrs	Practice full login/logout system
 🧠 4	Formik / React Hook Form	4 days	~8 hrs	Build a few forms + validation
 🧪 5	Jest + RTL (Testing)	6 days	~12 hrs	Unit + integration testing
@@ -205,17 +205,15 @@ can we move to next topic, [topic name] i think i have completed [previous topic
 
 installed postman to check basic calls - completed
 create basic login/logout with react+axios - completed
-create basic login/logout with react+axios+interceptors+router (login, dashboard)
+create basic login/logout with react+axios+interceptors+router (login, dashboard) - completed
 
 after this quick recap the below:
 createasyncthunk
-rtk Query
-axios 
+rtk Query 
 
 after that ask chatgpt to give seperate task covering all topic in each below:
 createasyncthunk
 rtk Query
-axios 
 
 
 create temp resume and update in linked in
