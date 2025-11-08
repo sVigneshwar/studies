@@ -11,7 +11,7 @@ export default function App() {
   }
 
   const addPostClick = () => {
-    dispatch(addPost())
+    dispatch(addPost({title: "Vigneshwar's new post"}))
   }
 
   return (

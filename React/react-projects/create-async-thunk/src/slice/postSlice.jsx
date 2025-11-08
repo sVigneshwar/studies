@@ -26,6 +26,7 @@ const postSlice = createSlice({
             })
             .addCase(getPost.rejected, (state) => {
                 state.getPostError = true
+                state.getPostLoading = false
             })
             .addCase(addPost.pending, (state) => {
                 state.addPostLoading = true
@@ -38,6 +39,7 @@ const postSlice = createSlice({
             })
             .addCase(addPost.rejected, (state) => {
                 state.addPostError = true
+                state.addPostLoading = false
             })
     }
 })
@@ -56,14 +58,14 @@ export const getPost = createAsyncThunk('post/getPost', async (_,thunkAPI) => {
     }
 })
 
-export const addPost = createAsyncThunk('post/addPost', async (_,thunkAPI) => {
+export const addPost = createAsyncThunk('post/addPost', async (newPost,thunkAPI) => {
     try{
         const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({title: "Vigneshwar's new post"})
+            body: JSON.stringify(newPost)
         })
         if(!res.ok){
             throw Error("Check your URL")
