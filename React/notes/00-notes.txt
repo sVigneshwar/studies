@@ -208,11 +208,11 @@ create basic login/logout with react+axios - completed
 create basic login/logout with react+axios+interceptors+router (login, dashboard) - completed
 
 after this quick recap the below:
-createasyncthunk
+createasyncthunk - completed
 rtk Query 
 
 after that ask chatgpt to give seperate task covering all topic in each below:
-createasyncthunk
+createasyncthunk  - completed
 rtk Query
 
 
