@@ -192,28 +192,23 @@ Phase	Topic	Approx. Days	Total Hours (est.)	Notes
 RTK Query	4 days	~8 hrs	Practice queries & mutations [COMPLETED]
 🌐 2	RESTful APIs	2 days	~4 hrs	Just theory + examples [COMPLETED]
 Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
-🔐 3	JWT Auth	5 days	~10 hrs	Practice full login/logout system
-🧠 4	Formik / React Hook Form	4 days	~8 hrs	Build a few forms + validation
-🧪 5	Jest + RTL (Testing)	6 days	~12 hrs	Unit + integration testing
-💪 6	TypeScript	14 days	~28 hrs	Slow but steady — essential
-⚙️ 7	CI/CD pipeline	3 days	~6 hrs	Learn GitHub Actions + Vercel
-
-
+🔐 3	JWT Auth	5 days	~10 hrs	Full login/logout + token handling
+🧠 4	Formik / React Hook Form	4 days	~8 hrs	Form building + validation
+🧪 5	Jest + RTL (Testing)	6 days	~12 hrs	Unit & integration testing
+💪 6	TypeScript	12 days	~24 hrs	Deep but fast — focus on React integration
+⚙️ 7	CI/CD Pipeline	3 days	~6 hrs	GitHub Actions + Vercel deploy
+⚛️ 8	Next.js (Full Framework Mastery)	14 days	~28 hrs	App Router, SSR/SSG/ISR, API Routes, Metadata, Middleware, Auth, Deployment
+🧱 9	Component Architecture + Folder Setup	3 days	~6 hrs	Scalable feature-based structure
+🧩 10	State Management (Redux Toolkit / Zustand)	4 days	~8 hrs	Global state, caching, async flow
+🚀 11	Web Performance + Optimization	4 days	~8 hrs	Lazy loading, code splitting, Profiler, Lighthouse
+♿ 12	Accessibility (a11y)	2 days	~4 hrs	ARIA roles, semantic HTML, keyboard nav
+🌍 13	Portfolio & Project Deployment	4 days	~8 hrs	Deploy portfolio + live project links
+🖥️ 14	Project 1 – Auth Dashboard	8 days	~16 hrs	JWT + protected routes
+🛒 15	Project 2 – E-Commerce Admin Panel	12 days	~24 hrs	CRUD, charts, analytics
+💬 16	Project 3 – Social Feed / Chat App	12 days	~24 hrs	Real-time updates + API integration
+🪪 17	Portfolio Website (Final)	4 days	~8 hrs	Final showcase site with about + contact
+🧾 18	Resume + LinkedIn Optimization	3 days	~6 hrs	Keywords + portfolio links
+🌏 19	Job Search Prep (Visa-Friendly)	Continuous	—	Ireland / Netherlands / Australia focus
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 
 -------------------
-
-installed postman to check basic calls - completed
-create basic login/logout with react+axios - completed
-create basic login/logout with react+axios+interceptors+router (login, dashboard) - completed
-
-after this quick recap the below:
-createasyncthunk - completed
-rtk Query 
-
-after that ask chatgpt to give seperate task covering all topic in each below:
-createasyncthunk  - completed
-rtk Query
-
-
-create temp resume and update in linked in
