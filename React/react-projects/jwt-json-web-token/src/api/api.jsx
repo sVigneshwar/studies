@@ -38,7 +38,7 @@ api.interceptors.response.use(
 
       try {
         console.log("📤 Sending refresh request with refreshToken:", refreshToken.slice(0, 10) + "...");
-        const { data } = await axios.post("https://dummyjson.com/auth/refresh", { refreshToken });
+        const { data } = await axios.post("https://dummyjson.com/auth/refresh", { refreshToken, expiresInMins: 1 });
 
         console.log("✅ [Refresh Success] New tokens received:");
         console.log("accessToken:", data.accessToken.slice(0, 20) + "...");
