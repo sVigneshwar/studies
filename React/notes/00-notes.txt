@@ -212,3 +212,5 @@ Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 
 -------------------
+
+npm install react-redux @reduxjs/toolkit react-router-dom axios

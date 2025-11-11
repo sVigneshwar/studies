@@ -1,28 +1,38 @@
-import {createSlice} from '@reduxjs/toolkit'
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    user: JSON.parse(localStorage.getItem("user")) || null,
-    token: localStorage.getItem("token") || null
-}
+  user: JSON.parse(localStorage.getItem("user")) || null,
+  token: localStorage.getItem("token") || null,
+  refreshToken: localStorage.getItem("refreshToken") || null,
+};
 
 const authSlice = createSlice({
-    name: 'auth',
-    initialState,
-    reducers: {
-        login: (state, action) => {
-            state.token = action.payload.token
-            state.user = action.payload.user
-            localStorage.setItem("token", state.token)
-            localStorage.setItem("user", JSON.stringify(state.user))
-        },
-        logout: state => {
-            state.token = null
-            state.user = null
-            localStorage.removeItem("token")
-            localStorage.removeItem("user")
-        }
-    }
-})
+  name: "auth",
+  initialState,
+  reducers: {
+    login: (state, action) => {
+      const { accessToken, refreshToken, user } = action.payload;
+      state.token = accessToken;
+      state.refreshToken = refreshToken;
+      state.user = user;
+      localStorage.setItem("token", accessToken);
+      localStorage.setItem("refreshToken", refreshToken);
+      localStorage.setItem("user", JSON.stringify(user));
+    },
+    logout: (state) => {
+      state.token = null;
+      state.refreshToken = null;
+      state.user = null;
+      localStorage.removeItem("token");
+      localStorage.removeItem("refreshToken");
+      localStorage.removeItem("user");
+    },
+    setToken: (state, action) => {
+      state.token = action.payload;
+      localStorage.setItem("token", action.payload);
+    },
+  },
+});
 
-export const {login, logout} = authSlice.actions
-export default authSlice.reducer
+export const { login, logout, setToken } = authSlice.actions;
+export default authSlice.reducer;

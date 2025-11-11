@@ -1,22 +1,35 @@
-import React from 'react'
-import {useSelector, useDispatch} from 'react-redux'
-import {logout} from './slice/authSlice'
-import {api} from './api/api'
+import React, { useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { logout } from "./slice/authSlice";
+import { api } from "./api/api";
 
 export default function Dashboard() {
-  const dispatch = useDispatch()
-  const store = useSelector(store => store.user)
+  const [profile, setProfile] = useState(null);
+  const dispatch = useDispatch();
+  const user = useSelector((state) => state.user.user);
 
-  const testGet = async () => {
-    const res = api.get("/test")
-    console.log(res);
-  }
+  useEffect(() => {
+    const fetchProfile = async () => {
+      try {
+        const { data } = await api.get("/auth/me");
+        setProfile(data);
+      } catch (err) {
+        console.error("Error fetching profile:", err);
+      }
+    };
+    fetchProfile();
+  }, []);
 
   return (
-    <>
-      <h1>Welcome {store.user.name}</h1>
-      <button onClick={testGet}>test</button>
-      <button onClick={() => dispatch(logout())}>logout</button>
-    </>
-  )
+    <div style={{ padding: "30px" }}>
+      <h2>Welcome {user?.firstName}</h2>
+      {profile && (
+        <div>
+          <p>Email: {profile.email}</p>
+          <p>Username: {profile.username}</p>
+        </div>
+      )}
+      <button onClick={() => dispatch(logout())}>Logout</button>
+    </div>
+  );
 }

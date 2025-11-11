@@ -1,46 +1,72 @@
-import React, { useState, useEffect } from 'react'
-import {useDispatch, useSelector} from 'react-redux'
-import {login} from './slice/authSlice'
-import {useNavigate } from 'react-router-dom'
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { login } from "./slice/authSlice";
+import { api } from "./api/api";
+import {useNavigate} from 'react-router-dom'
 
-export default function Login() {
-  const [formValue, setFormValue] = useState({name: '', password: ''})
-  const dispatch = useDispatch()
+const Login = () => {
+  const [formValue, setFormValue] = useState({ username: "emilys", password: "emilyspass" });
+  const dispatch = useDispatch();
   const token = useSelector(store => store.user.token)
-  const navigate = useNavigate ()
+  const navigate = useNavigate()
 
   const handleChange = (e) => {
-    setFormValue(formValue => {return {...formValue, [e.target.name]: e.target.value}})
-  }
+    setFormValue({ ...formValue, [e.target.name]: e.target.value });
+  };
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    const fakeResponse = {
-      data: {
-        token: "fake token 1234",
-        user: {id: 1, name: "vicky test"}
-      }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const { data } = await api.post("/auth/login", {...formValue, expiresInMins: 1});
+
+      dispatch(
+        login({
+          accessToken: data.accessToken,
+          refreshToken: data.refreshToken,
+          user: data, // DummyJSON returns user info too
+        })
+      );
+      alert("Login successful!");
+    } catch (err) {
+      console.error("Login failed:", err);
+      alert("Invalid credentials!");
     }
+  };
 
-    dispatch(login(fakeResponse.data))
-    
-  }
-
-  // 👇 Redirect after token updates
   useEffect(() => {
-    if (token) {
-      navigate("/dashboard", { replace: true });
+    if(token){
+      navigate("/dashboard")
     }
-  }, [token]);
+  }, [token])
 
   return (
-    <>
+    <div style={{ padding: "30px" }}>
       <h3>Login</h3>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder='email' value={formValue.name} onChange={e => handleChange(e)} /> <br /> <br />
-        <input type="password" name="password" placeholder='password' value={formValue.password} onChange={e => handleChange(e)} /> <br /> <br />
-        <button type='submit'>Submit</button>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username (ex: emilys)"
+          value={formValue.username}
+          onChange={handleChange}
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password (ex: emilyspass)"
+          value={formValue.password}
+          onChange={handleChange}
+          required
+        />
+        <br />
+        <br />
+        <button type="submit">Login</button>
       </form>
-      </>
-  )
-}
+    </div>
+  );
+};
+
+export default Login;
