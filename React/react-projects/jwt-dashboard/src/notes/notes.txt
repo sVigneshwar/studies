@@ -1,0 +1,9 @@
+-> login page and dashboard dummy html - completed
+-> enter dummyapi login creds - completed
+-> open user page with nav of dashboard and about page - completed
+-> in dashboard just basic details - completed
+-> in about some more details - completed
+-> i wanna try and use new Activity component of react 19 for this (i think not needed for this scenario since we a are routing to different page while clicking)
+-> so meanwhile, i make the access token expire for 1 minute, so i can handle refresh token condition in axios iterceptior response error condition - completed
+-> clicking logout - completed
+-> clear tokens in localstorage and send to logout - completed
