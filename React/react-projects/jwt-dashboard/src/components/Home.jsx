@@ -38,9 +38,8 @@ export default function Home() {
   return (
     <div>
         <ul>
-            <li onClick={() => navigate("/dashboard")}>Dashboard</li>
-<li onClick={() => navigate("/about")}>About</li>
-
+            <li onClick={() => navigate("dashboard")}>Dashboard</li>
+            <li onClick={() => navigate("about")}>About</li>
         </ul>
         <button onClick={handleLogout}>Logout</button>
         <Outlet />

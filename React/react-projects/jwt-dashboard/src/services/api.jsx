@@ -39,7 +39,7 @@ api.interceptors.response.use(
             }
             try{
                 console.log("📤 Sending refresh request with refreshToken")
-                const res = await api.post("/refresh", {refreshToken, expiresInMins: 1})
+                const res = await axios.post("/refresh", {refreshToken, expiresInMins: 1})
                 const data = res.data;
                 console.log("✅ [Refresh Success] New tokens received:");
                 store.dispatch(setToken(data))
