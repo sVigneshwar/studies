@@ -1,0 +1,16 @@
+for me atleast i think RHF is easy and starightforward than formik and yup because of more boilderplate and there are many formats of using different things, but in RHF it is very simple to even look and work so why.
+
+now i need a form for both RHF and Formik with most of the form fields covered, used commonly
+email
+password
+phone
+comments
+radio
+select
+checkbox
+datepicker (if any custom datepicker for react?)
+and other if u have any idea which are used commonly fields.
+
+with all the options of the fields in both RHF and formik too
+
+so i can be prepared how all fields are handled in realtime, rather than while working on it
