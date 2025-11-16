@@ -142,7 +142,7 @@ export default function RHFMasterForm() {
           </div>
 
           <button type="submit" disabled={!isValid}>submit</button>
-          <button type="reset">reset</button>
+          <button onClick={() => reset()}>reset</button>
       </form>
 
       <h1>All values</h1>
