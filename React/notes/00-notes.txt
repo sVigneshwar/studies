@@ -223,7 +223,8 @@ npm install react-redux @reduxjs/toolkit react-router-dom axios
 -------------------
 
 Jest:
-Day 1
+Day 1: [completed]
+- testing concepts(unit/integration/E2E), describe/test/expect, watchers, setup and run test using jest, faketimers/advancetimers, recall promise concepts
 Day 2
 Day 3
 Day 4
