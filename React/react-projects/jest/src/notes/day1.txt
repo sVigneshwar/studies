@@ -1,0 +1,51 @@
+unit:
+single function or single component
+
+integration:
+test how multiple peices work together
+API+UI+state update
+
+e2e:
+user interacting with real browser
+
+
+Jest + RTL cover unit + integration testing
+
+--------------------------------------------------------------------------
+
+describe()
+test()
+expect()
+
+matchers:
+toBe
+toEqual
+toBeTruthy
+toBeFalsy
+toHaveLength
+toMatch
+
+
+npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react @testing-library/react @testing-library/jest-dom jest-environment-jsdom
+
+
+babel.config.js:
+export default {
+  presets: [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+};
+
+jest.config.js:
+export default {
+  testEnvironment: "jsdom",   // now available because you installed jest-environment-jsdom
+  transform: {
+    "^.+\\.(js|jsx)$": "babel-jest"
+  }
+};
+
+package.json:
+"scripts": {
+  "test": "jest"
+}

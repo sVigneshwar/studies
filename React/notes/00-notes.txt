@@ -214,10 +214,22 @@ use abroad tips folder docx from git to tailor any resume and job check.
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 
-can we move to next topic, [🧠 4	Formik / React Hook Form	4 days	~8 hrs	Form building + validation] i think i have completed [🔐 3	JWT Auth	5 days	~10 hrs	Full login/logout + token handling]
-
 -------------------
 
 npm create vite@latest
 
 npm install react-redux @reduxjs/toolkit react-router-dom axios
+
+-------------------
+
+Jest:
+Day 1
+Day 2
+Day 3
+Day 4
+Day 5
+Day 6
+Day 7
+Day 8
+Day 9
+Day 10
