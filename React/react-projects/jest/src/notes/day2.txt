@@ -1,0 +1,16 @@
+render()
+screen
+userEvent
+
+🧩 Mental Shortcut (Muscle Memory)
+getBy
+
+❌ “Element must EXIST. If not found → FAIL.”
+
+queryBy
+
+✔️ “Element may exist. If not found → NULL.”
+
+findBy
+
+⏳ “Element appears LATER. Wait for it.”
