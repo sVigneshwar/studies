@@ -1,0 +1,27 @@
+mockResolvedValue
+mockRejectValue
+mockImplementation(url => {
+    if(url === "api/test/"){
+        return Promise.resolve({json: () => {Promise.resolve({name: "vicky})}})
+    }
+})
+
+📝 Day 4 Task (Your job)
+
+Write a small component:
+
+Component requirements:
+On mount (useEffect), call fetch("/api/user")
+While loading → show: “Loading…”
+On success → show: “Welcome, {name}”
+On error → show: “Error loading user”
+add one more fetch /posts
+
+
+Your tests should cover:
+
+loading state appears
+loading disappears after success
+successful API mock shows correct name
+error mock shows error UI
+mock multiple fetch and expect user and post also
