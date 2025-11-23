@@ -1,0 +1,4 @@
+Day 5: async testing
+findby - for async elements
+waitfor - waiting for elements to appear/disappear, or state changes but not in UI
+faketimers - for settimeout, interval, debounce, throttle functions, artificial delays

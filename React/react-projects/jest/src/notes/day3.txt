@@ -1,3 +1,5 @@
+Day 3: user events and form testing and accessibility
+
 Prefer getByRole first
 Use getByLabelText for forms
 Use userEvent not fireEvent

@@ -7,9 +7,178 @@ Day 3: [completed]
 - check form fields, conditional checking, dropdown(Select and options, heading.)
 Day 4: [completed]
 - mock fetch api calls, mockResolvedValue, mockRejectedValue, mockImplementation, beforeEach to reset mocks
-Day 5
+Day 5: [completed]
+ - async testing, debouncing, faketimers, advanceTimersByTime, findBy, queryBy, waitFor.
 Day 6
 Day 7
 Day 8
 Day 9
 Day 10
+
+
+=============================================================================
+DETAILED 10-DAY STRUCTURED PLAN (2 hrs/day)
+=============================================================================
+
+Focus Areas:
+• Unit Testing
+• Integration Testing
+• Mocking
+• Coverage
+• Form/API/UI Testing
+
+
+📅 DAY 1 — Testing Basics (Jest Fundamentals)
+-----------------------------------------------------------------------------
+Concepts:
+  • What is testing? Unit vs Integration vs E2E
+  • What Jest does (test runner, assertions)
+  • describe(), test(), expect()
+  • Common matchers (toBe, toEqual, toHaveLength, etc.)
+  • Testing pure functions (no React yet)
+
+Practice:
+  ✓ Write tests for 3–4 JS utility functions
+     - sum()
+     - formatName()
+     - isAdult()
+
+
+📅 DAY 2 — React Testing Library (RTL) Basics
+-----------------------------------------------------------------------------
+Concepts:
+  • render()
+  • screen object
+  • getBy / queryBy / findBy
+  • fireEvent vs userEvent (gold standard)
+
+Practice:
+  ✓ Test a simple Counter component:
+     - Renders default
+     - Increment button click
+
+
+📅 DAY 3 — User Events + Accessibility Queries
+-----------------------------------------------------------------------------
+Concepts:
+  • userEvent.click, type, selectOptions
+  • Best query priority (role → label → placeholder → testid)
+  • Why not use testid unless needed
+
+Practice:
+  ✓ Test an input form (typing + submitting)
+  ✓ Test a dropdown
+
+
+📅 DAY 4 — Mocking APIs (Important)
+-----------------------------------------------------------------------------
+Concepts:
+  • jest.fn()
+  • jest.mock()
+  • Mocking fetch / Axios
+  • Mock functions vs spies
+
+Practice:
+  ✓ Component that fetches users
+  ✓ Test states:
+     - Loading
+     - Show data
+     - Error state
+
+
+📅 DAY 5 — Testing Async Components
+-----------------------------------------------------------------------------
+Concepts:
+  • waitFor
+  • findBy queries
+  • Resolving promises
+  • Fake timers (setTimeout tests)
+
+Practice:
+  ✓ Test a Search component with debounce
+  ✓ Test API error fallback
+
+
+📅 DAY 6 — Testing Forms (Formik / React Hook Form)
+-----------------------------------------------------------------------------
+Concepts:
+  • Mocking form submit
+  • Testing validation messages
+  • Testing reset()
+  • Testing controlled/uncontrolled parts
+
+Practice:
+  ✓ Test a login form:
+     - Required validation
+     - Invalid email
+     - Successful submit calls API mock
+
+
+📅 DAY 7 — Integration Testing
+-----------------------------------------------------------------------------
+Concepts:
+  • Multiple components working together
+  • Providers:
+     - React Router
+     - Redux Provider
+     - QueryClientProvider (RTK Query)
+
+Practice:
+  ✓ Test a protected page:
+     - Loader → redirect → dashboard render
+     OR
+     - Mini-auth dashboard component
+
+
+📅 DAY 8 — Redux & RTK Query Testing
+-----------------------------------------------------------------------------
+Concepts:
+  • Mock store
+  • Mock slices
+  • Testing RTK Query hooks
+
+Practice:
+  ✓ Test:
+     - A slice reducer
+     - A component using RTK Query mock
+
+
+📅 DAY 9 — Coverage + Best Practices
+-----------------------------------------------------------------------------
+Concepts:
+  • Running coverage
+  • What to test vs ignore
+  • Avoid testing implementation details
+  • Snapshot testing (when not to use)
+
+Practice:
+  ✓ Generate coverage report
+  ✓ Improve weak areas
+
+
+📅 DAY 10 — Final Mini-Project Test Suite
+-----------------------------------------------------------------------------
+Create a full test suite for a small app:
+  ✓ Login page
+  ✓ Dashboard page
+  ✓ API fetch
+  ✓ React Hook Form form
+  ✓ 1 Redux slice
+  ✓ Router navigation
+  ✓ Error UI
+
+This locks the entire testing workflow.
+
+
+=============================================================================
+TIME COMMITMENT
+=============================================================================
+
+Total Hours: 20 hours (2 hrs/day × 10 days)
+
+✅ Realistic and standard for learning Jest + RTL
+✅ Testing is not as heavy as learning Axios or React Hook Form
+✅ Provides comprehensive coverage of testing fundamentals
+
+
+=============================================================================

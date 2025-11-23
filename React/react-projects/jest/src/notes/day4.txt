@@ -1,3 +1,4 @@
+Day 4: fetch api testing
 Notest:
 
 always use beforeEach to reset mocks
