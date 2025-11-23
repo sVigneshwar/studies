@@ -1,6 +1,8 @@
-prefer getbyRole first
-user getbyLabeltext for forms
-use userevent not fireevent
+Prefer getByRole first
+Use getByLabelText for forms
+Use userEvent not fireEvent
 
-use queryBy for items that should not exist
-use findby for the async ui update
+--------------------------------------------------------------------------------
+
+Use queryBy for items that should not exist
+Use findBy for async UI updates

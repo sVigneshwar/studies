@@ -1,10 +1,21 @@
-mockResolvedValue
-mockRejectValue
+Notest:
+
+always use beforeEach to reset mocks
+always fetch.clearMocks() in beforeEach
+
+mockResolvedValue for promise resolved:
+mockRejectValue for promise rejected:
+
+user 2 promise resolved in mockImplementation:
 mockImplementation(url => {
     if(url === "api/test/"){
         return Promise.resolve({json: () => {Promise.resolve({name: "vicky})}})
     }
 })
+
+
+----------------------------------------------------------------------------------
+Task:
 
 📝 Day 4 Task (Your job)
 
