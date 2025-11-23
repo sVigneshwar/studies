@@ -2,10 +2,11 @@ Jest:
 Day 1: [completed]
 - testing concepts(unit/integration/E2E), describe/test/expect, matchers, setup and run test using jest, faketimers/advancetimers, recall promise concepts
 Day 2: [completed]
-- render/screen/userEvent, getByRole/getByPlaceholderText/getByLabelText/getByTextId, findByText for async, queryBy for checking non existance field
+- render/screen/userEvent, getByRole/getByPlaceholderText/getByLabelText/getByTextId, findByText for async, queryBy for checking non existance field, toBeInTheDocument/toBeVisible/toHaveValue/toHaveLength matchers
 Day 3: [completed]
 - check form fields, conditional checking, dropdown(Select and options, heading.)
-Day 4
+Day 4: [completed]
+- mock fetch api calls, mockResolvedValue, mockRejectedValue, mockImplementation, beforeEach to reset mocks
 Day 5
 Day 6
 Day 7
