@@ -40,8 +40,8 @@ test("moves focus", async () => {
     render(<Bonus />)
     const input = screen.getByPlaceholderText(/enter/i)
     const btn = screen.getByRole('button', {name: /clear/i})
-    input.focus();
-    expect(input).toHaveFocus();
+    input.focus()
+    expect(input).toHaveFocus()
     await user.tab()
-    expect(btn).toHaveFocus();
+    expect(btn).toHaveFocus()
 })

@@ -1,6 +1,10 @@
-prefer getbyRole first
-user getbyLabeltext for forms
-use userevent not fireevent
+Day 3: user events and form testing and accessibility
 
-use queryBy for items that should not exist
-use findby for the async ui update
+Prefer getByRole first
+Use getByLabelText for forms
+Use userEvent not fireEvent
+
+--------------------------------------------------------------------------------
+
+Use queryBy for items that should not exist
+Use findBy for async UI updates
