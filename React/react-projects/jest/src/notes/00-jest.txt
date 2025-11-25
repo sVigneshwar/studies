@@ -9,7 +9,8 @@ Day 4: [completed]
 - mock fetch api calls, mockResolvedValue, mockRejectedValue, mockImplementation, beforeEach to reset mocks
 Day 5: [completed]
  - async testing, debouncing, faketimers, advanceTimersByTime, findBy, queryBy, waitFor.
-Day 6
+Day 6: [completed]
+ - formik and rhf testing with mock submission through jest
 Day 7
 Day 8
 Day 9
