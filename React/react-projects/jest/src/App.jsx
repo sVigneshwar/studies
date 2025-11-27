@@ -5,13 +5,13 @@ import Search from './test/day5/Search'
 import Task from './test/day5/Task'
 import Formikform from './test/day6/Formikform'
 import RHF from './test/day6/RHF'
+import Day7 from './test/day7/Day7'
 
 export default function App() {
 
   return (
     <div>
-      <Formikform />
-      <RHF />
+      <Day7 />
     </div>
   )
 }
