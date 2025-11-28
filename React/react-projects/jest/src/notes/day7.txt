@@ -1,0 +1,13 @@
+for testing follow the below procedure 7 step procedure
+
+1) mock external modules (api, utilities(like date), spying of localstorage or any other spying)
+2) reset mock before each test beforeEach({jest.clearAllMocks()})
+3) render component with reqired providers (provider means, routing, redux)
+4) select elements (getby,findby)
+5) simulate user actions (uservent)
+6) expect outputs 
+    UI - (toBeInTheDocument, findby, queryby, getby)
+    API - expect(api.post).tohavebeencalledwith
+    localstorage - expect((storage.provider), 'removeitem').tohavebeencalledwith("token")\
+    navigation - expect(screen.getByText(/dashboard/i)).toBeInTheDocument()
+7) cleanup (rarely used)

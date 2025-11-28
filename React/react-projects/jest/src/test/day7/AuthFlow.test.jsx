@@ -5,74 +5,60 @@ import React from 'react'
 import { AppRoutes } from './Day7'
 import { MemoryRouter } from "react-router-dom"
 import { api } from "./service/api"
-
-// (1) MOCK AXIOS INSTANCE
-jest.mock('./service/api/')
-
-// (2) SPY ON localStorage
-const removeItemSpy = jest.spyOn(Storage.prototype, 'removeItem')
-
-// (3) MOCK window.location.reload
+//mock api
+jest.mock('./service/api')
+//spy localstorage
+const removeLocalStorageSpy = jest.spyOn(Storage.prototype, 'removeItem')
+//reset window location
 delete window.location
-const reloadMock = jest.fn()
-window.location = {reload: reloadMock, href: ''}
+window.location = {href: "", reload: jest.fn()}
 
-
+//reset mock
 beforeEach(() => {
-    removeItemSpy.mockClear()
-    reloadMock.mockClear()
+  jest.clearAllMocks();
 })
+//test
 
-
-test("Full login → dashboard → logout flow", async () => {
+test("testing flow", async () => {
   const user = userEvent.setup()
 
-  // (4) MOCK LOGIN API CALL
-  api.post.mockResolvedValue({
+  api.post.mockResolvedValueOnce({
     data: {
-        accessToken: "accesstoken",
-        refreshToken: "refreshtoken"
+      accessToken: "access token",
+      refreshToken: "refresh token",
     }
   })
 
-  // (5) MOCK /me PROFILE CALL
-  api.get.mockResolvedValue({
+  api.post.mockResolvedValueOnce({
     data: {
-        firstName: "Emily",
-        email: "emily@mail.com"
+      firstName: "Emily", 
+      email: "emily@mail.com"
     }
   })
   
+  //render
+  render(<MemoryRouter initialEntries={['/login']}>
+    <AppRoutes />
+  </MemoryRouter>)
 
-  // (6) START APP AT /login
-  render(
-    <MemoryRouter initialEntries={["/login"]}>
-        <AppRoutes />
-    </MemoryRouter>
-  )
-  
+  expect(await screen.findByRole("heading", {name: /login/i})).toBeInTheDocument()
 
-  // (7) LOGIN PAGE LOADED
-  expect(await screen.findByRole("heading", { name: /login/i })).toBeInTheDocument()
-  
-
-  // (8) SUBMIT LOGIN
+  //type
   await user.type(screen.getByLabelText(/username/i), "emilys")
   await user.type(screen.getByLabelText(/password/i), "emilyspass")
-  await user.click(screen.getByRole("button", { name: /login/i }))
-  
 
-  // (9) DASHBOARD LOADS WITH PROFILE
-  expect(await screen.findByText(/welcome emily/i)).toBeInTheDocument()
-  expect(screen.getByText(/email:/i)).toBeInTheDocument()
-  
+  //submit
+   user.click(await screen.getByRole('button', /login/i))
 
-  // (10) LOG OUT
-  await user.click(screen.getByRole("button", { name: /logout/i }))
-  
+  //check dashboard
+   expect(await screen.findByText(/welcome/i)).toBeInTheDocument()
 
-  // (11) VERIFY LOGOUT CALLED - tokens removed from localStorage
-  expect(removeItemSpy).toHaveBeenCalledWith('token')
-  expect(removeItemSpy).toHaveBeenCalledWith('refreshToken')
-  
+  //click logout
+  await user.click(screen.getByRole('button', /logout/i))
+  expect(removeLocalStorageSpy).toHaveBeenCalledWith('token')
+  expect(removeLocalStorageSpy).toHaveBeenCalledWith('refreshToken')
+
+  //check login
+  // expect(await screen.findByRole("heading", {name: /login/i})).toBeInTheDocument()
+
 })

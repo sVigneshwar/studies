@@ -11,7 +11,8 @@ Day 5: [completed]
  - async testing, debouncing, faketimers, advanceTimersByTime, findBy, queryBy, waitFor.
 Day 6: [completed]
  - formik and rhf testing with mock submission through jest
-Day 7
+Day 7:
+- integration testing, memory router(initial values), mock, storage.prototype 
 Day 8
 Day 9
 Day 10
