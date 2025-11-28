@@ -11,11 +11,21 @@ Day 5: [completed]
  - async testing, debouncing, faketimers, advanceTimersByTime, findBy, queryBy, waitFor.
 Day 6: [completed]
  - formik and rhf testing with mock submission through jest
-Day 7:
+Day 7: [completed]
 - integration testing, memory router(initial values), mock, storage.prototype 
 Day 8
 Day 9
 Day 10
+
+=============================================================================
+Default template for jest testing:
+1) setup mocks (api, forms, localstorage)
+2) clear mock
+3) render (with provider like memory router. redux.)
+4) select elements
+5) user event
+6) expect outputs
+7) clear test(rare usage)
 
 
 =============================================================================
