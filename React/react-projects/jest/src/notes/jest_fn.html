@@ -1,0 +1,192 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Jest Master Cheatsheet — Colorful</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root{
+    --bg:#0f1724;
+    --card:#0b1220;
+    --accent:#7c3aed;
+    --accent2:#06b6d4;
+    --muted:#94a3b8;
+    --text:#e6eef6;
+    --success:#10b981;
+    --danger:#ef4444;
+  }
+  body{font-family: Inter, Roboto, Arial, sans-serif; background: linear-gradient(180deg,#071029 0%, #071a2a 100%); color:var(--text); margin:0; padding:40px;}
+  .wrap{max-width:980px; margin:0 auto;}
+  header{display:flex; align-items:center; gap:16px; margin-bottom:24px;}
+  .logo{width:68px; height:68px; border-radius:12px; background:linear-gradient(135deg,var(--accent),var(--accent2)); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:22px; box-shadow:0 6px 24px rgba(7,22,48,.6);}
+  h1{margin:0; font-size:28px;}
+  p.lead{color:var(--muted); margin-top:6px;}
+  .grid{display:grid; grid-template-columns: 1fr 320px; gap:20px; align-items:start;}
+  .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.04); padding:20px; border-radius:12px; box-shadow: 0 8px 30px rgba(2,6,23,0.6);}
+  aside.card{position:sticky; top:24px; height:fit-content;}
+  h2{color:var(--accent); margin-top:0;}
+  h3{color:var(--accent2); margin-bottom:8px;}
+  code{background:#071a2a; padding:4px 8px; border-radius:6px; color:var(--accent2); font-family:monospace;}
+  pre{background:#051422; padding:12px; border-radius:8px; overflow:auto; font-family:monospace; color:var(--muted);}
+  ul{line-height:1.6;}
+  .pill{display:inline-block; background:rgba(255,255,255,0.03); padding:6px 10px; border-radius:999px; color:var(--muted); font-size:13px; margin-right:8px;}
+  .section{margin-bottom:18px;}
+  .example{border-left:4px solid rgba(255,255,255,0.04); padding:12px; margin:10px 0; background:linear-gradient(180deg, rgba(124,58,237,0.02), rgba(6,182,212,0.01));}
+  footer{margin-top:20px; color:var(--muted); font-size:13px;}
+  .btn{display:inline-block; padding:8px 12px; background:linear-gradient(90deg,var(--accent),var(--accent2)); color:white; border-radius:8px; text-decoration:none;}
+  .check{display:flex; gap:12px; flex-wrap:wrap; margin-top:8px;}
+  table{width:100%; border-collapse:collapse; margin-top:10px;}
+  th,td{padding:8px 6px; text-align:left; border-bottom:1px dashed rgba(255,255,255,0.03); font-size:14px;}
+  .legend{display:flex; gap:8px; margin-top:12px; flex-wrap:wrap;}
+  .badge{padding:6px 8px; border-radius:8px; background:rgba(255,255,255,0.02); color:var(--muted); font-size:13px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">J</div>
+    <div>
+      <h1>Jest Master Cheatsheet</h1>
+      <p class="lead">Colorful quick-reference for <strong>jest.fn()</strong>, mocks, providers, and when to use each — built for muscle memory.</p>
+    </div>
+  </header>
+
+  <div class="grid">
+    <main class="card">
+      <section class="section">
+        <h2>Core idea</h2>
+        <p><strong>jest.fn()</strong> is a <em>fake function</em> + a recorder. It always behaves the same — it records calls, arguments, and return values. You plug it into different library shapes.</p>
+        <div class="legend">
+          <div class="badge">Fake function</div>
+          <div class="badge">Call recorder</div>
+          <div class="badge">Programmable return</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>One rule to remember</h2>
+        <p><strong>Always:</strong> <code>jest.fn()</code> is the block. Libraries define the hole/shape (array, object, prop). You insert the block into the hole.</p>
+        <div class="example">
+          <strong>Example:</strong>
+          <pre>const fake = jest.fn()
+useNavigate() -> fake
+useLazyQuery() -> [fake, { data, isLoading }]
+localStorage.removeItem = fake
+onClick={fake}</pre>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Power patterns (how you see different shapes)</h2>
+        <ul>
+          <li><strong>Callback prop:</strong> <code>onClick={jest.fn()}</code></li>
+          <li><strong>Router:</strong> <code>useNavigate() → jest.fn()</code></li>
+          <li><strong>RTK lazy:</strong> <code>[jest.fn(), {data, isLoading}]</code></li>
+          <li><strong>API (axios/fetch):</strong> <code>jest.fn().mockResolvedValue(...)</code></li>
+          <li><strong>Window/localStorage:</strong> assign to function: <code>window.location.reload = jest.fn()</code></li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Full Mocking Checklist — order to think through</h2>
+        <ol>
+          <li><strong>External APIs</strong> (axios, fetch, RTK Query) → mock</li>
+          <li><strong>Browser APIs</strong> (localStorage, location, clipboard) → mock/spyon</li>
+          <li><strong>Utility modules</strong> (date, debounce, uuid) → mock</li>
+          <li><strong>Router navigation</strong> (useNavigate) → mock</li>
+          <li><strong>Redux</strong> → use Provider & a fresh store in tests; mock only if you intentionally don't want store</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Provider checklist — which providers to consider</h2>
+        <div class="check">
+          <div class="pill">MemoryRouter (react-router)</div>
+          <div class="pill">Provider (react-redux)</div>
+          <div class="pill">QueryClientProvider (react-query)</div>
+          <div class="pill">ThemeProvider (MUI/Chakra)</div>
+          <div class="pill">Custom Context Providers</div>
+        </div>
+        <p class="lead" style="margin-top:8px">Rule: <strong>Provider = context</strong> (gives component global data). <strong>Mock = behavior replacement</strong> (prevents side effects).</p>
+      </section>
+
+      <section class="section">
+        <h2>Common jest.fn() usages — quick table</h2>
+        <table>
+          <thead><tr><th>Scenario</th><th>Shape / usage</th></tr></thead>
+          <tbody>
+            <tr><td>Button click</td><td><code>onClick={jest.fn()}</code></td></tr>
+            <tr><td>Navigate</td><td><code>useNavigate() => jest.fn()</code></td></tr>
+            <tr><td>RTK lazy</td><td><code>[jest.fn(), {data,isLoading}]</code></td></tr>
+            <tr><td>RTK mutation</td><td><code>[jest.fn(), {data,isLoading}]</code></td></tr>
+            <tr><td>Axios/Fetch</td><td><code>jest.fn().mockResolvedValue()</code></td></tr>
+            <tr><td>localStorage</td><td><code>jest.spyOn(Storage.prototype,'removeItem')</code></td></tr>
+            <tr><td>window.location</td><td><code>delete window.location; window.location = {reload: jest.fn()}</code></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section">
+        <h2>Practical checklist before writing a test</h2>
+        <ol>
+          <li>Read the component: list functions it calls (APIs, storage, navigation)</li>
+          <li>Decide which providers it needs (router, redux, theme)</li>
+          <li>Mock only what the component calls (don’t over-mock)</li>
+          <li>Use <code>jest.clearAllMocks()</code> in <code>beforeEach</code></li>
+          <li>Render with providers and run userEvent actions</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Short code examples</h2>
+        <h3>Mock axios</h3>
+        <pre>jest.mock('../api')
+api.get.mockResolvedValue({ data: { name: 'Vicky' } })</pre>
+
+        <h3>Mock lazy RTK Query</h3>
+        <pre>jest.spyOn(api, 'useLazyGetUserQuery').mockReturnValue([
+  jest.fn(),
+  { data: [{name:'Vicky'}], isLoading:false }
+])</pre>
+
+        <h3>Mock navigate</h3>
+        <pre>const navigate = jest.fn()
+jest.mock('react-router-dom', () => ({
+  ...jest.requireActual('react-router-dom'),
+  useNavigate: () => navigate
+}))</pre>
+      </section>
+
+      <footer>
+        <p>Built for muscle memory. If you want this converted to a printable poster or added examples, say "poster" or "add examples".</p>
+      </footer>
+    </main>
+
+    <aside class="card">
+      <h3>Quick jump</h3>
+      <div class="section">
+        <div class="pill">Core rule</div>
+        <p>jest.fn() is the fake. Use providers for context.</p>
+      </div>
+
+      <div class="section">
+        <h3>Mini flow</h3>
+        <ol>
+          <li>What does component call? → mock those</li>
+          <li>What context? → wrap with provider</li>
+          <li>Use jest.fn() for functions and spies</li>
+        </ol>
+      </div>
+
+      <div class="section">
+        <h3>Useful snippets</h3>
+        <pre>beforeEach(()=>jest.clearAllMocks())</pre>
+        <pre>const spy = jest.spyOn(Storage.prototype,'removeItem')</pre>
+        <pre>expect(spy).toHaveBeenCalledWith('token')</pre>
+      </div>
+
+      <a class="btn" href="/download/jest_master_cheatsheet.html" download>Download as HTML</a>
+    </aside>
+  </div>
+</div>
+</body>
+</html>

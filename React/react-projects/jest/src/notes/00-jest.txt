@@ -35,9 +35,10 @@ Default template for jest testing:
 7) clear test(rare usage)
 
 
-what mock to even think, let me know of which mock to think of first while setting up point 1 and how to setup each
+point 1 - what mocks to even think, let me know of which mock to think of first while setting up point 1 and how to setup each
 and in point 3, what provider to think of, give me any checklist of provider to think of, like let me know what are all the providers
 let me know diff between mock and provider, how to differentiate
+and what are used as jest.fn(), like i have seen many functions use jest.fn, what is the purpose of it, where and all it is used
 
 =============================================================================
 DETAILED 10-DAY STRUCTURED PLAN (2 hrs/day)
