@@ -1,0 +1,35 @@
+import reducer, { setName, incrementAge } from "./userSlice";
+
+test("setName", () => {
+  expect(reducer({ name: "", age: 0 }, setName("Vicky")))
+    .toEqual({ name: "Vicky", age: 0 });
+});
+
+
+import { Provider } from "react-redux";
+import { configureStore } from "@reduxjs/toolkit";
+import Profile from "./Profile";
+import reducer from "./userSlice";
+import userEvent from "@testing-library/user-event";
+
+test("redux integration", async () => {
+  const user = userEvent.setup();
+
+  const store = configureStore({
+    reducer: { user: reducer }
+  });
+
+  render(
+    <Provider store={store}>
+      <Profile />
+    </Provider>
+  );
+
+  const input = screen.getByPlaceholderText("Name");
+  await user.type(input, "Vicky");
+
+  expect(screen.getByText("Vicky")).toBeInTheDocument();
+
+  await user.click(screen.getByRole("button", { name: /increase age/i }));
+  expect(screen.getByText("1")).toBeInTheDocument();
+});
