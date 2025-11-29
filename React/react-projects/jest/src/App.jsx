@@ -7,16 +7,16 @@ import Formikform from './test/day6/Formikform'
 import RHF from './test/day6/RHF'
 import Day7 from './test/day7/Day7'
 import Day8 from './test/day8/redux/Day8'
-import { store } from './test/day8/redux/store'
 import {Provider} from 'react-redux'
+import Day8b from './test/day8/rtk/Day8b'
+import {store} from './test/day8/rtk/store'
 
 export default function App() {
 
   return (
     <div>
-      {/* <Day7 /> */}
       <Provider store={store}>
-        <Day8 />
+        <Day8b />
       </Provider>
     </div>
   )

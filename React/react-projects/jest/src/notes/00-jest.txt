@@ -14,7 +14,7 @@ Day 6: [completed]
 Day 7: [completed]
 - integration testing, memory router(initial values), mock, storage.prototype 
 Day 8:
- - testing redux slices, rtk query
+ - testing redux slices, redux component with store provider, rtk query
 Day 9
 Day 10
 
