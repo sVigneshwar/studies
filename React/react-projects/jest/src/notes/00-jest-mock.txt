@@ -1,0 +1,4 @@
+mock function default template: (https://dev.to/zaklaughton/the-only-3-steps-you-need-to-mock-an-api-call-in-jest-39mb)
+1) import the module
+2) mock the module
+3) use mockResolvedValue for custom return values of the mock
