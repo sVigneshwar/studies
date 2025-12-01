@@ -1,0 +1,22 @@
+tutorial points:
+1) base strucutire of RTL 
+    - (test block = render -> find elements user interacts -> interact with those elements -> assert thr results are expected)
+2) base selectors of jest 
+    - (getBy, findBy, queryBy, getAllBy, findAllBy, queryAllBy, )
+    - first get by role, placeholdertext, get by text, label text
+    - next if cannot use first, target by semantic elements - getbytitle, getbytitle
+    - at verylast and never use this - data-testid="testid" getbytestid
+3) how to use selectors in different way
+4) how to use expect (assertions)
+    - toBeInTheDocument, toBeTruthy, not.toBeInTheDocument, tobeTextContent,etc...
+5) describe block
+6) fireEvent
+    - user click events, mock a dummy function using jest.fn() -> this is a empty function that does nothing.
+7) integration testing
+    - typing, clicking buttton, todo added, todo completed
+8) asynchronous testing
+    - testing asynchronous data using finby and findAllBy async await
+9) mocking api
+    - real api cost money, waiting time, dependent on real data or something external
+    - https://dev.to/zaklaughton/the-only-3-steps-you-need-to-mock-an-api-call-in-jest-39mb (check doc for mock api basics)
+10) beforeeach, beforeall, aftereach, afterall
