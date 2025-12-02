@@ -15,9 +15,7 @@ export default function App() {
 
   return (
     <div>
-      <Provider store={store}>
-        <Day8b />
-      </Provider>
+      <h1>Jest Practice</h1>
     </div>
   )
 }
