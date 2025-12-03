@@ -13,10 +13,10 @@
 13) filename conventions: test.js, spec.js, __tests__. Can use test() or it() test.only() === fit() || test.skip() === xit() (will exclude it)
 14) code coverage: we can check how much code is covered in test, ignore specific file types for testing coverage (this can used for checking how much overall components and codes are covered in testing) (rarely used, but good to know this option is there)
 15) Assertions: expectin some values to be met. expect, matchers(tobetruthy, falsy, getmatch, tobeequal. tobegreaterthan, not.match, toThrow error. tobeinthedocument, tobeenabled,visible is a jest custom matcher)
-16) 
-17) 
-18) 
-19) 
+16) what to test: rendering, prop sharing, conditional rendering, clicking events. not to test=> functionalties, 3rd party plugins, codes not important for the user
+17) RTL queries: getby, findby, queryby, getallby, findallby, queryallby, text, placeholdertext, role, label, displayvalue, title, alttext, testid
+18) getbyrole: aria role elements
+19) getbyrole options: 
 20) 
 21) 
 22) 
