@@ -1,3 +1,4 @@
+SECTION1:
 1) Intro
 2) jest vs RTL: react testing library is actual testing, meanwhile jest is an additional addon on it
 3) types of test: unit, integration, e2e test
@@ -7,6 +8,7 @@
 7) anatomy of a test: test, render, screen, expect
 8) your first test: testing a component, whether is hello world is rendered in the page (vitual dom)
 9) test driven development: first writing a test and after that developing the component. (rare usecase for me)
+SECTION2:
 10) jest watch mode: watch is a thing we can ask a jest to watch what are all changed after the last commit, and excecute only that test. 
 11) filtering test: w for watch, after w - a for all test, o for watch only changed files, p for testing a specific file (asks regex pattern for filter), t for test name (only one test)(asks regex pattern for filter), c for clearing filter, test.only(will run only this test), test.skip(will skip this test)
 12) grouping test: describe method, descrive can also have child describe method, we can group as we need.
@@ -14,17 +16,19 @@
 14) code coverage: we can check how much code is covered in test, ignore specific file types for testing coverage (this can used for checking how much overall components and codes are covered in testing) (rarely used, but good to know this option is there)
 15) Assertions: expectin some values to be met. expect, matchers(tobetruthy, falsy, getmatch, tobeequal. tobegreaterthan, not.match, toThrow error. tobeinthedocument, tobeenabled,visible is a jest custom matcher)
 16) what to test: rendering, prop sharing, conditional rendering, clicking events. not to test=> functionalties, 3rd party plugins, codes not important for the user
+SECTION3:
 17) RTL queries: getby, findby, queryby, getallby, findallby, queryallby, text, placeholdertext, role, label, displayvalue, title, alttext, testid
 18) getbyrole: aria role elements
-19) getbyrole options: 
-20) 
-21) 
-22) 
-23) 
-24) 
-25) 
-26) 
-27) 
+19) getbyrole options: name, levels (there are others, which will use in future based on requirements and needs)
+20) getByLabelText
+21) getByPlaceholderText
+22) getByText
+23) getByDisplayValue: textbox, checkbox, select values
+24) getbyalttext: for image or other elements which accepts alt attribute
+25) getbytitle title attribute
+26) getbytestid
+27) priority order: [role, lable, placeholder, text, display value], [alttext, title], [testid]
+SECTION4:
 28) 
 29) 
 30) 
