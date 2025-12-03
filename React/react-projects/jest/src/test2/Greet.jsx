@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Greet() {
+export default function Greet({name = "Vicky"}) {
   return (
     <div>
-      Hello Vicky
+      Hello {name}
     </div>
   )
 }

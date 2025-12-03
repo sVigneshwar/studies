@@ -8,3 +8,8 @@ test("Testing greet component", () => {
     render(<Greet />)
     expect(screen.getByText(/hello/i)).toBeInTheDocument()
 })
+
+test("Testing greet component with props", () => {
+    render(<Greet name="meera" />)
+    expect(screen.getByText(/hello meera/i)).toBeInTheDocument()
+})

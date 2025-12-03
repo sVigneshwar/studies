@@ -11,8 +11,8 @@
 11) filtering test: w for watch, after w - a for all test, o for watch only changed files, p for testing a specific file (asks regex pattern for filter), t for test name (only one test)(asks regex pattern for filter), c for clearing filter, test.only(will run only this test), test.skip(will skip this test)
 12) grouping test: describe method, descrive can also have child describe method, we can group as we need.
 13) filename conventions: test.js, spec.js, __tests__. Can use test() or it() test.only() === fit() || test.skip() === xit() (will exclude it)
-14) 
-15) 
+14) code coverage: we can check how much code is covered in test, ignore specific file types for testing coverage (this can used for checking how much overall components and codes are covered in testing) (rarely used, but good to know this option is there)
+15) Assertions: expectin some values to be met. expect, matchers(tobetruthy, falsy, getmatch, tobeequal. tobegreaterthan, not.match, toThrow error. tobeinthedocument, tobeenabled,visible is a jest custom matcher)
 16) 
 17) 
 18) 
