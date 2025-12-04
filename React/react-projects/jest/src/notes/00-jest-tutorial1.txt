@@ -38,8 +38,9 @@ SECTION4: QUERIES
 34) testing playground chrome extension: used to target the html element with best practice. - currently not working, but will be good if we personally have a tool like this locally.
 SECTION5: USER INTERACTION
 35) user interation: user-events, fireevents. user events behaves like user(focuses field, types value). fireevent do only specific dom manipulations. so user events is recommended.
-36) pointer interations: Convenience APIS: [click, dblClick, tripleClick, hover, unhover], Pointer APIS: [pointer({keys: '[Mouseleft]'}), pointer({keys: '[Mouseleft, MouseRight]'})]
-37) 
+36) pointer interations: Convenience api: [click, dblClick, tripleClick, hover, unhover], Pointer api: [pointer({keys: '[Mouseleft]'}), pointer({keys: '[Mouseleft, MouseRight]'})], utility api: [clear (input field), select (listbox), deselect(listbox)], clipboard api: [copy cut paste], keyboard api: [keyboard, {shift>}A{/shift}]
+37) keyboard interations: type, tab
+SECTION6: PORVIDERS AND CUSTOM HOOKS
 38) 
 39) 
 40) 
