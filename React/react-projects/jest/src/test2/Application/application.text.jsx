@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom'
 import {render, screen} from '@testing-library/react'
 import React from 'react'
-import Application from '../Application/Application'
+import Application from './Application'
 
 test("Testing application component", () => {
     render(<Application />)

@@ -11,11 +11,12 @@ import {Provider} from 'react-redux'
 import Day8b from './test/day8/rtk/Day8b'
 import {store} from './test/day8/rtk/store'
 import Application from './test2/Application/Application'
+import Skills from './test2/Skills/Skills'
 
 export default function App() {
   return (
     <div>
-      <Application />
+      <Skills />
     </div>
   )
 }

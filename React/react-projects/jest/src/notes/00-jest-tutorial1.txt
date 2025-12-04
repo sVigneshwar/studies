@@ -29,7 +29,7 @@ SECTION3:
 26) getbytestid
 27) priority order: [role, lable, placeholder, text, display value], [alttext, title], [testid]
 SECTION4:
-28) 
+28) query multiple elements: getAllByRole, we can check multiple elements using array concepts with tobelenght method or something like that.
 29) 
 30) 
 31) 
