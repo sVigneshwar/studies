@@ -1,4 +1,4 @@
-SECTION1:
+SECTION1: UNDERSTANDING "TESTS"
 1) Intro
 2) jest vs RTL: react testing library is actual testing, meanwhile jest is an additional addon on it
 3) types of test: unit, integration, e2e test
@@ -8,7 +8,7 @@ SECTION1:
 7) anatomy of a test: test, render, screen, expect
 8) your first test: testing a component, whether is hello world is rendered in the page (vitual dom)
 9) test driven development: first writing a test and after that developing the component. (rare usecase for me)
-SECTION2:
+SECTION2: BASICS FOUNDATIONS TO KNOW
 10) jest watch mode: watch is a thing we can ask a jest to watch what are all changed after the last commit, and excecute only that test. 
 11) filtering test: w for watch, after w - a for all test, o for watch only changed files, p for testing a specific file (asks regex pattern for filter), t for test name (only one test)(asks regex pattern for filter), c for clearing filter, test.only(will run only this test), test.skip(will skip this test)
 12) grouping test: describe method, descrive can also have child describe method, we can group as we need.
@@ -16,7 +16,7 @@ SECTION2:
 14) code coverage: we can check how much code is covered in test, ignore specific file types for testing coverage (this can used for checking how much overall components and codes are covered in testing) (rarely used, but good to know this option is there)
 15) Assertions: expectin some values to be met. expect, matchers(tobetruthy, falsy, getmatch, tobeequal. tobegreaterthan, not.match, toThrow error. tobeinthedocument, tobeenabled,visible is a jest custom matcher)
 16) what to test: rendering, prop sharing, conditional rendering, clicking events. not to test=> functionalties, 3rd party plugins, codes not important for the user
-SECTION3:
+SECTION3: TARGETING ELEMENTS
 17) RTL queries: getby, findby, queryby, getallby, findallby, queryallby, text, placeholdertext, role, label, displayvalue, title, alttext, testid
 18) getbyrole: aria role elements
 19) getbyrole options: name, levels (there are others, which will use in future based on requirements and needs)
@@ -28,16 +28,17 @@ SECTION3:
 25) getbytitle title attribute
 26) getbytestid
 27) priority order: [role, lable, placeholder, text, display value], [alttext, title], [testid]
-SECTION4:
+SECTION4: QUERIES
 28) query multiple elements: getAllByRole, we can check multiple elements using array concepts with tobelenght method or something like that.
-29) 
-30) 
-31) 
-32) 
-33) 
-34) 
-35) 
-36) 
+29) Textmatch: getByText("normal text"), getByText(/regex/i), getByText(text => text.startsWith("test"))
+30) queryBy: queryby returns null if not in the document instead of error
+31) findBy: this return a promise, resolve if mathces or reject if not matches within the default time of 1000ms, we can set manual time for waiting. use async await since it is promise.
+32) Manual queries: we can use DOM queryselector if we want, but not recommemder since this is not visible to the user document.querySelector([data-element="foo"])
+33) debugging: screen.debug = for checking html strcture at any point of the testing. logRoles to see what roles are present in the component
+34) testing playground chrome extension: used to target the html element with best practice. - currently not working, but will be good if we personally have a tool like this locally.
+SECTION5: USER INTERACTION
+35) user interation: user-events, fireevents. user events behaves like user(focuses field, types value). fireevent do only specific dom manipulations. so user events is recommended.
+36) pointer interations: Convenience APIS: [click, dblClick, tripleClick, hover, unhover], Pointer APIS: [pointer({keys: '[Mouseleft]'}), pointer({keys: '[Mouseleft, MouseRight]'})]
 37) 
 38) 
 39) 

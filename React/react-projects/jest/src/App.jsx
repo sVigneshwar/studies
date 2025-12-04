@@ -12,11 +12,14 @@ import Day8b from './test/day8/rtk/Day8b'
 import {store} from './test/day8/rtk/store'
 import Application from './test2/Application/Application'
 import Skills from './test2/Skills/Skills'
+import Counter from './test2/Counter/Counter'
 
 export default function App() {
   return (
     <div>
-      <Skills />
+      {/* <Application /> */}
+      {/* <Skills skills={["test","test2"]} /> */}
+      <Counter />
     </div>
   )
 }
