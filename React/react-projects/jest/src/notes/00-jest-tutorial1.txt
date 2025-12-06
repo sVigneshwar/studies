@@ -41,9 +41,9 @@ SECTION5: USER INTERACTION
 36) pointer interations: Convenience api: [click, dblClick, tripleClick, hover, unhover], Pointer api: [pointer({keys: '[Mouseleft]'}), pointer({keys: '[Mouseleft, MouseRight]'})], utility api: [clear (input field), select (listbox), deselect(listbox)], clipboard api: [copy cut paste], keyboard api: [keyboard, {shift>}A{/shift}]
 37) keyboard interations: type, tab
 SECTION6: PORVIDERS AND CUSTOM HOOKS
-38) 
-39) 
-40) 
+38) providers: tutorial video covers MUI and provider, but we know redux and context and router provider concepts
+39) Custom render function: (most likely will be used rarely)
+40) custom react hooks: renderhook() will import hooks in test files, will return result.current.(all values returned from custom hooks)
 41) 
 42) 
 43) 
