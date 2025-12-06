@@ -2,3 +2,32 @@ check repetitive usage of a component
 extract the repetitive logic into a seperate function, only logic should be abstracted, not the ui
 check what is needed for the component and return that only.
 use the hook in component in a simpler way as possible
+
+
+setState ONLY? ────────► keep useState in component
+setState + SOMETHING(LOGIC)? ─► move to custom hook
+
+
+
+
+so basically if state is simply, then keep it in compoentn, like upting the ui alone.
+and if after updating the state, if we use the state to do anything with reference to the state, like validation ,localstorage, calculation, sideeffect if any,. thenmove it to customhook
+
+Am i right?
+
+So now, ask me mini quiz with 5 - 10 questions of whether useState should be moved or not
+
+
+KEEP useState
+MOVE to custom hook
+
+1 KEEP useState
+2 MOVE to custom hook
+3 KEEP useState
+4 MOVE to custom hook
+5 MOVE to custom hook
+6 KEEP useState
+7 MOVE to custom hook
+8 MOVE to custom hook
+9 MOVE to custom hook
+10 KEEP useState

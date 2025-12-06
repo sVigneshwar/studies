@@ -5,6 +5,7 @@ import Countertwo from './components/Countertwo.jsx'
 import Form from './components/Form.jsx'
 import Search1 from './components/Search1.jsx'
 import Search2 from './components/Search2.jsx'
+import LocalInputs from './components/LocalInputs.jsx'
 
 export default function App() {
   
@@ -14,8 +15,9 @@ export default function App() {
       {/* <Counterone /> */}
       {/* <Countertwo /> */}
       {/* <Form /> */}
-      <Search1 />
+      {/* <Search1 /> */}
       {/* <Search2 /> */}
+      <LocalInputs />
     </>
   )
 }
