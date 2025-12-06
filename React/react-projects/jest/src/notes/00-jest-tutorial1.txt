@@ -43,7 +43,7 @@ SECTION5: USER INTERACTION
 SECTION6: PORVIDERS AND CUSTOM HOOKS
 38) providers: tutorial video covers MUI and provider, but we know redux and context and router provider concepts
 39) Custom render function: (most likely will be used rarely)
-40) custom react hooks: renderhook() will import hooks in test files, will return result.current.(all values returned from custom hooks)
+40) custom react hooks: renderhook in const {result}. result.current.count to target the values || for property passing, use initialProps onject for passing in renderhook as second argument || use act(() => result.current.increment()) to write any updation checking. (use this for amny function checkng may be)
 41) 
 42) 
 43) 

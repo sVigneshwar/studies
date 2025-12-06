@@ -13,21 +13,16 @@ setState + SOMETHING(LOGIC)? ─► move to custom hook
 so basically if state is simply, then keep it in compoentn, like upting the ui alone.
 and if after updating the state, if we use the state to do anything with reference to the state, like validation ,localstorage, calculation, sideeffect if any,. thenmove it to customhook
 
-Am i right?
-
-So now, ask me mini quiz with 5 - 10 questions of whether useState should be moved or not
 
 
-KEEP useState
-MOVE to custom hook
+in usehook -> add initialvalue -> add newvalue, setNewValue with usestate(initiavalue)
 
-1 KEEP useState
-2 MOVE to custom hook
-3 KEEP useState
-4 MOVE to custom hook
-5 MOVE to custom hook
-6 KEEP useState
-7 MOVE to custom hook
-8 MOVE to custom hook
-9 MOVE to custom hook
-10 KEEP useState
+updater function from component
+
+const updatedvalue, while setting the values from component, here also need to update the newValue so taht we can return it with
+
+val => setNewValue(val)
+after that run the sideeffect, or validatiom, calculations logics
+
+then return the newValue to be used in the component
+return updatedvalue function to be used in the component setName property in useState in the component

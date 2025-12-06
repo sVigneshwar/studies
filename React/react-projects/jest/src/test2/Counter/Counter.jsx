@@ -1,14 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
+import useCounter from './useCounter'
 
 export default function Counter() {
-    const [count, setCount] = useState(0)
-    const [amount, setAmount] = useState(0)
+    const {count, decrement, increment} = useCounter()
+
   return (
-    <div>
+    <>
       <h1>{count}</h1>
-        <button onClick={() => setCount(count + 1)}>Increment</button>
-        <input type="text" placeholder='amount' onChange={(e) => setAmount(parseInt(e.target.value))} />
-        <button onClick={() => setCount(amount)}>Add Amount</button>
-    </div>
+      <button onClick={decrement}>Decrement</button>
+      <button onClick={increment}>Increment</button>
+    </>
   )
 }
