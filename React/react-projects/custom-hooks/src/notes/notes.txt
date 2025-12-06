@@ -1,0 +1,4 @@
+check repetitive usage of a component
+extract the repetitive logic into a seperate function, only logic should be abstracted, not the ui
+check what is needed for the component and return that only.
+use the hook in component in a simpler way as possible
