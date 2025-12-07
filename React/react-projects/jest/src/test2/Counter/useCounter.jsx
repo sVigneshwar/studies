@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
-function useCounter(initialValue = 0) {
+function useCounter({initialValue = 0, updateByValue = 1}) {
     const [count, setCount] = useState(initialValue)
-    const decrement = () => setCount(count => count - 1)
-    const increment = () => setCount(count => count + 1)
+    const increment = () => setCount(count => count + updateByValue)
+    const decrement = () => setCount(count => count - updateByValue)
 
-    return {count, decrement, increment}
+    return {count, increment, decrement}
 }
 
 export default useCounter

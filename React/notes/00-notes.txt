@@ -219,3 +219,8 @@ can we move to next topic, [topic name] i think i have completed [previous topic
 npm create vite@latest
 
 npm install react-redux @reduxjs/toolkit react-router-dom axios
+
+
+-------------------
+
+afer studying jest, try some custom react hooks. then go for typescript

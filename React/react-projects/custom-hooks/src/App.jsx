@@ -7,6 +7,7 @@ import Search1 from './components/Search1.jsx'
 import Search2 from './components/Search2.jsx'
 import LocalInputs from './components/LocalInputs.jsx'
 import Counter from '../../jest/src/test2/Counter/Counter.jsx'
+import FAQ from './components/Faq.jsx'
 
 export default function App() {
   
@@ -18,8 +19,9 @@ export default function App() {
       {/* <Form /> */}
       {/* <Search1 /> */}
       {/* <Search2 /> */}
-      <LocalInputs />
+      {/* <LocalInputs /> */}
       {/* <Counter /> */}
+      <FAQ />
     </>
   )
 }

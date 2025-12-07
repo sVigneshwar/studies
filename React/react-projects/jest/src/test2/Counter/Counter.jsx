@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import useCounter from './useCounter'
 
 export default function Counter() {
-    const {count, decrement, increment} = useCounter()
+
+  const {count, increment, decrement} = useCounter(0, 10)
 
   return (
     <>
