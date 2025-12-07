@@ -46,7 +46,7 @@ SECTION6: PROVIDERS AND CUSTOM HOOKS
 40) custom react hooks: renderhook in const {result}. result.current.count to target the values || for property passing, use initialProps onject for passing in renderhook as second argument || use act(() => result.current.increment()) to write any updation checking. (use this for amny function checkng may be)
 41) Act utility: act utility function is where a state update should be wrapped inside a act(() => {}) function before assertion. rtl wrapps all state updates around it act function, so please wrap the state update function inside the act function. || custom hook called with direct param (initialValue = 0, updateValyeBy = 10) can be called by render(() => useCounter(0, 10)) || if param is like inside obj ({initialValue = 0, updateValyeBy = 10}) the should be called in initialProps alone.
 SECTION 7: MOCKING
-42) 
+42) mocking functions: jest.fn() to any function mocking. if the function updates the state value, return a value with same data type the compoennt expects and updates, if the component does not update state or ui for the function, then just jest.fn() is enough. [So basically we just replace the entire function and call a custom return || we should not see how to function is handled, just mock it and return a random value with same data type]
 43) 
 44) 
 45) 
