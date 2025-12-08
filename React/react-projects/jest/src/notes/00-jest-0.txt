@@ -15,8 +15,9 @@ Day 7: [completed]
 - integration testing, memory router(initial values), mock, storage.prototype 
 Day 8: [completed]
  - testing redux slices, redux components with providers, rtk query mocking. we can use msw (mock service worker) for api mocking ||, directly call reducer(initialvalue, action) for slice testing ||, mock store for component testing with provider, || jest.spyOn(api, 'useGetSomethingQuery').mockReturnValue({data:..., isLoading:..., isError:...}) for rtk query mocking.
-Day 9
-Day 10
+Day 9: [completed]
+  - coverage report, best practices, what to test and what not to test, avoid implementation details, snapshot testing when not to use
+Day 10:
 
 
 
@@ -185,13 +186,16 @@ Practice:
 Create a full test suite for a small app:
   ✓ Login page
   ✓ Dashboard page
-  ✓ API fetch
+  ✓ API fetch (try use msw for this part)
   ✓ React Hook Form form
   ✓ 1 Redux slice
   ✓ Router navigation
   ✓ Error UI
 
 This locks the entire testing workflow.
+
+also do not share the code. let me know the ui part alone of what to create. also give me folder strcuture of the components, api, store, slices, tests etc
+Will ask you for code if needed while implementing.
 
 
 =============================================================================

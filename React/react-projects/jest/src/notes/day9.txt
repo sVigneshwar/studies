@@ -1,0 +1,13 @@
+Running Coverage: npm test -- --coverage
+wha to test vs ignore:
+ - test public api (user interactions, outputs)
+ - avoid testing implementation details (state, props, methods)
+ - avoid over mocking (mock only external dependencies)
+avoid implementation details:
+ - test what the user sees and interacts with
+ - avoid testing internal state or methods
+ - avoid testing component internals (state, props)
+snapshot testing:
+    - useful for small, stable components
+    - avoid for large, complex components
+    - avoid for frequently changing components
