@@ -15,6 +15,7 @@ import Skills from './test2/Skills/Skills'
 import Counter from './test2/Counter/Counter'
 import Counter2 from './test2/Counter2/Counter2'
 import Multiplier from './test2/Counter2/Multiplier'
+import Users from './test2/Users/Users'
 
 export default function App() {
   return (
@@ -23,7 +24,8 @@ export default function App() {
       {/* <Skills skills={["test","test2"]} /> */}
       {/* <Counter /> */}
       {/* <Counter2 prop={{count:0, increment: val => val+1, decrement: val => val-1}} /> */}
-      <Multiplier calculate={(val) => val*2} />
+      {/* <Multiplier calculate={(val) => val*2} /> */}
+      <Users />
     </div>
   )
 }
