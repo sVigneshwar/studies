@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom'
 import {render, screen} from '@testing-library/react'
-import Users from '../Users/Users.jsx'
+import Users from './Users.jsx'
 import React from 'react'
 import { server } from '../mocks/server.js'
 import {http, HttpResponse} from 'msw'

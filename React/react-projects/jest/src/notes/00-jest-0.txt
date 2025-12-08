@@ -13,8 +13,8 @@ Day 6: [completed]
  - formik and rhf testing with mock submission through jest
 Day 7: [completed]
 - integration testing, memory router(initial values), mock, storage.prototype 
-Day 8:
- - testing redux slices, redux component with store provider, rtk query
+Day 8: [completed]
+ - testing redux slices, redux components with providers, rtk query mocking. we can use msw (mock service worker) for api mocking ||, directly call reducer(initialvalue, action) for slice testing ||, mock store for component testing with provider, || jest.spyOn(api, 'useGetSomethingQuery').mockReturnValue({data:..., isLoading:..., isError:...}) for rtk query mocking.
 Day 9
 Day 10
 

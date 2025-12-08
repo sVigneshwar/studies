@@ -209,7 +209,6 @@ Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
 🪪 17	Portfolio Website (Final)	4 days	~8 hrs	Final showcase site with about + contact
 🧾 18	Resume + LinkedIn Optimization	3 days	~6 hrs	Keywords + portfolio links
 🌏 19	Job Search Prep (Visa-Friendly)	Continuous	—	Ireland / Netherlands / Australia focus
-
 use abroad tips folder docx from git to tailor any resume and job check.
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
