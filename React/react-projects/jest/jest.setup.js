@@ -1,20 +1,11 @@
 // jest.setup.js (Used in setupFilesAfterEnv)
 
-// Import jest-dom matchers (e.g., .toBeInTheDocument())
-import '@testing-library/jest-dom';
+// Global test setup
+import '@testing-library/jest-dom'
 
-// Import your server instance
-import { server } from './src/test2/mocks/server';
+import { server } from './src/test2/mocks/server'
 
-// Start the server before all tests run
-beforeAll(() => server.listen());
-
-// Reset any request handlers that are declared during the tests
-// so they don't interfere with other tests
-afterEach(() => server.resetHandlers());
-
-// Stop the server once all tests are done
-afterAll(() => server.close());
-
-// Note: You do NOT need the cross-fetch import here anymore 
-// because 'jest-fixed-jsdom' provides those globals automatically.
+// Start MSW before all tests and clean up between tests
+beforeAll(() => server.listen())
+afterEach(() => server.resetHandlers())
+afterAll(() => server.close())

@@ -7,6 +7,8 @@ describe('Users Component', () => {
     test('check if component renders', async () => {
         render(<Users />)
         expect(screen.getByText("Users List")).toBeInTheDocument()
+        // Wait for async fetch-driven state update to avoid act() warning
+        await screen.findAllByRole('listitem')
     })
 
     test("check if users are rendered", async () => {
