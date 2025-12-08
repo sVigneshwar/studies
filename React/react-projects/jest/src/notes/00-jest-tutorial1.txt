@@ -51,9 +51,11 @@ SECTION 7: MOCKING
 44) MSW setup: install msw from msw website and use node js mock code in server.js
 45) MSW handlers: setup handlers file, call rest from msw, create new handlers variable, and call all mock in an array. this array will be called in server.js as paramerts const server = setupServer(...handlers). add (req, response, context) for each api calls
 46) testing with MSW: in test file, import server from server.js, beforeAll(() => server.listen()), afterEach(() => server.resetHandlers()), afterAll(() => server.close()). now the api calls will be mocked ones from handlers file. 
-47) 
-48) 
-49) 
-50) 
-51) 
-53) 
+47) MSW error handling: use server.use() to override any default handler for specific test cases.
+SECTION 8:
+48) static analysis testing (not needed for now)
+49) ESLint (not needed for now)
+50) Prettier (not needed for now)
+51) Husky (not needed for now)
+52) Lint-staged (not needed for now)
+53) wrapping up
