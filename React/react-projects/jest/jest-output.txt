@@ -1,0 +1,221 @@
+
+> jest@0.0.0 test
+> jest --testPathPatterns=src/Final/tests --runInBand --coverage
+
+FAIL src/Final/tests/Dashboard.test.jsx
+  ● shows loading and product list, retry and logout flows
+
+    TestingLibraryElementError: Found multiple elements with the text: Logout
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, script, style
+    [36m<button>[39m
+      [0mLogout[0m
+    [36m</button>[39m
+
+    Ignored nodes: comments, script, style
+    [36m<button>[39m
+      [0mLogout[0m
+    [36m</button>[39m
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div>[39m
+          [36m<h1>[39m
+            [0mDashboard[0m
+          [36m</h1>[39m
+          [36m<p>[39m
+            [0mWelcome [0m
+            [0mGuest[0m
+          [36m</p>[39m
+          [36m<button>[39m
+            [0mLogout[0m
+          [36m</button>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"product-list"[39m
+          [36m>[39m
+            [36m<ul>[39m
+              [36m<li>[39m
+                [0mProduct 1[0m
+              [36m</li>[39m
+              [36m<li>[39m
+                [0mProduct 2[0m
+              [36m</li>[39m
+              [36m<li>[39m
+                [0mProduct 3[0m
+              [36m</li>[39m
+            [36m</ul>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div>[39m
+        [36m<div>[39m
+          [36m<h1>[39m
+            [0mDashboard[0m
+          [36m</h1>[39m
+          [36m<p>[39m
+            [0mWelcome [0m
+            [0mGuest[0m
+          [36m</p>[39m
+          [36m<button>[39m
+            [0mLogout[0m
+          [36m</button>[39m
+          [36m<div>[39m
+            [36m<p[39m
+              [33mstyle[39m=[32m"color: red;"[39m
+            [36m>[39m
+              [0mFailed to fetch products[0m
+            [36m</p>[39m
+            [36m<button>[39m
+              [0mRetry[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 59 |[39m
+     [90m 60 |[39m   [90m// logout should navigate back to login and reset store[39m
+    [31m[1m>[22m[39m[90m 61 |[39m   userEvent[33m.[39mclick(screen[33m.[39mgetByText([32m'Logout'[39m))
+     [90m    |[39m                          [31m[1m^[22m[39m
+     [90m 62 |[39m   [36mconst[39m state [33m=[39m store[33m.[39mgetState()
+     [90m 63 |[39m   expect(state[33m.[39mauth[33m.[39misLoggedIn)[33m.[39mtoBe([36mfalse[39m)
+     [90m 64 |[39m })[0m
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at getByText (src/Final/tests/Dashboard.test.jsx:61:26)
+      at Generator.call (src/Final/tests/Dashboard.test.jsx:2:1)
+      at Generator._invoke [as next] (src/Final/tests/Dashboard.test.jsx:2:1)
+      at asyncGeneratorStep (src/Final/tests/Dashboard.test.jsx:2:1)
+      at asyncGeneratorStep (src/Final/tests/Dashboard.test.jsx:2:1)
+
+PASS src/Final/tests/ProductList.test.jsx
+PASS src/Final/tests/authSlice.test.js
+FAIL src/Final/tests/routerNavigation.test.jsx
+  ● Test suite failed to run
+
+    Jest encountered an unexpected token
+
+    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.
+
+    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.
+
+    By default "node_modules" folder is ignored by transformers.
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/ecmascript-modules for how to enable it.
+     • If you are trying to use TypeScript, see https://jestjs.io/docs/getting-started#using-typescript
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation, specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/configuration
+    For information about custom transformations, see:
+    https://jestjs.io/docs/code-transformation
+
+    Details:
+
+    SyntaxError: F:\Github\studies\react\react-projects\jest\src\Final\styles\app.css: Missing semicolon. (1:4)
+
+    [0m[31m[1m>[22m[39m[90m 1 |[39m body { font[33m-[39mfamily[33m:[39m [33mArial[39m[33m,[39m sans[33m-[39mserif[33m;[39m background[33m:[39m[33m#[39mf4f6f8[33m;[39m margin[33m:[39m[35m0[39m[33m;[39m padding[33m:[39m[35m0[39m }
+     [90m   |[39m     [31m[1m^[22m[39m
+     [90m 2 |[39m [33m.[39mpage { display[33m:[39mflex[33m;[39m align[33m-[39mitems[33m:[39mcenter[33m;[39m justify[33m-[39mcontent[33m:[39mcenter[33m;[39m height[33m:[39m[35m100[39mvh }
+     [90m 3 |[39m [33m.[39mcard { background[33m:[39mwhite[33m;[39m padding[33m:[39m[35m24[39mpx[33m;[39m border[33m-[39mradius[33m:[39m[35m8[39mpx[33m;[39m box[33m-[39mshadow[33m:[39m[35m0[39m [35m6[39mpx [35m18[39mpx rgba([35m0[39m[33m,[39m[35m0[39m[33m,[39m[35m0[39m[33m,[39m[35m0.08[39m)[33m;[39m width[33m:[39m[35m320[39mpx }
+     [90m 4 |[39m [33m.[39mcard h1 { margin[33m-[39mtop[33m:[39m[35m0[39m }[0m
+
+    [0m [90m 3 |[39m [36mimport[39m {login} [36mfrom[39m [32m'../features/auth/authSlice'[39m
+     [90m 4 |[39m [36mimport[39m {useNavigate} [36mfrom[39m [32m'react-router-dom'[39m
+    [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m [32m'../styles/app.css'[39m
+     [90m   |[39m [31m[1m^[22m[39m
+     [90m 6 |[39m
+     [90m 7 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLogin[39m(){
+     [90m 8 |[39m   [36mconst[39m [username[33m,[39m setUsername] [33m=[39m useState([32m''[39m)[0m
+
+      at constructor (node_modules/@babel/parser/src/parse-error.ts:95:45)
+          at parser.next (<anonymous>)
+          at normalizeFile.next (<anonymous>)
+          at run.next (<anonymous>)
+          at transform.next (<anonymous>)
+      at Object.require (src/Final/pages/Login.jsx:5:1)
+      at Object.require (src/Final/routes/AppRouter.jsx:3:1)
+      at Object.require (src/Final/tests/routerNavigation.test.jsx:6:1)
+
+FAIL src/Final/tests/Login.test.jsx
+  ● Test suite failed to run
+
+    Jest encountered an unexpected token
+
+    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.
+
+    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.
+
+    By default "node_modules" folder is ignored by transformers.
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/ecmascript-modules for how to enable it.
+     • If you are trying to use TypeScript, see https://jestjs.io/docs/getting-started#using-typescript
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation, specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/configuration
+    For information about custom transformations, see:
+    https://jestjs.io/docs/code-transformation
+
+    Details:
+
+    SyntaxError: F:\Github\studies\react\react-projects\jest\src\Final\styles\app.css: Missing semicolon. (1:4)
+
+    [0m[31m[1m>[22m[39m[90m 1 |[39m body { font[33m-[39mfamily[33m:[39m [33mArial[39m[33m,[39m sans[33m-[39mserif[33m;[39m background[33m:[39m[33m#[39mf4f6f8[33m;[39m margin[33m:[39m[35m0[39m[33m;[39m padding[33m:[39m[35m0[39m }
+     [90m   |[39m     [31m[1m^[22m[39m
+     [90m 2 |[39m [33m.[39mpage { display[33m:[39mflex[33m;[39m align[33m-[39mitems[33m:[39mcenter[33m;[39m justify[33m-[39mcontent[33m:[39mcenter[33m;[39m height[33m:[39m[35m100[39mvh }
+     [90m 3 |[39m [33m.[39mcard { background[33m:[39mwhite[33m;[39m padding[33m:[39m[35m24[39mpx[33m;[39m border[33m-[39mradius[33m:[39m[35m8[39mpx[33m;[39m box[33m-[39mshadow[33m:[39m[35m0[39m [35m6[39mpx [35m18[39mpx rgba([35m0[39m[33m,[39m[35m0[39m[33m,[39m[35m0[39m[33m,[39m[35m0.08[39m)[33m;[39m width[33m:[39m[35m320[39mpx }
+     [90m 4 |[39m [33m.[39mcard h1 { margin[33m-[39mtop[33m:[39m[35m0[39m }[0m
+
+    [0m [90m 3 |[39m [36mimport[39m {login} [36mfrom[39m [32m'../features/auth/authSlice'[39m
+     [90m 4 |[39m [36mimport[39m {useNavigate} [36mfrom[39m [32m'react-router-dom'[39m
+    [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m [32m'../styles/app.css'[39m
+     [90m   |[39m [31m[1m^[22m[39m
+     [90m 6 |[39m
+     [90m 7 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLogin[39m(){
+     [90m 8 |[39m   [36mconst[39m [username[33m,[39m setUsername] [33m=[39m useState([32m''[39m)[0m
+
+      at constructor (node_modules/@babel/parser/src/parse-error.ts:95:45)
+          at parser.next (<anonymous>)
+          at normalizeFile.next (<anonymous>)
+          at run.next (<anonymous>)
+          at transform.next (<anonymous>)
+      at Object.require (src/Final/pages/Login.jsx:5:1)
+      at Object.require (src/Final/tests/Login.test.jsx:7:1)
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   82.69 |    71.42 |   78.57 |    82.6 |                   
+ api               |   63.63 |    33.33 |   66.66 |      60 |                   
+  handlers.js      |   33.33 |        0 |      50 |   33.33 | 14-18             
+  productsApi.js   |     100 |      100 |     100 |     100 |                   
+ app               |     100 |      100 |     100 |     100 |                   
+  store.js         |     100 |      100 |     100 |     100 |                   
+ components        |     100 |      100 |     100 |     100 |                   
+  ErrorMessage.jsx |     100 |      100 |     100 |     100 |                   
+  ProductList.jsx  |     100 |      100 |     100 |     100 |                   
+ features/auth     |    90.9 |      100 |      75 |     100 |                   
+  authSelectors.js |      75 |      100 |      50 |     100 |                   
+  authSlice.js     |     100 |      100 |     100 |     100 |                   
+ pages             |      50 |      100 |      50 |      50 |                   
+  Dashboard.jsx    |      50 |      100 |      50 |      50 | 14-17             
+ tests/msw         |     100 |      100 |     100 |     100 |                   
+  server.js        |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+Test Suites: 3 failed, 2 passed, 5 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        3.67 s, estimated 17 s
+Ran all test suites matching src/Final/tests.

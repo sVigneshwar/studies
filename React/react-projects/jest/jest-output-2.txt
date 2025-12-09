@@ -1,0 +1,288 @@
+
+> jest@0.0.0 test
+> jest --testPathPatterns=src/Final/tests --runInBand --coverage
+
+FAIL src/Final/tests/Dashboard.test.jsx
+  ● shows loading and product list, retry and logout flows
+
+    Unable to find an element with the text: /Failed to fetch products/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div>[39m
+          [36m<h1>[39m
+            [0mDashboard[0m
+          [36m</h1>[39m
+          [36m<p>[39m
+            [0mWelcome [0m
+            [0mGuest[0m
+          [36m</p>[39m
+          [36m<button>[39m
+            [0mLogout[0m
+          [36m</button>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"product-list"[39m
+          [36m>[39m
+            [36m<ul>[39m
+              [36m<li>[39m
+                [0mProduct 1[0m
+              [36m</li>[39m
+              [36m<li>[39m
+                [0mProduct 2[0m
+              [36m</li>[39m
+              [36m<li>[39m
+                [0mProduct 3[0m
+              [36m</li>[39m
+            [36m</ul>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 42 |[39m   )
+     [90m 43 |[39m
+    [31m[1m>[22m[39m[90m 44 |[39m   [36mconst[39m errorMsg [33m=[39m [36mawait[39m screen[33m.[39mfindByText([35m/Failed to fetch products/i[39m)
+     [90m    |[39m                                 [31m[1m^[22m[39m
+     [90m 45 |[39m   expect(errorMsg)[33m.[39mtoBeInTheDocument()
+     [90m 46 |[39m
+     [90m 47 |[39m   [90m// now restore success handler and click Retry to re-fetch[39m[0m
+
+      at waitForWrapper (node_modules/@testing-library/dom/dist/wait-for.js:163:27)
+      at findByText (src/Final/tests/Dashboard.test.jsx:44:33)
+      at Generator.call (src/Final/tests/Dashboard.test.jsx:2:1)
+      at Generator._invoke [as next] (src/Final/tests/Dashboard.test.jsx:2:1)
+      at asyncGeneratorStep (src/Final/tests/Dashboard.test.jsx:2:1)
+      at asyncGeneratorStep (src/Final/tests/Dashboard.test.jsx:2:1)
+
+FAIL src/Final/tests/routerNavigation.test.jsx
+  ● redirects to login when not authenticated and allows after login
+
+    TestingLibraryElementError: Found multiple elements with the text: Login
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, script, style
+    [36m<h1>[39m
+      [0mLogin[0m
+    [36m</h1>[39m
+
+    Ignored nodes: comments, script, style
+    [36m<button[39m
+      [33mtype[39m=[32m"submit"[39m
+    [36m>[39m
+      [0mLogin[0m
+    [36m</button>[39m
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"page"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"card"[39m
+          [36m>[39m
+            [36m<h1>[39m
+              [0mLogin[0m
+            [36m</h1>[39m
+            [36m<form>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"username"[39m
+                [33mplaceholder[39m=[32m"Username"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"password"[39m
+                [33mplaceholder[39m=[32m"Password"[39m
+                [33mtype[39m=[32m"password"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<button[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mLogin[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 16 |[39m     [33m<[39m[33m/[39m[33mProvider[39m[33m>[39m
+     [90m 17 |[39m   )
+    [31m[1m>[22m[39m[90m 18 |[39m   expect(screen[33m.[39mgetByText([32m'Login'[39m))[33m.[39mtoBeInTheDocument()
+     [90m    |[39m                 [31m[1m^[22m[39m
+     [90m 19 |[39m   
+     [90m 20 |[39m   [90m// simulate login and re-render[39m
+     [90m 21 |[39m   store[33m.[39mdispatch(login({name[33m:[39m[32m'user'[39m}))[0m
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at Object.getByText (src/Final/tests/routerNavigation.test.jsx:18:17)
+
+FAIL src/Final/tests/Login.test.jsx
+  ● shows validation errors and invalid login flow
+
+    TestingLibraryElementError: Found multiple elements with the text: Login
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, script, style
+    [36m<h1>[39m
+      [0mLogin[0m
+    [36m</h1>[39m
+
+    Ignored nodes: comments, script, style
+    [36m<button[39m
+      [33mtype[39m=[32m"submit"[39m
+    [36m>[39m
+      [0mLogin[0m
+    [36m</button>[39m
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"page"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"card"[39m
+          [36m>[39m
+            [36m<h1>[39m
+              [0mLogin[0m
+            [36m</h1>[39m
+            [36m<form>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"username"[39m
+                [33mplaceholder[39m=[32m"Username"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"password"[39m
+                [33mplaceholder[39m=[32m"Password"[39m
+                [33mtype[39m=[32m"password"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<button[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mLogin[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 17 |[39m
+     [90m 18 |[39m   [90m// submit empty[39m
+    [31m[1m>[22m[39m[90m 19 |[39m   userEvent[33m.[39mclick(screen[33m.[39mgetByText([32m'Login'[39m))
+     [90m    |[39m                          [31m[1m^[22m[39m
+     [90m 20 |[39m   expect(screen[33m.[39mgetByText([32m'Both fields required'[39m))[33m.[39mtoBeInTheDocument()
+     [90m 21 |[39m
+     [90m 22 |[39m   [90m// invalid credentials[39m[0m
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at Object.getByText (src/Final/tests/Login.test.jsx:19:26)
+
+  ● successful login navigates to /dashboard
+
+    TestingLibraryElementError: Found multiple elements with the text: Login
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, script, style
+    [36m<h1>[39m
+      [0mLogin[0m
+    [36m</h1>[39m
+
+    Ignored nodes: comments, script, style
+    [36m<button[39m
+      [33mtype[39m=[32m"submit"[39m
+    [36m>[39m
+      [0mLogin[0m
+    [36m</button>[39m
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"page"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"card"[39m
+          [36m>[39m
+            [36m<h1>[39m
+              [0mLogin[0m
+            [36m</h1>[39m
+            [36m<form>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"username"[39m
+                [33mplaceholder[39m=[32m"Username"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"password"[39m
+                [33mplaceholder[39m=[32m"Password"[39m
+                [33mtype[39m=[32m"password"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<button[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mLogin[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 38 |[39m   userEvent[33m.[39mtype(screen[33m.[39mgetByLabelText([32m'username'[39m)[33m,[39m [32m'kminchelle'[39m)
+     [90m 39 |[39m   userEvent[33m.[39mtype(screen[33m.[39mgetByLabelText([32m'password'[39m)[33m,[39m [32m'0lelplR'[39m)
+    [31m[1m>[22m[39m[90m 40 |[39m   userEvent[33m.[39mclick(screen[33m.[39mgetByText([32m'Login'[39m))
+     [90m    |[39m                          [31m[1m^[22m[39m
+     [90m 41 |[39m
+     [90m 42 |[39m   [90m// store should be updated[39m
+     [90m 43 |[39m   [36mconst[39m state [33m=[39m store[33m.[39mgetState()[0m
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at Object.getByText (src/Final/tests/Login.test.jsx:40:26)
+
+PASS src/Final/tests/ProductList.test.jsx
+PASS src/Final/tests/authSlice.test.js
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   67.94 |       50 |      75 |   65.27 |                   
+ api               |   63.63 |    33.33 |   66.66 |      60 |                   
+  handlers.js      |   33.33 |        0 |      50 |   33.33 | 14-18             
+  productsApi.js   |     100 |      100 |     100 |     100 |                   
+ app               |     100 |      100 |     100 |     100 |                   
+  store.js         |     100 |      100 |     100 |     100 |                   
+ components        |     100 |      100 |     100 |     100 |                   
+  ErrorMessage.jsx |     100 |      100 |     100 |     100 |                   
+  ProductList.jsx  |     100 |      100 |     100 |     100 |                   
+ features/auth     |     100 |      100 |     100 |     100 |                   
+  authSelectors.js |     100 |      100 |     100 |     100 |                   
+  authSlice.js     |     100 |      100 |     100 |     100 |                   
+ pages             |   32.25 |       30 |   33.33 |   32.25 |                   
+  Dashboard.jsx    |      50 |      100 |      50 |      50 | 14-17             
+  Login.jsx        |   26.08 |     12.5 |      25 |   26.08 | 15-37,47-48       
+ routes            |     100 |       50 |     100 |     100 |                   
+  AppRouter.jsx    |     100 |       50 |     100 |     100 | 10                
+ tests/msw         |     100 |      100 |     100 |     100 |                   
+  server.js        |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 3 failed, 2 passed, 5 total
+Tests:       4 failed, 2 passed, 6 total
+Snapshots:   0 total
+Time:        4.515 s, estimated 17 s
+Ran all test suites matching src/Final/tests.

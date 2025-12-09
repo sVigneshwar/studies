@@ -13,5 +13,8 @@ export default {
   setupFiles: ["<rootDir>/jest.globals.js"],
   
   // Setup files for MSW and @testing-library/jest-dom setup
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
+  setupFilesAfterEnv: ["<rootDir>/src/Final/tests/setupTests.js"],
+  moduleNameMapper: {
+    '^.+\\.css$': '<rootDir>/__mocks__/styleMock.js'
+  }
 };

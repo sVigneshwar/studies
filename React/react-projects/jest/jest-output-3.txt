@@ -1,0 +1,160 @@
+
+> jest@0.0.0 test
+> jest --testPathPatterns=src/Final/tests --runInBand --coverage
+
+PASS src/Final/tests/Dashboard.test.jsx
+FAIL src/Final/tests/Login.test.jsx
+  ● shows validation errors and invalid login flow
+
+    TestingLibraryElementError: Unable to find an element with the text: Both fields required. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"page"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"card"[39m
+          [36m>[39m
+            [36m<h1>[39m
+              [0mLogin[0m
+            [36m</h1>[39m
+            [36m<form>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"username"[39m
+                [33mplaceholder[39m=[32m"Username"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<input[39m
+                [33maria-label[39m=[32m"password"[39m
+                [33mplaceholder[39m=[32m"Password"[39m
+                [33mtype[39m=[32m"password"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+              [36m<button[39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0mLogin[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 18 |[39m   [90m// submit empty (click the submit button)[39m
+     [90m 19 |[39m   userEvent[33m.[39mclick(screen[33m.[39mgetByRole([32m'button'[39m[33m,[39m { name[33m:[39m [35m/login/i[39m }))
+    [31m[1m>[22m[39m[90m 20 |[39m   expect(screen[33m.[39mgetByText([32m'Both fields required'[39m))[33m.[39mtoBeInTheDocument()
+     [90m    |[39m                 [31m[1m^[22m[39m
+     [90m 21 |[39m
+     [90m 22 |[39m   [90m// invalid credentials[39m
+     [90m 23 |[39m   userEvent[33m.[39mtype(screen[33m.[39mgetByLabelText([32m'username'[39m)[33m,[39m [32m'bad'[39m)[0m
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at Object.getByText (src/Final/tests/Login.test.jsx:20:17)
+
+  ● successful login navigates to /dashboard
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+    [0m [90m 42 |[39m   [90m// store should be updated[39m
+     [90m 43 |[39m   [36mconst[39m state [33m=[39m store[33m.[39mgetState()
+    [31m[1m>[22m[39m[90m 44 |[39m   expect(state[33m.[39mauth[33m.[39misLoggedIn)[33m.[39mtoBe([36mtrue[39m)
+     [90m    |[39m                                 [31m[1m^[22m[39m
+     [90m 45 |[39m })
+     [90m 46 |[39m[0m
+
+      at Object.toBe (src/Final/tests/Login.test.jsx:44:33)
+
+PASS src/Final/tests/routerNavigation.test.jsx
+  ● Console
+
+    console.error
+      An update to ProductList inside a test was not wrapped in act(...).
+      
+      When testing, code that causes React state updates should be wrapped into act(...):
+      
+      act(() => {
+        /* fire events that update state */
+      });
+      /* assert on the output */
+      
+      This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+    [0m [90m 13 |[39m     [36mtry[39m{
+     [90m 14 |[39m       [36mconst[39m data [33m=[39m [36mawait[39m fetchProducts()
+    [31m[1m>[22m[39m[90m 15 |[39m       setProducts(data)
+     [90m    |[39m       [31m[1m^[22m[39m
+     [90m 16 |[39m     }[36mcatch[39m(e){
+     [90m 17 |[39m       setError(e[33m.[39mmessage)
+     [90m 18 |[39m     }[36mfinally[39m{[0m
+
+      at error (node_modules/react-dom/cjs/react-dom-client.development.js:18758:19)
+      at setProducts (src/Final/components/ProductList.jsx:15:7)
+      at Generator.call (src/Final/components/ProductList.jsx:2:1)
+      at Generator._invoke [as next] (src/Final/components/ProductList.jsx:2:1)
+      at asyncGeneratorStep (src/Final/components/ProductList.jsx:2:1)
+      at asyncGeneratorStep (src/Final/components/ProductList.jsx:2:1)
+
+    console.error
+      An update to ProductList inside a test was not wrapped in act(...).
+      
+      When testing, code that causes React state updates should be wrapped into act(...):
+      
+      act(() => {
+        /* fire events that update state */
+      });
+      /* assert on the output */
+      
+      This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+    [0m [90m 17 |[39m       setError(e[33m.[39mmessage)
+     [90m 18 |[39m     }[36mfinally[39m{
+    [31m[1m>[22m[39m[90m 19 |[39m       setLoading([36mfalse[39m)
+     [90m    |[39m       [31m[1m^[22m[39m
+     [90m 20 |[39m     }
+     [90m 21 |[39m   }
+     [90m 22 |[39m[0m
+
+      at error (node_modules/react-dom/cjs/react-dom-client.development.js:18758:19)
+      at setLoading (src/Final/components/ProductList.jsx:19:7)
+      at Generator.call (src/Final/components/ProductList.jsx:2:1)
+      at Generator._invoke [as next] (src/Final/components/ProductList.jsx:2:1)
+      at asyncGeneratorStep (src/Final/components/ProductList.jsx:2:1)
+      at asyncGeneratorStep (src/Final/components/ProductList.jsx:2:1)
+
+PASS src/Final/tests/ProductList.test.jsx
+PASS src/Final/tests/authSlice.test.js
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   67.94 |    54.16 |      75 |   65.27 |                   
+ api               |   63.63 |    33.33 |   66.66 |      60 |                   
+  handlers.js      |   33.33 |        0 |      50 |   33.33 | 14-18             
+  productsApi.js   |     100 |      100 |     100 |     100 |                   
+ app               |     100 |      100 |     100 |     100 |                   
+  store.js         |     100 |      100 |     100 |     100 |                   
+ components        |     100 |      100 |     100 |     100 |                   
+  ErrorMessage.jsx |     100 |      100 |     100 |     100 |                   
+  ProductList.jsx  |     100 |      100 |     100 |     100 |                   
+ features/auth     |     100 |      100 |     100 |     100 |                   
+  authSelectors.js |     100 |      100 |     100 |     100 |                   
+  authSlice.js     |     100 |      100 |     100 |     100 |                   
+ pages             |   32.25 |       30 |   33.33 |   32.25 |                   
+  Dashboard.jsx    |      50 |      100 |      50 |      50 | 14-17             
+  Login.jsx        |   26.08 |     12.5 |      25 |   26.08 | 15-37,47-48       
+ routes            |     100 |      100 |     100 |     100 |                   
+  AppRouter.jsx    |     100 |      100 |     100 |     100 |                   
+ tests/msw         |     100 |      100 |     100 |     100 |                   
+  server.js        |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 1 failed, 4 passed, 5 total
+Tests:       2 failed, 4 passed, 6 total
+Snapshots:   0 total
+Time:        4.143 s
+Ran all test suites matching src/Final/tests.
