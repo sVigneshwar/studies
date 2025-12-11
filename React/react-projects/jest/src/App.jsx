@@ -9,7 +9,7 @@ import Day7 from './test/day7/Day7'
 import Day8 from './test/day8/redux/Day8'
 import {Provider} from 'react-redux'
 import Day8b from './test/day8/rtk/Day8b'
-import {store} from './test/day8/rtk/store'
+// import {store} from './test/day8/rtk/store'
 import Application from './test2/Application/Application'
 import Skills from './test2/Skills/Skills'
 import Counter from './test2/Counter/Counter'
@@ -17,6 +17,9 @@ import Counter2 from './test2/Counter2/Counter2'
 import Multiplier from './test2/Counter2/Multiplier'
 import Users from './test2/Users/Users'
 import FinalApp from './Final/App'
+import AppRouter from './FinalTest/routes/AppRouter'
+import {store} from './FinalTest/store/store'
+import { Provider as ReduxProvider } from 'react-redux'
 
 export default function App() {
   return (
@@ -26,7 +29,12 @@ export default function App() {
       {/* <Counter /> */}
       {/* <Counter2 prop={{count:0, increment: val => val+1, decrement: val => val-1}} /> */}
       {/* <Multiplier calculate={(val) => val*2} /> */}
-      <FinalApp />
+      {/* <FinalApp /> */}
+      
+      <ReduxProvider store={store}>
+        <AppRouter />
+      </ReduxProvider>
+
     </div>
   )
 }

@@ -1,0 +1,120 @@
+Final/
+ ├── api/
+ │    ├── productsApi.js          ← RTK Query or axios wrapper
+ │    └── handlers.js             ← MSW handlers
+ │
+ ├── app/
+ │    ├── store.js                ← Redux store setup
+ │    └── rootReducer.js
+ │
+ ├── features/
+ │    └── auth/
+ │         ├── authSlice.js       ← login/logout reducer
+ │         └── authSelectors.js
+ │
+ ├── components/
+ │    ├── ErrorMessage.jsx        ← Reusable error UI
+ │    └── ProductList.jsx         ← Shows API list (called inside Dashboard)
+ │
+ ├── pages/
+ │    ├── Login.jsx               ← Hook form + login
+ │    └── Dashboard.jsx           ← Fetch + logout
+ │
+ ├── hooks/
+ │    └── useAuth.js              ← Optional helper hook
+ │
+ ├── routes/
+ │    └── AppRouter.jsx           ← <Routes> setup
+ │
+ ├── tests/
+ │    ├── Login.test.jsx
+ │    ├── Dashboard.test.jsx
+ │    ├── authSlice.test.js
+ │    ├── ProductList.test.jsx
+ │    ├── routerNavigation.test.jsx
+ │    ├── msw/
+ │    │     ├── server.js         ← setupServer()
+ │    │     └── handlers.js       ← API mocks
+ │    └── setupTests.js           ← RTL config + MSW
+ │
+ ├── App.jsx
+ └── main.jsx
+
+
+ 🧪 What You Will Test (Test Scenarios)
+
+Here are the exact tests you must write:
+
+1️⃣ Login Page Tests
+
+Should show validation errors
+
+Should call login on valid submit
+
+Should navigate to /dashboard
+
+Should show "Invalid login" on error
+
+2️⃣ Dashboard Tests
+
+Should display loading state
+
+Should show product list (mocked via MSW)
+
+Should show error UI on failed fetch
+
+Retry button should re-fetch
+
+Logout should clear store + go to login
+
+3️⃣ Redux Slice Test
+
+login() sets user + isLoggedIn
+
+logout() resets state
+
+4️⃣ ProductList Tests
+
+Renders list items
+
+Shows error UI if API handler returns error
+
+5️⃣ Router Navigation Tests
+
+Visiting /dashboard while logged out → redirect to /login
+
+After login → navigating to /dashboard allowed
+
+🎯 This Project Locks Every Skill
+
+By completing this, you master:
+
+RTL basics
+
+Redux testing
+
+RTK Query / Axios mocking
+
+MSW server tests
+
+Router tests
+
+Form validation tests
+
+Error flows
+
+Async testing
+
+Integration + unit tests
+
+This becomes your portfolio-level Jest knowledge.
+
+If you want, I can generate:
+
+▶ Step-by-step implementation plan
+▶ Boilerplate UI (HTML only, no logic)
+▶ The test cases skeletons
+▶ The MSW handlers
+▶ The auth flow logic
+
+Just tell me what part you want next.

@@ -213,6 +213,14 @@ use abroad tips folder docx from git to tailor any resume and job check.
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 
+whatever you know about me tell me the gaps in my knowledge
+what dont i know
+what am i missing
+what are the gaps in my reasoning
+
+confidence score
+how confidence are you about this
+
 -------------------
 
 npm create vite@latest
