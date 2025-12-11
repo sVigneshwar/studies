@@ -1,4 +1,4 @@
-import authReducer, {login, logout} from '../../Final/features/auth/authSlice'
+import authReducer, {login, logout} from '../features/auth/authSlice'
 
 test('login and logout reducers', ()=>{
   let state = authReducer(undefined, {type: 'init'})
