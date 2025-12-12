@@ -51,6 +51,7 @@ export default function Login() {
                     type="text" 
                     {...register('name', { required: 'Name is required' })}
                     value={name} onChange={e => setName(e.target.value)}
+                    placeholder='name'
                 />
                 {errors.name && <p>{errors.name.message}</p>}
             </div>
@@ -60,6 +61,7 @@ export default function Login() {
                     type="password" 
                     {...register('password', { required: 'Password is required' })}
                     value={password} onChange={e => setPassword(e.target.value)}
+                    placeholder='password'
                 />
                 {errors.password && <p>{errors.password.message}</p>}
             </div>
