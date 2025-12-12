@@ -194,7 +194,7 @@ RTK Query	4 days	~8 hrs	Practice queries & mutations [COMPLETED]
 Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
 🔐 3	JWT Auth	5 days	~10 hrs	Full login/logout + token handling [COMPLETED]
 🧠 4	Formik / React Hook Form	4 days	~8 hrs	Form building + validation [COMPLETED]
-🧪 5	Jest + RTL (Testing)	10 days	~20 hrs	Unit & integration testing
+🧪 5	Jest + RTL (Testing)	10 days	~20 hrs	Unit & integration testing [COMPLETED]
 💪 6	TypeScript	12 days	~24 hrs	Deep but fast — focus on React integration
 ⚙️ 7	CI/CD Pipeline	3 days	~6 hrs	GitHub Actions + Vercel deploy
 ⚛️ 8	Next.js (Full Framework Mastery)	20 days	~40 hrs	App Router, SSR/SSG/ISR, API Routes, Metadata, Middleware, Auth, Deployment
@@ -212,6 +212,10 @@ Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
 use abroad tips folder docx from git to tailor any resume and job check.
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
+
+can we move to next topic, [TypeScript	12 days	~24 hrs	Deep but fast — focus on React integration] i think i have completed [Jest + RTL (Testing)	10 days	~20 hrs	Unit & integration testing]
+
+-------------------
 
 whatever you know about me tell me the gaps in my knowledge
 what dont i know

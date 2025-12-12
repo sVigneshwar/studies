@@ -1,0 +1,63 @@
+Final TypeScript Study Plan (12 Days – Optimized)
+
+═══════════════════════════════════════════════════════════════
+
+🔹 Phase 1: Core TypeScript (Days 1–3)
+    Goal: Stop writing JS-with-errors
+
+    • string | number | boolean
+    • array, tuple
+    • type vs interface (very important)
+    • Optional props ?
+    • Union & narrowing
+    • Literal types
+    • Enums (when to avoid them)
+
+    👉 Outcome: You can read TS errors and fix them confidently
+
+───────────────────────────────────────────────────────────────
+
+🔹 Phase 2: TypeScript + React Fundamentals (Days 4–6)
+    Goal: Write React like a senior dev
+
+    • Typing useState
+    • Typing props correctly
+    • Children typing (ReactNode)
+    • Event typing (ChangeEvent, MouseEvent)
+    • Typing useRef
+    • Controlled forms with TS
+    • Conditional rendering with union types
+
+    👉 Outcome: You stop fighting TypeScript in React components
+
+───────────────────────────────────────────────────────────────
+
+🔹 Phase 3: Advanced React + TS Patterns (Days 7–9)
+    Goal: Match real-world job code
+
+    • Generics (must-know)
+    • Typed custom hooks
+    • Context API with TS
+    • Reducers with TS
+    • Discriminated unions
+    • Utility types: Partial, Pick, Omit, Record
+    • Avoiding any properly
+
+    👉 Outcome: Your code looks production-grade
+
+───────────────────────────────────────────────────────────────
+
+🔹 Phase 4: Ecosystem Integration (Days 10–12)
+    Goal: Be job-ready
+
+    • Redux Toolkit + TS
+    • RTK Query + TS
+    • Axios API typing
+    • Error handling types
+    • TS with RTL & Jest
+    • Migrating JS → TS (real scenario)
+    • Resume-ready TS patterns
+
+    👉 Outcome: You can say "TypeScript – Advanced (React)" confidently
+
+═══════════════════════════════════════════════════════════════
