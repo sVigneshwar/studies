@@ -1,0 +1,105 @@
+i have created content for my resume from scratch, can you review my content and let me know if anything needed to be tweaked.
+i have added "doubts", "changes", "addons" inbetween content.
+
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+section 1: personal details
+VIGNESHWAR S  
+Frontend developer (React)
+Dooubt: for this points i have doubt, i am currently working as a web developer in zoho, so should my title be web dev or frontend dev?
+Email: vigneshwar.s1996@gmail.com  
+Phone: +91 9500013901  
+Location: Chennai, India — Open to International Relocation    
+GitHub: github.com/sVigneshwar  
+-------------------------------------------
+section 2: summary
+Frontend Engineer with 7+ years of experience building scalable, high-performance, and user-focused web applications. Currently specializing in React, modern JavaScript, UI engineering, accessibility, and performance optimization. Proven track record at Zoho Corporation in leading end-to-end development for large user bases, improving performance, and ensuring WCAG accessibility across high-traffic global websites and collaborating closely with design and product teams. Focused on building polished, intuitive interfaces aligned with modern industry standards.
+
+-------------------------------------------
+section 3: technical skills
+
+Frontend: React, JavaScript (ES6+), React Hooks, Redux Toolkit, RTK Query, Web Components, jQuery  
+UI/Design: HTML5, CSS3, SCSS, LESS, Responsive Design, Bootstrap, Figma, Adobe XD/Photoshop.
+Testing & Tools: Jest, React Testing Library, MSW, Webpack, Vite, Git, npm.
+Specialized: Accessibility (WCAG/a11y), SEO Optimization, Performance Tuning (Lazy Loading, Memoization)
+APIs & Data: REST APIs, JSON, async patterns  
+
+-------------------------------------------
+section 4: expericnce
+
+Web Developer — ZOHO Corporation  
+Feb 2020 – Present
+
+• Web developer in the Zoho Japan Web Team, handling end-to-end development and maintenance of multiple Zoho Japan product websites (CRM, Desk, Campaigns, Zoho One, etc.).
+• Led end-to-end frontend development of the Zoho CRM Japan Academy platform, implementing OTP-based authentication, user history tracking, and learning progress tracking.
+• Enabled onboarding of thousands of new users by building stable, performant, and intuitive learning interfaces for first-time CRM users.
+• Improved application performance through memoization, bundle optimization, and strategic lazy loading, resulting in improved Lighthouse scores.
+• Worked extensively on SEO improvements and WCAG accessibility compliance across Zoho Japan websites and ManageEngine products.
+• Collaborated closely with designers and product managers to deliver accessible, cross-browser UI features.
+• Built reusable UI components and contributed to shared Web Components used across multiple ManageEngine products.
+
+UI Developer — K2B Solutions (Jan 2018 – Feb 2020)
+•	Built responsive, production interfaces with pixel-accurate design fidelity.
+•	Integrated APIs and optimized load performance across multiple projects.
+
+UI / UX Design Intern — Doodleblue Innovations (Oct 2017 – Dec 2017)
+•	Worked on wireframes, UI foundations, and responsive design systems.
+
+
+-------------------------------------------
+section 5: projects and showcase (need a nice work for this, since i am telling my projects and some tools i have build using AI)
+
+Zoho CRM Japan Academy Platform
+Tech: JavaScript, REST APIs, LESS, Zoho Creator
+https://www.zoho.com/jp/crm/academy/
+• Built a full authentication and learning platform for onboarding new CRM users in Japan.
+• Implemented OTP-based login, user history tracking, and learning progress tracking.
+• Optimized page performance using image lazy loading and frontend best practices.
+• Collaborated with design, backend, and content teams to support large-scale user adoption.
+
+Zoho Events Platforms — Zoholics & Zoho Inspire
+Tech: JavaScript, Less
+https://www.zoho.com/jp/zoholicsjapan2022/
+https://www.zoho.com/jp/zohoinspire2023/
+• Handled frontend user flows for large-scale Zoho Japan events platforms.
+• Implemented responsive UI and optimized user experience for event registrations and content access.
+
+Developer Productivity Tools (AI-assisted - ChatGPT, Claude)
+• Built a Chrome extension to automate SEO and quality checks (titles, meta descriptions, rich results, breadcrumbs, videos) for academy pages.
+• Created a Chrome plugin to automatically validate and detect errors in email template content.
+• Set up a guided codebase structure to accelerate Web Component development using AI-assisted workflows.
+• Built a pixel-perfect UI validation tool by overlaying design assets on live pages to quickly identify design mismatches.
+
+Personal Projects:
+Weather App
+Tech: React, REST APIs
+https://github.com/sVigneshwar/weather-app
+• Built a React-based weather application using real-time Weather API data.
+• Integrated Pexels Image API to dynamically display city-based visuals.
+• Implemented clean component structure and async data handling.
+
+Mini Product Filter
+Tech: React, Custom Hooks
+https://svigneshwar.github.io/Simple-product-search-filter/
+• Built a debounced product search using a custom useDebouncing hook.
+• Implemented efficient data fetching using a reusable useFetchData hook.
+• Optimized network calls by triggering requests only after user input stabilization.
+
+-------------------------------------------
+section 6: education
+
+EDUCATION
+Bachelor of Engineering — Electronics & Communication
+Jawahar Engineering College (2013 - 2017)
+
+-------------------------------------------
+Section 7: personal (languages)
+
+Languages: Tamil, English, Sourashtra
+
+is this section needed for forign applying, is this relevant?
+
+-------------------------------------------
+
+

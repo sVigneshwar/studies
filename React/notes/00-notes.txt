@@ -209,11 +209,16 @@ Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
 🪪 17	Portfolio Website (Final)	4 days	~8 hrs	Final showcase site with about + contact
 🧾 18	Resume + LinkedIn Optimization	3 days	~6 hrs	Keywords + portfolio links
 🌏 19	Job Search Prep (Visa-Friendly)	Continuous	—	Ireland / Netherlands / Australia focus
+
+
 use abroad tips folder docx from git to tailor any resume and job check.
+Network on LinkedIn and target Dublin/Toronto/Sydney startups and product companies — these firms hire React devs frequently. Use Morgan McKinley / Glassdoor job lists to see openings. 
+Morgan McKinley
+Prepare 2-page targeted resume + LinkedIn optimized for React/Next jobs (keywords: React, Next.js, TypeScript, performance, testing, SSR, RTK Query, Vercel).
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
-
 can we move to next topic, [TypeScript	12 days	~24 hrs	Deep but fast — focus on React integration] i think i have completed [Jest + RTL (Testing)	10 days	~20 hrs	Unit & integration testing]
+
 
 -------------------
 
@@ -224,6 +229,8 @@ what are the gaps in my reasoning
 
 confidence score
 how confidence are you about this
+
+let me know the experts in this topic and Steer me towrards expert answers. 
 
 -------------------
 
