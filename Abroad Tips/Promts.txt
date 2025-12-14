@@ -1,0 +1,34 @@
+For Resume Reviewing:
+You are the world's most sought after resume editor and business writer. You've reviewed thousands of resumes that led to interviews at top tech companies. 
+I'm attaching my resume and the job description for a senior product manager role at a fintech company.
+Review it and give me a bullet list of ten specific ideas on how to improve clarity and add measurable impact – aligned with the role. 
+Your mission is to help me build the best resume that gets me hired
+
+-----------------------------------------------------
+
+For knowledge checking:
+whatever you know about me tell me the gaps in my knowledge
+what dont i know
+what am i missing
+what are the gaps in my reasoning
+
+-----------------------------------------------------
+
+Confidence score:
+how confidence are you about this
+
+-----------------------------------------------------
+
+Get expert result in a topic:
+let me know the experts in this topic and Steer me towrards expert answers. 
+
+
+-----------------------------------------------------
+For Resume Reviewing:
+You are the world's most sought after resume editor and business writer. You've reviewed thousands of resumes that led to interviews at top tech companies. 
+I'm attaching my resume content for a frontend web developer (react) role at a company.
+Review it and let me know if this resume can bypass any AI filtering?
+Your mission is to help me build the best resume that gets me hired.
+
+
+Improved application performance through memoization, bundle optimization, and strategic lazy loading, improving Lighthouse performance scores by ~25%.

@@ -1,29 +1,24 @@
-i have created content for my resume from scratch, can you review my content and let me know if anything needed to be tweaked.
-i have added "doubts", "changes", "addons" inbetween content.
-
--------------------------------------------
--------------------------------------------
--------------------------------------------
 section 1: personal details
 VIGNESHWAR S  
 Frontend developer (React)
-Dooubt: for this points i have doubt, i am currently working as a web developer in zoho, so should my title be web dev or frontend dev?
 Email: vigneshwar.s1996@gmail.com  
 Phone: +91 9500013901  
 Location: Chennai, India — Open to International Relocation    
 GitHub: github.com/sVigneshwar  
 -------------------------------------------
 section 2: summary
-Frontend Engineer with 7+ years of experience building scalable, high-performance, and user-focused web applications. Currently specializing in React, modern JavaScript, UI engineering, accessibility, and performance optimization. Proven track record at Zoho Corporation in leading end-to-end development for large user bases, improving performance, and ensuring WCAG accessibility across high-traffic global websites and collaborating closely with design and product teams. Focused on building polished, intuitive interfaces aligned with modern industry standards.
+Frontend Engineer with 7+ years of experience building scalable, high-performance, and user-focused web applications. Currently specializing in React, modern JavaScript, UI engineering, accessibility (WCAG), and performance optimization. Proven impact at Zoho Corporation delivering frontend systems for large user bases, improving Lighthouse performance, SEO, and accessibility across high-traffic global websites and collaborating closely with design and product teams.
+
 
 -------------------------------------------
 section 3: technical skills
 
-Frontend: React, JavaScript (ES6+), React Hooks, Redux Toolkit, RTK Query, Web Components, jQuery  
-UI/Design: HTML5, CSS3, SCSS, LESS, Responsive Design, Bootstrap, Figma, Adobe XD/Photoshop.
-Testing & Tools: Jest, React Testing Library, MSW, Webpack, Vite, Git, npm.
-Specialized: Accessibility (WCAG/a11y), SEO Optimization, Performance Tuning (Lazy Loading, Memoization)
+Frontend: React, JavaScript (ES6+), React Hooks, Redux Toolkit, RTK Query, Web Components  
+UI Engineering: HTML5, CSS3, SCSS, LESS, Responsive Design, Bootstrap  
+Performance & Accessibility: Lazy Loading, Memoization, Lighthouse Optimization, WCAG (a11y), SEO  
+Testing & Tooling: Jest, React Testing Library, MSW, Webpack, Vite, Git, npm  
 APIs & Data: REST APIs, JSON, async patterns  
+Design Tools: Figma, Adobe Photoshop, Adobe XD, Illustrator  
 
 -------------------------------------------
 section 4: expericnce
@@ -31,8 +26,8 @@ section 4: expericnce
 Web Developer — ZOHO Corporation  
 Feb 2020 – Present
 
-• Web developer in the Zoho Japan Web Team, handling end-to-end development and maintenance of multiple Zoho Japan product websites (CRM, Desk, Campaigns, Zoho One, etc.).
-• Led end-to-end frontend development of the Zoho CRM Japan Academy platform, implementing OTP-based authentication, user history tracking, and learning progress tracking.
+• Core frontend engineer in the Zoho Japan Web Team, owning end-to-end development and maintenance of multiple high-traffic Zoho Japan product websites (CRM, Desk, Campaigns, Zoho One).
+• Led frontend development of the Zoho CRM Japan Academy platform, implementing OTP-based authentication, user history tracking, and learning progress tracking.
 • Enabled onboarding of thousands of new users by building stable, performant, and intuitive learning interfaces for first-time CRM users.
 • Improved application performance through memoization, bundle optimization, and strategic lazy loading, resulting in improved Lighthouse scores.
 • Worked extensively on SEO improvements and WCAG accessibility compliance across Zoho Japan websites and ManageEngine products.
@@ -65,7 +60,7 @@ https://www.zoho.com/jp/zohoinspire2023/
 • Handled frontend user flows for large-scale Zoho Japan events platforms.
 • Implemented responsive UI and optimized user experience for event registrations and content access.
 
-Developer Productivity Tools (AI-assisted - ChatGPT, Claude)
+Developer Productivity Tools (AI-assisted)
 • Built a Chrome extension to automate SEO and quality checks (titles, meta descriptions, rich results, breadcrumbs, videos) for academy pages.
 • Created a Chrome plugin to automatically validate and detect errors in email template content.
 • Set up a guided codebase structure to accelerate Web Component development using AI-assisted workflows.
@@ -98,8 +93,4 @@ Section 7: personal (languages)
 
 Languages: Tamil, English, Sourashtra
 
-is this section needed for forign applying, is this relevant?
-
 -------------------------------------------
-
-

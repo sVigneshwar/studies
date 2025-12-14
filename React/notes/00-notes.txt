@@ -218,27 +218,7 @@ Prepare 2-page targeted resume + LinkedIn optimized for React/Next jobs (keyword
 
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 can we move to next topic, [TypeScript	12 days	~24 hrs	Deep but fast — focus on React integration] i think i have completed [Jest + RTL (Testing)	10 days	~20 hrs	Unit & integration testing]
-
-
 -------------------
-
-whatever you know about me tell me the gaps in my knowledge
-what dont i know
-what am i missing
-what are the gaps in my reasoning
-
-confidence score
-how confidence are you about this
-
-let me know the experts in this topic and Steer me towrards expert answers. 
-
--------------------
-
 npm create vite@latest
-
 npm install react-redux @reduxjs/toolkit react-router-dom axios
-
-
 -------------------
-
-afer studying jest, try some custom react hooks. then go for typescript
