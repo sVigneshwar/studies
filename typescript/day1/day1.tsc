@@ -2,7 +2,7 @@
 //1) what is ts - JS + safety. js error happens at runtime, ts error happens in development
 // ---------------------------------------------------------------
 //2) basic types
-let name:string = "Vicky"
+let name1:string = "Vicky"
 let age:number = 29
 const occupation:boolean = true
 age = 10
@@ -36,7 +36,7 @@ if(typeof value1 === "string"){
 // ---------------------------------------------------------------
 // 5) union types
 
-let status: 'loading'| 'success' | 'error'
+let status1: 'loading'| 'success' | 'error'
 
 status = "loading"
 // status = "done" // this will throw error in ts
