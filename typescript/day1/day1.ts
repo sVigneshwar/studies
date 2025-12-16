@@ -39,7 +39,7 @@ if(typeof value1 === "string"){
 let status: 'loading'| 'success' | 'error'
 
 status = "loading"
-status = "done" // this will throw error in ts
+// status = "done" // this will throw error in ts
 
 // ---------------------------------------------------------------
 // 6) optional properties

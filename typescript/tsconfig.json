@@ -1,9 +1,10 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "lib": ["ES2022"],
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
 
     // File layout - output .js files alongside .ts files
     "rootDir": ".",
@@ -16,7 +17,6 @@
     // Interop / module resolution
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "NodeNext",
 
     // Outputs
     "sourceMap": true,
