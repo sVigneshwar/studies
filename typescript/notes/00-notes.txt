@@ -2,7 +2,7 @@ Final TypeScript Study Plan (12 Days – Optimized)
 
 ═══════════════════════════════════════════════════════════════
 
-🔹 Phase 1: Core TypeScript (Days 1–3)
+🔹 Phase 1: Core TypeScript (Days 1–3) ------- [COMPLETED]
     Goal: Stop writing JS-with-errors
 
     • string | number | boolean
