@@ -1,0 +1,176 @@
+-----------------------------------------------------------------------------------------------
+what and why:
+typescript is a superset of javascript that adds static types. it helps catch errors early and improves code quality.
+-----------------------------------------------------------------------------------------------
+environment setup:
+install node.js and npm
+install typescript globally using npm: npm install -g typescript
+-----------------------------------------------------------------------------------------------
+variable declaration:
+use 'let' and 'const' for variable declarations instead of 'var'
+function scope and block scope differences:
+- 'var' is function-scoped
+- 'let' and 'const' are block-scoped
+example:
+function example() {
+    if (true) {
+        var x = 10; // function-scoped
+        let y = 20; // block-scoped
+    }
+    console.log(x); // works
+    console.log(y); // error: y is not defined
+}
+
+-----------------------------------------------------------------------------------------------
+variable types:
+---------
+- number**
+example:
+let age: number = 25;
+---------
+- string**
+example:
+let name: string = "John";
+---------
+- boolean**
+example:
+let isStudent: boolean = true;
+---------
+- array**
+example:
+let scores: number[] = [90, 85, 88];
+---------
+- tuple**
+example:
+let person: [string, number] = ["Alice", 30];
+---------
+- enum: a way to define a set of named constants**
+example:
+enum Color {
+    Red,
+    Green,
+    Blue
+}
+usage:
+let c: Color = Color.Green;
+---------
+- any**
+example:
+let randomValue: any = 10;
+---------
+- unknown**
+example:
+let notSure: unknown = 4;
+---------
+- void: defines a function that does not return a value
+example:
+function logMessage(): void {
+    console.log("Hello, World!");
+}
+---------
+- null and undefined**
+example:
+let u: undefined = undefined;
+let n: null = null;
+usage:
+let value: number | null = null;
+---------
+- never**
+defines a function that never returns a value, typically because it always throws an error or has an infinite loop
+example:
+function throwError(message: string): never {
+    throw new Error(message);
+}
+usage:
+function infiniteLoop(): never {
+    while (true) {}
+}
+-----------------------------------------------------------------------------------------------
+functions:
+function add(a: number, b: number): number {
+    return a + b;
+}
+-----------------------------------------------------------------------------------------------
+interfaces: interfaces define the structure of an object [can be usefull for registration forms, api responses, etc.]
+interface Person {
+    firstName: string;
+    lastName?: string;
+}
+function fullName(person: Person): string {
+    return `${person.firstName} ${person.lastName}`;
+}
+let p = { firstName: "John", lastName: "Doe" };
+
+fullName(p)
+-----------------------------------------------------------------------------------------------
+classes:
+class Animal {
+    private name: string;
+
+    constructor(name: string) {
+        this.name = name;
+    }
+
+    public move(distance: number): void {
+        console.log(`${this.name} moved ${distance} meters.`);
+    }
+}
+let dog = new Animal("Dog");
+dog.move(10); // Dog moved 10 meters.
+-----------------------------------------------------------------------------------------------
+access modifiers:
+- public: accessible from anywhere (default)
+- private: accessible only within the class
+- protected: accessible within the class and its subclasses
+example:
+class Person {
+    private name: string;
+    protected age: number;
+
+    constructor(name: string, age: number) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public introduce(): void {
+        console.log(`Hi, I'm ${this.name} and I'm ${this.age} years old.`);
+    }
+}
+class Student extends Person {
+    private studentId: number;
+
+    constructor(name: string, age: number, studentId: number) {
+        super(name, age);
+        this.studentId = studentId;
+    }
+
+    public showId(): void {
+        console.log(`My student ID is ${this.studentId}.`);
+    }
+}
+let student = new Student("Alice", 20, 12345);
+student.introduce(); // Hi, I'm Alice and I'm 20 years old.
+student.showId(); // My student ID is 12345.
+-----------------------------------------------------------------------------------------------
+union and intersection types and literal types:
+example of union type:
+let value: number | string;
+usage:
+value = 42;
+value = "Hello";
+---------
+example of intersection type:
+interface A {
+    a: number;
+}
+interface B {
+    b: string;
+}
+usage:
+let ab: A & B = { a: 10, b: "Hello" };
+---------
+example of literal type:
+let direction: "up" | "down" | "left" | "right";
+usage:
+direction = "up";
+-----------------------------------------------------------------------------------------------
