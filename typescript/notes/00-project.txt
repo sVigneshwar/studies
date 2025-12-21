@@ -1,0 +1,12 @@
+expense tracker:
+1) add expense
+ - name
+ - price
+ - category
+ - date
+
+2) edit expense - new page
+
+3) dashboard:
+show expense based on date - click to show more opens "all expense page"
+show total expenses chart with pie chart

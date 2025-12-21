@@ -6,6 +6,28 @@ environment setup:
 install node.js and npm
 install typescript globally using npm: npm install -g typescript
 -----------------------------------------------------------------------------------------------
+compilation:
+to compile a TypeScript file to JavaScript, use the command:
+tsc filename.ts
+this will generate a filename.js file in the same directory.
+-----------------------------------------------------------------------------------------------
+tsconfig.json:
+to create a tsconfig.json file, run:
+tsc --init
+this file allows you to configure TypeScript compiler options for your project.
+example tsconfig.json:
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "outDir": "./dist",
+        "rootDir": "./src"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
+-----------------------------------------------------------------------------------------------
 variable declaration:
 use 'let' and 'const' for variable declarations instead of 'var'
 function scope and block scope differences:
@@ -123,6 +145,7 @@ access modifiers:
 - private: accessible only within the class
 - protected: accessible within the class and its subclasses
 example:
+
 class Person {
     private name: string;
     protected age: number;
@@ -139,7 +162,7 @@ class Person {
 class Student extends Person {
     private studentId: number;
 
-    constructor(name: string, age: number, studentId: number) {
+    constructor(name: string, age: number, studentId: number) { // calling parent constructor
         super(name, age);
         this.studentId = studentId;
     }
@@ -173,4 +196,16 @@ example of literal type:
 let direction: "up" | "down" | "left" | "right";
 usage:
 direction = "up";
+-----------------------------------------------------------------------------------------------\
+generics:
+function identity<T>(arg: T): T {
+    return arg;
+}
+let output = identity<string>("Hello");
+-----------------------------------------------------------------------------------------------
+further learning resources:
+- official TypeScript documentation: https://www.typescriptlang.org/docs/
+- TypeScript Handbook: https://www.typescriptlang.org/docs/handbook/intro.html
+- online courses on platforms like Udemy, Coursera, and Pluralsight
+- practice projects on GitHub and coding challenge websites like LeetCode and HackerRank
 -----------------------------------------------------------------------------------------------

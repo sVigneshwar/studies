@@ -30,6 +30,6 @@
     "isolatedModules": false,
     "skipLibCheck": true
   },
-  "include": ["day*/**/*.ts", "day1/day1.tsc"],
+  "include": ["day*/**/*.ts", "day1/day1.tsx"],
   "exclude": ["node_modules", "**/*.test.ts", "**/*.spec.ts"]
 }
