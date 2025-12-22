@@ -1,0 +1,4 @@
+useRef
+useEffect
+custom hooks
+avoid ts mistakes
