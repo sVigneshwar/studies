@@ -1,33 +1,23 @@
 import Greet from './components/Greet'
-import Person from './components/Person'
-import PersonList from './components/PersonList'
-
-const personName = {
-  first: "Vulture",
-  last: "Vicky"
-}
-
-const nameList = [
-  {
-    first: 'Name',
-    last: 'One'
-  },
-  {
-    first: 'Name',
-    last: 'Two'
-  },
-  {
-    first: 'Name',
-    last: 'Three'
-  }
-]
+// import Person from './components/Person'
+// import PersonList from './components/PersonList'
+// import { nameList, personName } from './components/Variables'
+import Heading from './components/Heading'
+import Oscar from './components/Oscar'
+import Status from './components/Status'
 
 export default function App() {
   return (
     <div>
-      <Greet name="Vicky" message={10} isLoggedIn={false} />
-      <Person name={personName} />
-      <PersonList nameList={nameList} />
+      
+      {/* <Person name={personName} /> */}
+      {/* <PersonList nameList={nameList} /> */}
+      <Heading>This is a heading</Heading>
+      <Oscar>
+        <Heading>Someone won oscar</Heading>
+      </Oscar>
+      <Greet name="Vicky" isLoggedIn={true} />
+      <Status status="success" />
     </div>
   )
 }

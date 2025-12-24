@@ -4,11 +4,14 @@ React typescript tutorial:
 3) typing props
 example: 
 - Greet component with name prop of type string
-usage:
-<Greet name="Vicky" />
 4) Basic Props
 example: 
 - Greet with number of message(number) and isLoggedIn (boolean)
 - Person component with name object containing first and last name (object) 
 - PersonList component with array of person objects (array)
-5)
+5) Advanced Props
+example:
+- Status component with status prop of specific string values (literal types)
+- Heading component with children prop (children: string)
+- Oscar component with children prop (children: React.ReactNode)
+- Greet component with optional props (message?: number)
