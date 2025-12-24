@@ -10,7 +10,7 @@ export default function App() {
       {/* <Input />
       <Button variant="primary" label="Primary Button" />
       <Toggle label="Toggle Button" defaultOn={true} /> */}
-      <Day5 />
+      {/* <Day5 /> */}
     </div>
   )
 }

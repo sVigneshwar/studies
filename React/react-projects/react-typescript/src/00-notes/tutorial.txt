@@ -1,0 +1,14 @@
+React typescript tutorial:
+1) Intro - what and why
+2) Getting started - setting up project folders
+3) typing props
+example: 
+- Greet component with name prop of type string
+usage:
+<Greet name="Vicky" />
+4) Basic Props
+example: 
+- Greet with number of message(number) and isLoggedIn (boolean)
+- Person component with name object containing first and last name (object) 
+- PersonList component with array of person objects (array)
+5)
