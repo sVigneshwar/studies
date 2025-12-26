@@ -196,12 +196,28 @@ example of literal type:
 let direction: "up" | "down" | "left" | "right";
 usage:
 direction = "up";
------------------------------------------------------------------------------------------------\
+-----------------------------------------------------------------------------------------------
 generics:
 function identity<T>(arg: T): T {
     return arg;
 }
 let output = identity<string>("Hello");
+-----------------------------------------------------------------------------------------------
+utility types:
+- Partial<T>: makes all properties of T optional
+- Readonly<T>: makes all properties of T read-only
+- Pick<T, K>: creates a type by picking a set of properties K from T
+- Omit<T, K>: creates a type by omitting a set of properties K from T
+example:
+interface Person {
+    name: string;
+    age: number;
+    location: string;
+}
+let partialPerson: Partial<Person> = { name: "John" }; // age and location are optional
+let readonlyPerson: Readonly<Person> = { name: "Jane", age: 30, location: "NY" }; // readonlyPerson.age = 31; // error: cannot assign to 'age' because it is a read-only property
+let pickedPerson: Pick<Person, "name" | "age"> = { name: "Doe", age: 25 }; // only name and age properties
+let omittedPerson: Omit<Person, "location"> = { name: "Smith", age: 40 }; // location property is omitted
 -----------------------------------------------------------------------------------------------
 further learning resources:
 - official TypeScript documentation: https://www.typescriptlang.org/docs/

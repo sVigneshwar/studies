@@ -8,6 +8,8 @@ import Heading from './components/Heading'
 import Input from './components/Input'
 import Oscar from './components/Oscar'
 import Status from './components/Status'
+import LoggedIn from './components/LoggedIn'
+import User from './components/User'
 
 export default function App() {
 
@@ -19,20 +21,32 @@ export default function App() {
     <div>
       
       <Person name={personName} />
+      <hr />
       <PersonList nameList={nameList} />
+      <hr />
       <Heading>This is a heading</Heading>
+      <hr />
       <Oscar>
         <Heading>Someone won oscar</Heading>
       </Oscar>
+      <hr />
       <Greet name="Vicky" isLoggedIn={true} />
+      <hr />
       <Status status="success" />
+      <hr />
       <Button handleClick={(event, id) => { // need not to specify since we are passing props, the ts directly infers from button component props ButtonProps
         console.log("Button clicked", event, id)
       }} />
       <Button handleClick={handleClick} />
+      <hr />
 
       <Input value='' handleChange={(event, value) => console.log("input change", event, value)} /> {/* 1) here we can directly give event.target.value also. check INPUT component for 2) */}
+      <hr />
       <Container style={{border: '1px solid red', display: 'block'}} />
+      <hr />
+      <LoggedIn />
+      <hr />
+      <User />
     </div>
   )
 }

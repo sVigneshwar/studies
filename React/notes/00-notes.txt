@@ -210,15 +210,35 @@ Axios / Fetch	3 days	~6 hrs	Practice calls + interceptors [COMPLETED]
 🧾 18	Resume + LinkedIn Optimization	3 days	~6 hrs	Keywords + portfolio links
 🌏 19	Job Search Prep (Visa-Friendly)	Continuous	—	Ireland / Netherlands / Australia focus
 
-
+-------------------
 use abroad tips folder docx from git to tailor any resume and job check.
 Network on LinkedIn and target Dublin/Toronto/Sydney startups and product companies — these firms hire React devs frequently. Use Morgan McKinley / Glassdoor job lists to see openings. 
 Morgan McKinley
 Prepare 2-page targeted resume + LinkedIn optimized for React/Next jobs (keywords: React, Next.js, TypeScript, performance, testing, SSR, RTK Query, Vercel).
-
+-------------------
 can we move to next topic, [topic name] i think i have completed [previous topic name]
 can we move to next topic, [TypeScript	12 days	~24 hrs	Deep but fast — focus on React integration] i think i have completed [Jest + RTL (Testing)	10 days	~20 hrs	Unit & integration testing]
 -------------------
 npm create vite@latest
 npm install react-redux @reduxjs/toolkit react-router-dom axios
 -------------------
+
+plan update 27-12-2025:
+1)learning react typescript from code evolution youtube channel
+2)create a basic todo app with TS alone
+3)create a basic todo app with react + TS
+4)get confident in react hooks and create some custom hooks
+5)revisit topic covering:
+- createAsyncThunk
+- RTK Query
+- RESTful APIs
+- Axios / Fetch
+- JWT Auth
+- Formik / React Hook Form
+6)create a basic expense tracker app with react TS
+7)create a basic auth dashboard app with react TS + redux (login, dashboard, logout) [with axios interceptors for token handling]
+8)create some projects with react TS + redux
+9)start prepatring interview question for js, react, TS
+10)after this go to ci/cd and next js. because before moving to these topic we should be strong in react + TS
+
+------------------------------------------------------------------------------------------------------------------------------
