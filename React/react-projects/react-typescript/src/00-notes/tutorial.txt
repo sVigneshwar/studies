@@ -4,7 +4,7 @@ React typescript tutorial:
 3) typing props
 example: 
 - Greet component with name prop of type string
-4) Basic Props
+4) Basic Props: 
 example: 
 - Greet with number of message(number) and isLoggedIn (boolean)
 - Person component with name object containing first and last name (object) 
@@ -23,4 +23,8 @@ example:
 - there are other useful event handlers like form submit, keyboard events, etc.
 7) Style props
 - Container component with styles prop (styles: React.CSSProperties)
-(So basically while passing any props, we should always use "type componentProps = {propname: proptype}", we cannot target without prop names)
+8) Prop types and tips
+- we can destructure props directly in the function parameter list
+- we can keep types in separate files for better organization
+- we can call another type inside a type and use it elsewhere (nameList: Name[] - Here Name is another type defined separately {first: string, last:string})
+**(Basically while passing any props, we should always use "type componentProps = {propname: proptype}", we cannot target without prop names)

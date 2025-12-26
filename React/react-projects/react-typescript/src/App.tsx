@@ -1,9 +1,9 @@
 import Button from './components/Button'
 import Container from './components/Container'
 import Greet from './components/Greet'
-// import Person from './components/Person'
-// import PersonList from './components/PersonList'
-// import { nameList, personName } from './components/Variables'
+import Person from './components/Person'
+import PersonList from './components/PersonList'
+import { nameList, personName } from './components/Variables'
 import Heading from './components/Heading'
 import Input from './components/Input'
 import Oscar from './components/Oscar'
@@ -18,8 +18,8 @@ export default function App() {
   return (
     <div>
       
-      {/* <Person name={personName} /> */}
-      {/* <PersonList nameList={nameList} /> */}
+      <Person name={personName} />
+      <PersonList nameList={nameList} />
       <Heading>This is a heading</Heading>
       <Oscar>
         <Heading>Someone won oscar</Heading>
