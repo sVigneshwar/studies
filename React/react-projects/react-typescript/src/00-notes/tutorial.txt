@@ -39,4 +39,9 @@ example:
 - const [user, setUser] = useState<User | null>(null);
 12) useReducer with types (Counter component)
 - we need to define types for state and action
-13)
+13) useReducer with strict action types (Counter component)
+- we can use discriminated unions to define action types more strictly
+example:
+- type Action = { type: 'increment' } | { type: 'decrement' } | { type: 'reset' };
+- union means we can have multiple types for a single variable (type A = B | C) (type A = string | number)
+- literal means specific value for a type (type A = 'value1' | 'value2')
