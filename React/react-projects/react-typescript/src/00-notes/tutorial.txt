@@ -22,3 +22,5 @@ example:
 - These 2 handlers are the most common event handlers in React, so it's important to know how to type them correctly in TypeScript.
 - there are other useful event handlers like form submit, keyboard events, etc.
 7) Style props
+- Container component with styles prop (styles: React.CSSProperties)
+(So basically while passing any props, we should always use "type componentProps = {propname: proptype}", we cannot target without prop names)

@@ -1,4 +1,5 @@
 import Button from './components/Button'
+import Container from './components/Container'
 import Greet from './components/Greet'
 // import Person from './components/Person'
 // import PersonList from './components/PersonList'
@@ -31,6 +32,7 @@ export default function App() {
       <Button handleClick={handleClick} />
 
       <Input value='' handleChange={(event, value) => console.log("input change", event, value)} /> {/* 1) here we can directly give event.target.value also. check INPUT component for 2) */}
+      <Container style={{border: '1px solid red', display: 'block'}} />
     </div>
   )
 }
