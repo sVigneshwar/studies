@@ -8,8 +8,9 @@ import Heading from './components/Heading'
 import Input from './components/Input'
 import Oscar from './components/Oscar'
 import Status from './components/Status'
-import LoggedIn from './components/LoggedIn'
-import User from './components/User'
+import LoggedIn from './components/state/LoggedIn'
+import User from './components/state/User'
+import Counter from './components/state/Counter'
 
 export default function App() {
 
@@ -47,6 +48,8 @@ export default function App() {
       <LoggedIn />
       <hr />
       <User />
+      <hr />
+      <Counter />
     </div>
   )
 }

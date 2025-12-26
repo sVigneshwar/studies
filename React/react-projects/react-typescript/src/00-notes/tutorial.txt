@@ -33,4 +33,10 @@ example:
 10) useState with future values: (User component)
 - we need to explicitly define the type when the initial state is null or undefined
 - this <> syntax is called generics in TS
-11)
+11) useState type assertion (User component)
+- we can use "as" keyword to assert a type when we are sure about the type
+example:
+- const [user, setUser] = useState<User | null>(null);
+12) useReducer with types (Counter component)
+- we need to define types for state and action
+13)
