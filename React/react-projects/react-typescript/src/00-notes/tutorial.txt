@@ -15,3 +15,10 @@ example:
 - Heading component with children prop (children: string)
 - Oscar component with children prop (children: React.ReactNode)
 - Greet component with optional props (message?: number)
+6) event props
+example:
+- Button component with onClick event handler (event: React.MouseEvent<HTMLButtonElement>)
+- Input component with onChange event handler (event: React.ChangeEvent<HTMLInputElement>)
+- These 2 handlers are the most common event handlers in React, so it's important to know how to type them correctly in TypeScript.
+- there are other useful event handlers like form submit, keyboard events, etc.
+7) Style props
