@@ -11,6 +11,8 @@ import Status from './components/Status'
 import LoggedIn from './components/state/LoggedIn'
 import User from './components/state/User'
 import Counter from './components/state/Counter'
+import Box from './components/context/Box'
+import UserContextProvider from './components/context/UserContext'
 
 export default function App() {
 
@@ -50,6 +52,12 @@ export default function App() {
       <User />
       <hr />
       <Counter />
+      <hr />
+      <Box />
+      <hr />
+      <UserContextProvider>
+        <User />
+      </UserContextProvider>
     </div>
   )
 }
