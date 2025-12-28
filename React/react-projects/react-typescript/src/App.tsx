@@ -17,6 +17,7 @@ import Dom from './components/ref/Dom'
 import Timer from './components/ref/Timer'
 import Profile from './components/auth/Profile'
 import Private from './components/auth/Private'
+import List from './components/generics/List'
 
 export default function App() {
 
@@ -26,7 +27,6 @@ export default function App() {
 
   return (
     <div>
-      
       <Person name={personName} />
       <hr />
       <PersonList nameList={nameList} />
@@ -46,7 +46,6 @@ export default function App() {
       }} />
       <Button handleClick={handleClick} />
       <hr />
-
       <Input value='' handleChange={(event, value) => console.log("input change", event, value)} /> {/* 1) here we can directly give event.target.value also. check INPUT component for 2) */}
       <hr />
       <Container style={{border: '1px solid red', display: 'block'}} />
@@ -68,6 +67,10 @@ export default function App() {
       <Timer />
       <hr />
       <Private isLoggedIn={false} component={Profile} />
+      <hr />
+      <List list={["one", "two", "three"]} onClick={(listItem) => console.log(listItem)} />
+      <List list={[1, 2, 3]} onClick={(listItem) => console.log(listItem)} />
+      <List list={[{id: 1, name: "name1"}, {id: 2, name: "name2"}, {id: 3, name: "name3"}]} onClick={(listItem) => console.log(listItem)} />
     </div>
   )
 }

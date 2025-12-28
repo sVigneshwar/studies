@@ -66,4 +66,10 @@ example:
 - for now class components are not used, so will not focus much on this
 18) Passing component as props (Private, Profile, PrivatePerson components)
 - we can pass components as props using React.ComponentType<Props>
-19) 
+19) Generic props (List component)
+- we can set generic type parameters for components
+- this allows us to create reusable components that can work with different types
+example:
+- const List = <T extends {}>({ items, render }: ListProps<T>) => { ... }
+- we can also set <T extends string | number> if we want to restrict to specific types
+20) 
