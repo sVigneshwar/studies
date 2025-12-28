@@ -13,6 +13,8 @@ import User from './components/state/User'
 import Counter from './components/state/Counter'
 import Box from './components/context/Box'
 import UserContextProvider from './components/context/UserContext'
+import Dom from './components/ref/Dom'
+import Timer from './components/ref/Timer'
 
 export default function App() {
 
@@ -58,6 +60,10 @@ export default function App() {
       <UserContextProvider>
         <User />
       </UserContextProvider>
+      <hr />
+      <Dom />
+      <hr />
+      <Timer />
     </div>
   )
 }

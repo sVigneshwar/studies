@@ -53,3 +53,10 @@ example:
 - we can use non-null assertion operator (!) when we are sure the context will not be null
 - use type assertion when creating context with default null value
 - in provider value we need to provide the correct type if we are passing multiple values
+16) useRef with types (DomRef (DomRef.tsx), MutableRef (Timer.tsx) components)
+- we need to define the type of the ref element when using useRef hook
+- for DOM elements we can use React.RefObject<HTMLElementType>
+- for mutable values we can use React.MutableRefObject<Type>
+example:
+- const inputRef = useRef<HTMLInputElement>(null);
+- const countRef = useRef<number>(0);

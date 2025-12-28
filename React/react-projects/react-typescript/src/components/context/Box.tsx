@@ -7,11 +7,11 @@ export default function Box() {
 
   const setPrimary = () => {
     setThemeColor(theme.primary)
-    console.log(themeColor);
+    // console.log(themeColor);
   }
   const setSecondary = () => {
     setThemeColor(theme.secondary)
-    console.log(themeColor);
+    // console.log(themeColor);
     
   }
   return (
