@@ -60,3 +60,10 @@ example:
 example:
 - const inputRef = useRef<HTMLInputElement>(null);
 - const countRef = useRef<number>(0);
+17) class components with types
+- we need to define types for props and state
+- we can use React.Component<PropsType, StateType>
+- for now class components are not used, so will not focus much on this
+18) Passing component as props (Private, Profile, PrivatePerson components)
+- we can pass components as props using React.ComponentType<Props>
+19) 

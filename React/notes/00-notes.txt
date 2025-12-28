@@ -229,16 +229,17 @@ plan update 27-12-2025:
 3)create a basic todo app with react + TS
 4)get confident in react hooks and create some custom hooks
 5)revisit topic covering:
-- createAsyncThunk
-- RTK Query
-- RESTful APIs
-- Axios / Fetch
-- JWT Auth
-- Formik / React Hook Form
+- createAsyncThunk - create a project with basic api calls using thunk
+- RTK Query - create a project with basic api calls using RTK query
+- RESTful APIs - theory + examples
+- Axios / Fetch - create a project with axios api calls + interceptors
+- JWT Auth - create a project with full login/logout + token handling
+- Formik / React Hook Form - create a project with form building + validation (with both formik/yup and react hook form)
+- Jest + RTL (Testing) - create a project with unit & integration testing
 6)create a basic expense tracker app with react TS
 7)create a basic auth dashboard app with react TS + redux (login, dashboard, logout) [with axios interceptors for token handling]
 8)create some projects with react TS + redux
-9)start prepatring interview question for js, react, TS
+9)start preparing interview question for js, react, TS - get confident like prepare to answer whenever asked (mock interviews)
 10)after this go to ci/cd and next js. because before moving to these topic we should be strong in react + TS
 
 ------------------------------------------------------------------------------------------------------------------------------

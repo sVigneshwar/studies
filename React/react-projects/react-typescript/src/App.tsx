@@ -15,6 +15,8 @@ import Box from './components/context/Box'
 import UserContextProvider from './components/context/UserContext'
 import Dom from './components/ref/Dom'
 import Timer from './components/ref/Timer'
+import Profile from './components/auth/Profile'
+import Private from './components/auth/Private'
 
 export default function App() {
 
@@ -64,6 +66,8 @@ export default function App() {
       <Dom />
       <hr />
       <Timer />
+      <hr />
+      <Private isLoggedIn={false} component={Profile} />
     </div>
   )
 }
