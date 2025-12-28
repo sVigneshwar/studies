@@ -72,4 +72,11 @@ example:
 example:
 - const List = <T extends {}>({ items, render }: ListProps<T>) => { ... }
 - we can also set <T extends string | number> if we want to restrict to specific types
-20) 
+20) Restricting props (GetRandomNumber component)
+- we can restrict a components props based on other props using union
+example:
+- type RandomNumberProps = 
+    | { value: number; isPositive: true; isNegative?: never; isZero?: never } 
+    | { value: number; isPositive?: never; isNegative: true; isZero?: never } 
+    | { value: number; isPositive?: never; isNegative?: never; isZero: true };
+21) 

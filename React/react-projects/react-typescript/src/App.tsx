@@ -18,6 +18,7 @@ import Timer from './components/ref/Timer'
 import Profile from './components/auth/Profile'
 import Private from './components/auth/Private'
 import List from './components/generics/List'
+import GetRandomNumber from './components/restrict/GetRandomNumber'
 
 export default function App() {
 
@@ -71,6 +72,8 @@ export default function App() {
       <List list={["one", "two", "three"]} onClick={(listItem) => console.log(listItem)} />
       <List list={[1, 2, 3]} onClick={(listItem) => console.log(listItem)} />
       <List list={[{id: 1, name: "name1"}, {id: 2, name: "name2"}, {id: 3, name: "name3"}]} onClick={(listItem) => console.log(listItem)} />
+      <hr />
+      <GetRandomNumber number={-15} isNegative />
     </div>
   )
 }
