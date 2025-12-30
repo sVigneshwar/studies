@@ -79,4 +79,7 @@ example:
     | { value: number; isPositive: true; isNegative?: never; isZero?: never } 
     | { value: number; isPositive?: never; isNegative: true; isZero?: never } 
     | { value: number; isPositive?: never; isNegative?: never; isZero: true };
-21) 
+21) template literals and Exclude utility type (Toast component)
+- we can create custom string types using template literals
+- we can use Exclude utility type to exclude specific types from a union
+22) 
