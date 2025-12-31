@@ -1,2 +1,11 @@
+create portfolio webasite and add it in resume
+
+list best websites i have created:
+https://www.adelphiselection.com/
+https://www.singgin.com/
+https://www.harrogatespring.com/
+
 ran a/b testing for webpage
-need to mention i work on latest AI features like chatGPT
+need to mention i use latest AI like chatGPT, claude, copilot for development
+Strong communication skills and responsibilities full skills need to add
+Responsive, cross browser, ui performance optimization uiux principles accessibility standards wcag compliance 

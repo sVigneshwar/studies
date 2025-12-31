@@ -82,4 +82,17 @@ example:
 21) template literals and Exclude utility type (Toast component)
 - we can create custom string types using template literals
 - we can use Exclude utility type to exclude specific types from a union
-22) 
+22) HTML props (Button, Input component)
+- we can limit our component props to specific HTML element props using React.ComponentProps<'element'>
+- we can use Omit utility type to exclude specific props from the HTML element props
+example:
+- type ButtonProps = Omit<React.ComponentProps<'button'>, 'type'> & { customProp: string };
+23) extracting props from another component (CustomButton component)
+- we can extract props from another component using React.ComponentProps<typeof Component>
+24) polymorphic components (Text component)
+- we can create components that can render different HTML elements based on a prop
+- we can use generics to define the type of the element being rendered
+example:
+- const Text = <C extends React.ElementType>({ as, children, ...rest }: TextProps<C>) => { ... }
+- we can use React.ElementType to allow any valid HTML element or custom component
+

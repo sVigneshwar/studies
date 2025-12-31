@@ -20,6 +20,9 @@ import Private from './components/auth/Private'
 import List from './components/generics/List'
 import GetRandomNumber from './components/restrict/GetRandomNumber'
 import Toast from './components/templateLiterals/Toast'
+import Button1 from './components/html/Button1'
+import Input1 from './components/html/Input1'
+import Text from './components/polymorphic/Text'
 
 export default function App() {
 
@@ -77,6 +80,14 @@ export default function App() {
       <GetRandomNumber number={-15} isNegative />
       <hr />
       <Toast position='left-center' />
+      <hr />
+      <Button1 variant="primary">Button text</Button1>
+      <Input1 type="email" />
+      <Input1 type="password" />
+      <hr />
+      <Text as='h1' title="title attr" size='lg'>h1 tag</Text>
+      <Text as='p' size='md'>p tag</Text>
+      <Text as='label' htmlFor="input" size='sm'>label tag</Text>
     </div>
   )
 }
