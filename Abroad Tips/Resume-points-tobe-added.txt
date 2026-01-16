@@ -1,11 +1,25 @@
 portfolio website:
 create portfolio webasite and add it in resume
 
-list best websites i have created:
+
+Professional work:
 https://www.adelphiselection.com/
+
 https://www.singgin.com/
+
 https://www.harrogatespring.com/
-https://www.zoho.com/jp/
+
 http://zoho.com/jp/crm/academy
+
+https://www.zoho.com/jp/
+
+Personal projects:
 https://svigneshwar.github.io/Simple-product-search-filter/
+
 https://svigneshwar.github.io/weather-app/
+
+
+
+
+
+

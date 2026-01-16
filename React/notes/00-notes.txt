@@ -224,22 +224,26 @@ npm install react-redux @reduxjs/toolkit react-router-dom axios
 -------------------
 
 plan update 27-12-2025:
-1)learning react typescript from code evolution youtube channel
-2)create a basic todo app with TS alone
-3)create a basic todo app with react + TS
-4)get confident in react hooks and create some custom hooks
+1)learning react typescript from code evolution youtube channel - completed
+- create a simple portfolio website of me - 1 day
+- https://wellfound.com/ - create account - 1/2day
+- https://www.levels.fyi/?tab=levels  - create account - 1/2day
+
+2)create a basic todo app with TS alone - 1day
+3)create a basic todo app with react + TS - 1-2 day
+4)get confident in react hooks and create some custom hooks - 2 - 3 days
 5)revisit topic covering:
-- createAsyncThunk - create a project with basic api calls using thunk
-- RTK Query - create a project with basic api calls using RTK query
-- RESTful APIs - theory + examples
-- Axios / Fetch - create a project with axios api calls + interceptors
-- JWT Auth - create a project with full login/logout + token handling
-- Formik / React Hook Form - create a project with form building + validation (with both formik/yup and react hook form)
-- Jest + RTL (Testing) - create a project with unit & integration testing
-6)create a basic expense tracker app with react TS
-7)create a basic auth dashboard app with react TS + redux (login, dashboard, logout) [with axios interceptors for token handling]
-8)create some projects with react TS + redux
-9)start preparing interview question for js, react, TS - get confident like prepare to answer whenever asked (mock interviews)
+- createAsyncThunk - create a project with basic api calls using thunk - 1 day
+- RTK Query - create a project with basic api calls using RTK query  - 1 day
+- RESTful APIs - theory + examples - 1 day
+- Axios / Fetch - create a project with axios api calls + interceptors  - 1 day
+- JWT Auth - create a project with full login/logout + token handling  - 1 day
+- Formik / React Hook Form - create a project with form building + validation (with both formik/yup and react hook form)  - 1 day
+- Jest + RTL (Testing) - create a project with unit & integration testing  - 1 day
+6)create a basic expense tracker app with react TS - dont know timeline
+7)create a basic auth dashboard app with react TS + redux (login, dashboard, logout) [with axios interceptors for token handling] - dont know timeline
+8)create some projects with react TS + redux - need to decide projects
+9)start preparing interview question for js, react, TS - get confident like prepare to answer whenever asked (mock interviews) - this will take some long time since i have to prepare totalyy for interviews
 10)after this go to ci/cd and next js. because before moving to these topic we should be strong in react + TS
 
 ------------------------------------------------------------------------------------------------------------------------------
