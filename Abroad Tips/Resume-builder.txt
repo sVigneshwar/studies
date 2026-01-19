@@ -1,96 +1,96 @@
 section 1: personal details
 VIGNESHWAR S  
-Frontend developer (React)
-Email: vigneshwar.s1996@gmail.com  
+Frontend Engineer  
+
+Email: vigneshwar.s@gmail.com  
 Phone: +91 9500013901  
-Location: Chennai, India — Open to International Relocation    
+Location: Chennai, India  
 GitHub: github.com/sVigneshwar  
+LinkedIn: https://linkedin.com/in/vigneshwar-s-966676142  
+Portfolio: https://portfolio-vigneshwar.vercel.app
 -------------------------------------------
-section 2: summary
-Frontend Engineer with 7+ years of experience building scalable, high-performance, and user-focused web applications. Currently specializing in React, modern JavaScript, UI engineering, accessibility (WCAG), and performance optimization. Proven impact at Zoho Corporation delivering frontend systems for large user bases, improving Lighthouse performance, SEO, and accessibility across high-traffic global websites and collaborating closely with design and product teams.
+PROFESSIONAL SUMMARY
 
-
--------------------------------------------
-section 3: technical skills
-
-Frontend: React, JavaScript (ES6+), React Hooks, Redux Toolkit, RTK Query, Web Components  
-UI Engineering: HTML5, CSS3, SCSS, LESS, Responsive Design, Bootstrap  
-Performance & Accessibility: Lazy Loading, Memoization, Lighthouse Optimization, WCAG (a11y), SEO  
-Testing & Tooling: Jest, React Testing Library, MSW, Webpack, Vite, Git, npm  
-APIs & Data: REST APIs, JSON, async patterns  
-Design Tools: Figma, Adobe Photoshop, Adobe XD, Illustrator  
-
--------------------------------------------
-section 4: expericnce
-
-Web Developer — ZOHO Corporation  
-Feb 2020 – Present
-
-• Core frontend engineer in the Zoho Japan Web Team, owning end-to-end development and maintenance of multiple high-traffic Zoho Japan product websites (CRM, Desk, Campaigns, Zoho One).
-• Led frontend development of the Zoho CRM Japan Academy platform, implementing OTP-based authentication, user history tracking, and learning progress tracking.
-• Enabled onboarding of thousands of new users by building stable, performant, and intuitive learning interfaces for first-time CRM users.
-• Improved application performance through memoization, bundle optimization, and strategic lazy loading, resulting in improved Lighthouse scores.
-• Worked extensively on SEO improvements and WCAG accessibility compliance across Zoho Japan websites and ManageEngine products.
-• Collaborated closely with designers and product managers to deliver accessible, cross-browser UI features.
-• Built reusable UI components and contributed to shared Web Components used across multiple ManageEngine products.
-
-UI Developer — K2B Solutions (Jan 2018 – Feb 2020)
-•	Built responsive, production interfaces with pixel-accurate design fidelity.
-•	Integrated APIs and optimized load performance across multiple projects.
-
-UI / UX Design Intern — Doodleblue Innovations (Oct 2017 – Dec 2017)
-•	Worked on wireframes, UI foundations, and responsive design systems.
+Frontend Engineer with 7+ years of professional experience delivering production-ready, high-traffic web interfaces for enterprise products at Zoho Corporation. Strong expertise in core frontend engineering, UI performance optimization, accessibility (WCAG), and SEO, with hands-on ownership of international-facing platforms for the Japan market. Strong working knowledge of modern React and TypeScript, applied through hands-on development and real-world UI problem solving, alongside deep experience in scalable UI engineering.
 
 
 -------------------------------------------
-section 5: projects and showcase (need a nice work for this, since i am telling my projects and some tools i have build using AI)
+TECHNICAL SKILLS
 
-Zoho CRM Japan Academy Platform
-Tech: JavaScript, REST APIs, LESS, Zoho Creator
-https://www.zoho.com/jp/crm/academy/
-• Built a full authentication and learning platform for onboarding new CRM users in Japan.
-• Implemented OTP-based login, user history tracking, and learning progress tracking.
-• Optimized page performance using image lazy loading and frontend best practices.
-• Collaborated with design, backend, and content teams to support large-scale user adoption.
+Core Tech: React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS / LESS.
 
-Zoho Events Platforms — Zoholics & Zoho Inspire
-Tech: JavaScript, Less
-https://www.zoho.com/jp/zoholicsjapan2022/
-https://www.zoho.com/jp/zohoinspire2023/
-• Handled frontend user flows for large-scale Zoho Japan events platforms.
-• Implemented responsive UI and optimized user experience for event registrations and content access.
+State & Data: Redux Toolkit, RTK Query, REST API Integration, Async Data Handling (Axios / Fetch / JSON).
 
-Developer Productivity Tools (AI-assisted)
-• Built a Chrome extension to automate SEO and quality checks (titles, meta descriptions, rich results, breadcrumbs, videos) for academy pages.
-• Created a Chrome plugin to automatically validate and detect errors in email template content.
-• Set up a guided codebase structure to accelerate Web Component development using AI-assisted workflows.
-• Built a pixel-perfect UI validation tool by overlaying design assets on live pages to quickly identify design mismatches.
+Architecture & Performance: Component-Driven Development, Web Components, Core Web Vitals (LCP, CLS, FID), Lazy Loading, Code Splitting.
 
-Personal Projects:
-Weather App
-Tech: React, REST APIs
-https://github.com/sVigneshwar/weather-app
-• Built a React-based weather application using real-time Weather API data.
-• Integrated Pexels Image API to dynamically display city-based visuals.
-• Implemented clean component structure and async data handling.
+Standards & Quality: WCAG 2.1 (Accessibility), SEO Semantic Markup, Cross-browser Compatibility, Unit Testing (Jest, React Testing Library).
 
-Mini Product Filter
-Tech: React, Custom Hooks
-https://svigneshwar.github.io/Simple-product-search-filter/
-• Built a debounced product search using a custom useDebouncing hook.
-• Implemented efficient data fetching using a reusable useFetchData hook.
-• Optimized network calls by triggering requests only after user input stabilization.
+Tools & Workflow: Git, Vite, Webpack, npm.
+-------------------------------------------
+PROFESSIONAL EXPERIENCE
+ZOHO CORPORATION
+
+Web Developer / Frontend Engineer
+Feb 2020 – Present | Chennai, India
+
+Owned end-to-end frontend implementation for flagship Zoho Japan products (CRM, Desk, Campaigns), delivering localized, performance-sensitive UI for enterprise-scale platforms.
+
+Led frontend development of the Zoho CRM Japan Academy platform, implementing authentication flows, user activity history, and learning progress tracking for customer onboarding.
+
+Developed frontend solutions for large-scale event platforms (Zoholics, Zoho Inspire), ensuring responsive and stable UI under high user traffic.
+
+Improved frontend performance through memoization, bundle optimization, and strategic lazy loading, contributing to stronger Lighthouse scores and faster initial page loads.
+
+Built reusable and shared Web Components adopted across multiple ManageEngine products, improving UI consistency and reducing duplicate development effort.
+
+Worked cross-functionally with design and product teams to translate complex requirements into accessible, production-ready UI aligned with Japanese market expectations.
+
+K2B SOLUTIONS
+
+UI Developer
+Jan 2018 – Feb 2020
+
+Developed responsive, high-fidelity user interfaces with strong focus on design accuracy and cross-browser behavior.
+
+Delivered UI features in fast-paced environments with frequent design and client requirement changes.
+
+DOODLEBLUE INNOVATIONS
+
+UI / UX Design Intern
+Oct 2017 – Dec 2017
+
+Supported the design-to-development workflow through wireframing, UI foundations, and responsive layout implementation.
 
 -------------------------------------------
-section 6: education
+SELECTED TECHNICAL IMPLEMENTATIONS
 
+(Focused on recent hands-on engineering work; full code available on GitHub)
+
+Engineering Productivity & Automation Tools
+
+Developed internal AI-assisted browser tools (ChatGPT, GitHub Copilot, Claude) to automate SEO validation, email template verification, Web Component checks, and pixel-accurate UI reviews, reducing internal QA and review cycles by ~20%.
+
+Movie Discovery Application (TMDB API)
+
+Demo: https://svigneshwar.github.io/Movie-App/
+
+Built a React-based movie discovery application using TMDB APIs, implementing server-driven pagination, search filtering, and keyword-based search flows.
+
+Designed a favorites feature using a custom React hook, with state persistence and caching handled via Context API.
+
+Focused on component composition, async data handling, loading/error states, and minimizing unnecessary re-fetching through basic client-side caching.
+
+
+-------------------------------------------
 EDUCATION
-Bachelor of Engineering — Electronics & Communication
-Jawahar Engineering College (2013 - 2017)
+
+Bachelor of Engineering – Electronics & Communication Engineering
+Jawahar Engineering College | 2013 – 2017
 
 -------------------------------------------
-Section 7: personal (languages)
+LANGUAGES
 
-Languages: Tamil, English, Sourashtra
-
+English – Professional Working Proficiency
+Tamil – Native
+Sourashtra – Conversational
 -------------------------------------------

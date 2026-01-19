@@ -229,6 +229,9 @@ plan update 27-12-2025:
 - https://wellfound.com/ - create account - 1/2day
 - https://www.levels.fyi/?tab=levels  - create account - 1/2day
 
+
+signup, dashboard, use typescript, react hook form, axios, redux, jest
+
 2)create a basic todo app with TS alone - 1day
 3)create a basic todo app with react + TS - 1-2 day
 4)get confident in react hooks and create some custom hooks - 2 - 3 days
