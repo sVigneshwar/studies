@@ -1,0 +1,78 @@
+VIGNESHWAR S
+
+Senior Frontend Engineer
+
+Chennai, India
+📧 vigneshwar.s1996@gmail.com
+ | 📞 +91 9500013901
+GitHub: github.com/sVigneshwar | LinkedIn: linkedin.com/in/vigneshwar-s-966676142
+Portfolio: portfolio-vigneshwar.vercel.app
+---
+
+# SUMMARY
+- Frontend Engineer with 7+ years building scalable, high-performance web apps using React.
+
+dopubt:
+i dont wanna add sumary section but i dont know where to mention my 7+ years of experince.
+---
+
+SKILLS
+Core Frontend: React, JavaScript (ES6+), TypeScript, HTML5, CSS3, SCSS / LESS
+State & Data Management: Redux Toolkit, RTK Query, Context API, REST APIs, Async/Await, Axios/Fetch 
+Architecture & Performance: Component-Driven Development, Web Components, Internationalization (i18n), Core Web Vitals (LCP, CLS, FID), Code Splitting, Lazy Loading
+Standards & Quality: WCAG 2.1 Accessibility, SEO Best Practices, Cross-browser Compatibility, Unit Testing (Jest, React Testing Library)
+Tools & Workflow: Git, Vite, Webpack, npm
+
+
+---
+
+EXPERIENCE
+
+ZOHO Corporation: Web Developer (Feb 2020 – Present)
+created many pages for zoho japan products like crm, desk, campaigns, salesiq, forms etc and localized them to japanese market.
+increase user flow in zoho japan crm signup using crm academy paltform which boosted signup by 30%, with monthly users reaching 6000+ users.
+improve workflow speed by creating tools and chrome extension using AI tools like chatgpt, copilot to reduce manual work by 40%.
+worked in micro frontend architecture using web components to create multiple reusable components for different products in zoho Managenengine. also setup a codebase for tis web component so that by providing a product screenshot the copilot can generate code for that component and this improves development speed by 50%.  
+K2B Solutions: UI Developer (Jan 2018 – Feb 2020)
+improve more project flow a england client "bluestone98" (https://www.awwwards.com/bluestone98/) by providing award winning in awwwards website,visually good looking ui ux, animation and mobile responsive website.
+worked on singapore land authority UI for a singapore client.
+worked on sheridon homes australia real estate website to improve user experience and user interface.
+
+Doodleblue Innovations: UI / UX Design Intern (Oct 2017 – Dec 2017)
+Supported the design-to-development workflow through wireframing, UI foundations, and responsive layout implementation. 
+
+
+doubt:
+i think doodleblue does nt have that much impact in my experince, shouldi need to remove it from my resume? or should i need to rephrase it to make it more impactful?
+
+also i have just mentioned some of metric values, should i add why and what the project is about? also i wanna keep the content  minilmal and impactfull, dont wanna make the reader bored with too much content.
+
+---
+
+PROJECTS
+Engineering Productivity & Automation Tools 
+•	Developed internal AI-assisted browser tools (ChatGPT, GitHub Copilot, Claude) at Zoho to automate SEO validation, email template verification, Web Component checks, and pixel-accurate UI reviews, reducing internal QA and review cycles by ~20%.
+Movie Discovery Application (TMDB API) | Demo: https://svigneshwar.github.io/Movie-App/
+•	Built a React-based movie discovery application using TMDB APIs, implementing server-driven pagination, search filtering, and keyword-based search flows.
+•	Designed a favorites feature using a custom React hook, with state persistence and caching handled via Context API, and implemented client-side navigation using React Router.
+•	Implemented error boundaries, loading states, and client-side caching to reduce unnecessary API calls and improve response times.
+
+
+doubt:
+i have below top website, shouldi include in my resume?
+- https://www.adelphiselection.com/
+- https://www.singgin.com/
+- https://www.harrogatespring.com/
+- http://zoho.com/jp/crm/academy
+
+---
+
+EDUCATION
+Bachelor of Engineering - Electronics & Communication Engineering
+Jawahar Engineering College, Anna University | 2013–2017
+
+
+---
+
+LANGUAGES
+English – Professional Working Proficiency | Tamil – Native | Sourashtra – Conversational

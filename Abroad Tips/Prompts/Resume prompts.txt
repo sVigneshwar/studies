@@ -1,0 +1,64 @@
+# For Resume Reviewing
+
+You are the world's most sought after resume editor and business writer. You've reviewed thousands of resumes that led to interviews at top tech companies.
+
+I'm attaching my resume and the job description for a senior product manager role at a fintech company.
+
+Review it and give me a bullet list of ten specific ideas on how to improve clarity and add measurable impact – aligned with the role.
+
+Your mission is to help me build the best resume that gets me hired.
+
+---
+
+# For Knowledge Checking
+
+- Whatever you know about me tell me the gaps in my knowledge
+- What don't I know
+- What am I missing
+- What are the gaps in my reasoning
+
+---
+
+# Confidence Score
+
+How confident are you about this
+
+---
+
+# Get Expert Result in a Topic
+
+Let me know the experts in this topic and steer me towards expert answers.
+
+---
+
+# For Resume Reviewing (Frontend Developer)
+
+You are the world's most sought after resume editor and business writer. You've reviewed thousands of resumes that led to interviews at top tech companies.
+
+I'm attaching my resume content for a frontend web developer (react) role at a company.
+
+Review it and let me know if this resume can bypass any AI filtering?
+
+Your mission is to help me build the best resume that gets me hired.
+
+---
+
+# Resume Prompts
+
+## Core prompt list — use one per request:
+
+- Rewrite summary for [Job Title]: concise, keyword-focused, and recruiter-ready.
+- Convert responsibilities into metric-driven achievements (use PAR/PAR format).
+- Provide ATS keyword suggestions from a pasted job description and example placements.
+- Reframe experience for a career transition, highlighting transferable impact.
+- Full resume audit: call out weak language, redundancy, and ATS risks.
+- Recommend a layout that prioritizes recent, relevant experience for fast scanning.
+- Rewrite work history bullets to align with a specific job posting.
+- Build an ATS-friendly Technical Skills section organized by category.
+- Draft a short headline + subheadline stating role target and value proposition.
+- Role-play as a hiring manager: list immediate changes to get an interview.
+
+## Extras:
+
+- Ask for before/after examples for direct copy-paste.
+- Optionally request a confidence score for suggested edits.

@@ -1,0 +1,62 @@
+# PERSONAL DETAILS
+- **Name:** VIGNESHWAR S
+- **Title:** Frontend Developer (React)
+- **Email:** vigneshwar.s1996@gmail.com
+- **Phone:** +91 9500013901
+- **Location:** Chennai, India — Open to international relocation
+- **GitHub:** github.com/sVigneshwar
+
+---
+
+# SUMMARY
+- Frontend Engineer with 7+ years building scalable, high-performance web apps using React.
+- Focus: UI engineering, accessibility (WCAG), performance (Lighthouse), and SEO for international products.
+
+---
+
+# TECHNICAL SKILLS
+- **Frontend:** React, JavaScript (ES6+), React Hooks, Redux Toolkit, RTK Query, Web Components
+- **UI:** HTML5, CSS3, SCSS, LESS, responsive design, Bootstrap
+- **Perf & a11y:** lazy loading, memoization, Lighthouse optimization, WCAG, SEO
+- **Testing & tooling:** Jest, React Testing Library, MSW, Webpack, Vite, Git, npm
+- **APIs:** REST, JSON, async patterns
+- **Design:** Figma, Photoshop, Adobe XD, Illustrator
+
+---
+
+# EXPERIENCE
+
+## ZOHO CORPORATION — Web Developer
+**Feb 2020 – Present**
+- Core frontend engineer for Zoho Japan product sites (CRM, Desk, Campaigns, Zoho One).
+- Led Zoho CRM Japan Academy: OTP auth, user history, learning progress tracking; drove onboarding.
+- Improved Lighthouse scores via memoization, bundle optimization, and lazy loading.
+- Implemented SEO and WCAG improvements; contributed shared Web Components.
+
+## K2B SOLUTIONS — UI Developer
+**Jan 2018 – Feb 2020**
+- Built responsive, production-ready interfaces with pixel-accurate fidelity.
+- Integrated APIs and optimized front-end load performance.
+
+## DOODLEBLUE INNOVATIONS — UI/UX Intern
+**Oct 2017 – Dec 2017**
+- Worked on wireframes, UI foundations, and responsive systems.
+
+---
+
+# PROJECTS & SHOWCASE
+- **Zoho CRM Japan Academy** — tech: JavaScript, REST, LESS; implemented auth, tracking, and lazy loading.
+- **Zoho Events (Zoholics / Inspire)** — responsive event platforms for high traffic.
+- **Developer tools:** Chrome extensions for SEO/email checks; pixel-validation overlays.
+- **Weather App:** https://github.com/sVigneshwar/weather-app — React + Pexels API.
+- **Mini Product Filter:** https://svigneshwar.github.io/Simple-product-search-filter/ — custom hooks & debounced search.
+
+---
+
+# EDUCATION
+- **B.E., Electronics & Communication** — Jawahar Engineering College (2013–2017)
+
+---
+
+# LANGUAGES
+- Tamil (Native), English (Professional), Sourashtra (Conversational)

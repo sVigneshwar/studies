@@ -1,0 +1,58 @@
+# Dream Job Abroad Webinar — Step-by-Step Prompts
+
+**(Customizable template with bold placeholders)**
+
+## Professional context (use for all analysis)
+- Name: Aarav Mehta  
+- Experience: 7 years — Full‑Stack Software Engineer  
+- Location: Bengaluru, India  
+- Core skills: JavaScript, TypeScript, React, Node.js, Express, Python, PostgreSQL, MongoDB, AWS, CI/CD, microservices, REST/GraphQL APIs  
+- Qualifications: B.Tech (Computer Science), AWS Solutions Architect — Associate, Scrum Master Certification  
+- Target: Product‑based tech companies focused on scalable web applications
+
+---
+
+## Task 1 — Job‑Market Signals (EU region)
+Analyze Full‑Stack Engineering job postings and provide:
+- Top 20 keywords, tools, frameworks, cloud skills, and competencies commonly requested
+- 15 common job advertisement titles for similar roles
+- 5 highest‑paying certifications relevant to this domain (include typical salary ranges)
+
+---
+
+## Task 2 — High‑Demand EU Countries
+Based on global hiring patterns, identify top 5 EU countries with highest demand for these skills. For each country provide:
+- In‑demand certifications
+- High‑demand job titles
+- Typical relocation / immigration support patterns
+
+---
+
+## Job search — Prompts & Tasks
+Use a compact set of resume and job‑application prompts tailored for frontend / full‑stack roles.
+
+### Quick actions
+- Provide 10 specific resume improvements tied to a target JD  
+- Audit resume for ATS pass/fail signals  
+- Rewrite summary, bullets, and headline for impact and clarity
+
+### Key prompts (numbered)
+1. Rewrite a resume summary for a specific **[Job Title]** with concise, relevant impact statements  
+2. Convert role bullets into measurable accomplishments (use metrics and PAR format)  
+3. Optimize resume content for ATS using keywords from a provided job description  
+4. Reframe experience for career transitions, emphasizing transferable skills  
+5. Full resume audit: identify vagueness, verbosity, and missing impact  
+6. Suggest a modern layout that highlights recent, relevant experience for a 6‑second scan  
+7. Rework work history language to align with a specific job posting  
+8. Create an eye‑catching Technical Skills section formatted for ATS and humans  
+9. Draft a concise resume headline + subheadline stating role target and value proposition  
+10. Hiring‑manager review: list changes that increase interview invites
+
+---
+
+## Additional utilities
+- Confidence score: request when you want a confidence estimate for suggested changes  
+- Expert referrals: request names or resources for deep topic expertise
+
+## Formatting note
+- Keep responses actionable and include before/after examples where applicable

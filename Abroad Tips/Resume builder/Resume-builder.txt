@@ -1,0 +1,61 @@
+## PERSONAL DETAILS
+- **Name:** VIGNESHWAR S
+- **Role:** Frontend Engineer
+- **Email:** vigneshwar.s@gmail.com
+- **Phone:** +91 9500013901
+- **Location:** Chennai, India
+- **GitHub:** github.com/sVigneshwar
+- **LinkedIn:** https://linkedin.com/in/vigneshwar-s-966676142
+- **Portfolio:** https://portfolio-vigneshwar.vercel.app
+
+---
+
+## PROFESSIONAL SUMMARY
+- Frontend Engineer with 7+ years building high-traffic, production web interfaces at Zoho.
+- Specialties: React, TypeScript, performance optimization (Lighthouse/Core Web Vitals), WCAG accessibility, and SEO.
+
+---
+
+## TECHNICAL SKILLS
+- **Core:** React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS/LESS
+- **State & Data:** Redux Toolkit, RTK Query, REST APIs, async patterns
+- **Performance & Arch:** Component-driven development, Web Components, lazy loading, code splitting
+- **Quality:** WCAG 2.1, unit testing (Jest, RTL), cross-browser compatibility
+- **Tools:** Git, Vite, Webpack, npm
+
+---
+
+## PROFESSIONAL EXPERIENCE
+
+### ZOHO CORPORATION — Web Developer / Frontend Engineer
+**Feb 2020 – Present | Chennai, India**
+- Owned end-to-end frontend implementation for Zoho Japan products (CRM, Desk, Campaigns).
+- Led development of the Zoho CRM Japan Academy platform (auth flows, learning progress, user history).
+- Improved Lighthouse scores via memoization, bundle optimization, and strategic lazy loading.
+- Built reusable Web Components adopted across multiple product teams, reducing duplicated effort.
+
+### K2B SOLUTIONS — UI Developer
+**Jan 2018 – Feb 2020**
+- Delivered responsive, pixel-accurate interfaces and integrated APIs for multiple client projects.
+
+### DOODLEBLUE INNOVATIONS — UI/UX Design Intern
+**Oct 2017 – Dec 2017**
+- Supported wireframing and responsive layout implementation for product teams.
+
+---
+
+## SELECTED PROJECTS & IMPLEMENTATIONS
+- **Engineering productivity tools:** AI-assisted browser extensions for SEO checks and pixel validation (reduced QA cycles ~20%).
+- **Movie discovery app (TMDB):** React app with server-driven pagination, search, favorites via custom hook.
+
+---
+
+## EDUCATION
+- **B.E., Electronics & Communication** — Jawahar Engineering College (2013–2017)
+
+---
+
+## LANGUAGES
+- **English:** Professional working proficiency
+- **Tamil:** Native
+- **Sourashtra:** Conversational

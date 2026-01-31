@@ -1,0 +1,165 @@
+# ABROAD JOB SEARCH — GUIDE & PROMPTS
+
+## 1. Core Research Questions
+
+Act as a research tool and LinkedIn recruiter from abroad. Analyze the following:
+
+1. **Will I get a job abroad?** (Probability estimates per country)
+2. **Which countries offer the best chances for my profile?**
+3. **List of target countries** with prioritization
+4. **Relocation cost estimates:**
+    - Initial cost (single)
+    - 3–6 month cost (single, then with spouse + child)
+5. **Average salary per country** (local currency and INR)
+6. **Monthly expenses:**
+    - Alone
+    - With spouse + child
+    - Expected savings
+7. **Feasibility of sending money home** and estimated monthly remittances
+8. **Quality of life** notes and barriers to integration per country
+9. **Job permanence risk** considering AI/automation for frontend roles
+
+**For each country, produce a probability score (0–100%) with rationale and data sources.**
+
+---
+
+## 2. Job Application Tracker Template
+
+Use CSV or spreadsheet with these columns:
+
+- Company Name
+- Country
+- City / Remote
+- Role Title
+- Tech Stack (React / Next / TS etc.)
+- Visa Sponsorship (Yes / No / Unknown)
+- Recruiter Name
+- Recruiter LinkedIn URL
+- Hiring Manager Name
+- Application Source (LinkedIn / Company Site / Referral)
+- Date Applied
+- Follow-up Date (7 days later)
+- Response Status (No reply / HR call / Tech round / Reject / Offer)
+- Interview Notes
+- Salary Range
+- Relocation Support (Yes / No)
+- Priority (High / Medium / Low)
+
+### Tracker Usage Rules
+
+- Apply to **5–7 targeted roles weekly**; avoid mass applying
+- Always capture a recruiter or hiring manager contact if possible
+- Follow up exactly after 7 days; after 2 follow-ups, mark as Cold
+
+---
+
+## 3. Outreach Message Templates
+
+**Short LinkedIn / Email** (customize each field):
+
+```
+Hi {{Name}},
+
+I'm a Senior Frontend Engineer (React, TypeScript) with ~7–8 years experience.
+I've worked on high-traffic international product UIs (performance, SEO, accessibility).
+I recently applied for {{Role}} at {{Company}} and I'm open to visa sponsorship/relocation.
+
+Portfolio: {{link}}
+
+Looking forward to a brief chat.
+
+Thanks,
+{{Your Name}}
+```
+
+---
+
+## 4. Interview Prep Plan — Frontend Focus
+
+### A) Frontend System Design
+**Structure answers:** Clarify → Architecture → State → Performance → Accessibility
+
+**Common design prompts:**
+- Dashboards
+- Feeds
+- E-commerce frontends
+- Large forms
+
+### B) React / Coding Practice List
+- Hooks, custom hooks, controlled vs uncontrolled
+- Suspense, error boundaries, optimization
+- **Tasks:** Debounce search, infinite scroll, form validation, optimize slow component
+
+### C) JavaScript Deep Topics
+- Closures, event loop
+- Promises vs async/await
+- Throttle vs debounce
+
+### D) Behavioral Questions (use STAR)
+Prepare 2–3 concise stories:
+- Performance wins
+- Cross-team delivery
+- Mentorship
+
+---
+
+## 5. Weekly Prep Schedule
+
+**Weekdays:** 1–1.5 hrs
+- 30 min theory
+- 30 min coding
+- 15 min system design practice
+
+**Weekend:** 3–4 hrs
+- Build a feature
+- Mock interview
+- Portfolio updates
+
+---
+
+## 6. Where to Apply (Visa-Friendly Channels)
+
+- LinkedIn Jobs (use "visa sponsorship" filter)
+- Company career pages
+- Wellfound (AngelList)
+- Local recruiters: Morgan McKinley, Hays, Robert Walters
+
+---
+
+## 7. Pre- and Post-Arrival Checklist
+
+### Before Departure
+- Visa stamped, passport validity
+- Scanned docs, health checks
+- Insurance, housing contract
+
+### Immediately After Landing
+- Local apps, contacts
+- Forex card, emergency contacts
+- Initial banking setup
+
+### First Month
+- Register with local authorities
+- Enroll health insurance
+- Open bank account
+- Local SIM
+
+### Ongoing
+- Monitor visa, tax filings (India + host country)
+- Build local network
+
+---
+
+## 8. Deliverables When Asked
+
+- Country-by-country probability report with cost estimates and salary conversion (INR)
+- Job portal & recruiter lists per country (plain-text URLs)
+- Customized outreach templates and CSV tracker export
+
+---
+
+## Notes
+
+- Always request data sources if probability or salary estimates are provided
+- Prefer official government & company career pages for visa info
+- Use job boards for demand signals
