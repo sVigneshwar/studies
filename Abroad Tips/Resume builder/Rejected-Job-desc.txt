@@ -1,0 +1,1398 @@
+About the job
+At JetBrains, code is our passion. Ever since we started, back in 2000, we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover, and create.
+
+We're currently building No Pressure, an AI-powered simulator for role-playing and debugging difficult conversations (such as feedback, conflict, negotiation, and others). It is a human-centered, UX-first AI product – a web application with interactive conversational AI that helps people learn through virtual meetings with AI characters.
+
+We’ve completed an MVP, secured the budget for its further development, and are now moving into the pilot phase with our first customers. It’s a bold, design-led, user-first product, and we’re looking for people who are excited to build something truly new, meaningful, and well-crafted from the ground up.
+
+About The Role:
+
+You’ll be a hands-on frontend developer building and scaling a UX-first AI product from MVP to pilot and beyond. You’ll own the frontend of the product, implementing complex, user-facing features – from learning flows and AI-driven interactions to admin dashboards, analytics, and billing – working closely with design and product teams to deliver fast, clean, and production-ready experiences.
+
+This role is senior in scope. We’re looking for a frontend engineer who is comfortable owning large parts of the product, making architectural decisions, and shaping how the frontend evolves as the product scales. You’re expected to proactively suggest solutions and improvements, while also respecting and accurately implementing product and design decisions.
+
+In This Role, You Will:
+
+Own the frontend of product features, including learning paths, recommendations, the AI coach, and real conversation debugger.
+Build and support frontend experiences for AI/agent-driven workflows and interactive conversational interfaces.
+Build and maintain admin interfaces, including dashboards, analytics views, reporting, and configuration panels.
+Implement the UI for core product functionality, including billing, roles and permissions, and usage tracking.
+Turn prototypes into scalable, maintainable architecture.
+Develop the frontend codebase, shaping its architecture, and making technical decisions to ensure scalability and maintainability as the product grows.
+
+Requirements
+
+Must have:
+
+3+ years of professional frontend web development experience.
+Strong experience with React and TypeScript.
+The proven ability to build responsive, interactive UIs (forms, dashboards, and modals).
+Experience prototyping quickly and iterating into production-quality code.
+The ability to write clean, readable, and maintainable code.
+Good design sensibilities and attention to UI/UX details.
+Experience working closely with Figma and design prototypes.
+A solid understanding of client-server architecture and REST APIs.
+A bachelor’s or master’s degree in computer science, engineering, IT, mathematics, or a related field.
+
+Nice To Have:
+
+Experience with real-time communication (WebRTC, LiveKit, or similar).
+Experience integrating AI/LLM-based features into frontend applications.
+Experience building SaaS products.
+Familiarity with frontend-adjacent infrastructure and tooling (e.g. Docker, CI/CD pipelines, error monitoring tools, basic deployment, or environment setup).
+Experience with design systems or reusable component libraries (Figma + scalable UI).
+Familiarity with product analytics and usage tracking.
+
+Qualities And Experience
+
+Must have:
+
+A strong sense of ownership and responsibility.
+A focus on real product impact, not just implementation.
+The ability to balance initiative and autonomy with strong respect for design intent and product direction.
+Experience making frontend architecture or technical decisions within an existing product.
+Experience working cross-functionally with designers, PMs, or stakeholders.
+Clear evidence of skill growth, role progression, or increasing scope over time.
+
+Nice To Have:
+
+Experience in early-stage startups or 0→1 products.
+Comfort working in fast-moving, ambiguous environments.
+Experience owning features or product areas end to end.
+Mentorship or knowledge-sharing experience.
+The ability to learn new tools and frameworks or switch tech stacks confidently.
+Experience working directly with end users.
+Openness, empathy, kindness, and strong communication skills.
+ if you want LinkedIn to post your role as remote in all the locations where the role is open ---> leave this tag in JD
+
+We process the data provided in your job application in accordance with the Recruitment Privacy Policy.
+About the job
+About the job
+
+
+
+
+
+Department: Dcom Factories
+
+Location: Egypt, Greece, Bulgaria
+
+
+
+
+
+As a Senior Frontend Developer in the e-Commerce & digital services area, you will play a pivotal role in designing and implementing end-to-end solutions with a focus on storefront development. Your expertise in Spartacus development and front-end technologies will be critical in delivering high-quality, scalable, and maintainable solutions that meet the expectations of our customers and business stakeholders.
+
+
+
+
+
+YOUR KEY RESPONSIBILITIES:
+
+Design and implement high-quality solutions
+Work very closely with Platform Architect and Tech Lead on Performance Improvements opportunities like Lazy Loading and Caching
+Participate in troubleshooting, technical analyses and code review process within the team
+Collaborate with B2B DevOps Team especially with Product Manager, Tech Lead, Platform Architect on analyzing business requirements and providing sequence and effort/Story Points estimation
+Responsible to document the development specification in Azure DevOps and all related artifacts to ensure proper components and solution build
+Responsible to apply, adhere to CCH code management & propose improvement to best practices
+Take responsibility on code quality execution and on-time completion of tasks
+Support the success and development of others in the team
+
+
+ARE THESE YOUR SECRET INGREDIENTS?
+
+• University Degree in computer science or equivalent.
+
+• Min 5+ years of experience in working as Angular Developer preferably in the e-Commerce area B2B or B2C
+
+• Strong skill base in web development technologies including:
+
+o Designing, building, and testing AngularJS/ReactJS/Vue.js/Node.JS based web solutions
+
+o Very good knowledge of HTML5, CSS3, and its pre-processor
+
+o Good knowledge of web accessibility and SEO
+
+o Good understanding of Google Tag Manager
+
+o Experience with SAP Commerce JSP-based accelerator is a plus
+
+• Strong concepts & knowledge of object-oriented programming, data structures, algorithms and design patterns.
+
+• FMCG Commercial business process awareness will be considered as an advantage
+
+• Proven Experience in Agile Scrum development practices
+
+• Proven ability to work in a multi-cultural environment
+
+• Strong communication and influencing skills
+
+• English proficiency is a MUST
+
+
+
+
+
+ABOUT YOUR NEW TEAM:
+
+We are Coca-Cola Hellenic, a growth-focused consumer goods business and strategic bottling partner of the Coca-Cola Company. We bottle, distribute and sell an unrivalled range of products in 29 markets in Europe, Africa and Eurasia. As we do, we create value for all stakeholders, support socio-economic growth and build a more positive environmental impact.
+
+We bring together more than 30,000 people from over 70 nationalities, coming from five continents. The diversity of our markets, from mature to emerging economies, provides a wide range of attractive opportunities for growth.
+
+We nurture our talents. We give opportunities to people across all functions and levels, as well as different geographies, backgrounds and education. We are willing to take a risk on the people we believe in, even if they don’t have the perfect experience. We have faith in what every person can be.
+
+And although we have so much to be proud of, we always stay humble. We believe the real magic happens – for us and for you – when we OPEN UP.
+
+
+
+AT COCA-COLA HBC, DIVERSITY HELPS US THRIVE
+
+
+
+At Coca-Cola HBC, we are an inclusive employer that thrives on diversity. This means our environment provides equal opportunities for all, regardless of race, color, religion, age, disability, sexual orientation, or gender identity. Join us in nurturing a culture where everyone belongs and contributes to our collective success.About the job
+We are looking for a person to take on a senior role within the Frontend Enablement team that is part of our technology department.
+
+About Us
+
+SN Technology (SNT) is the technology division of Springer Nature. Our work touches upon all areas of the business; this role will support practitioners of Frontend Development across our departments.
+
+There are about 700 of us across London, Berlin, Lisbon, Pune, New York, Madrid, Dordrecht, and Heidelberg. We work in collaborative, multi-disciplinary delivery teams, developing digital products and services that answer user problems and support business goals.
+
+The work is interesting and meaningful.
+
+Our culture is collaborative and friendly.
+
+We encourage and support growth, both personal and professional.
+
+This is a terrific opportunity for anyone who is keen to join a diverse team of creative people, who love to learn, who will embrace and develop our culture, who want to understand and help our customers, and help make SNT a place where people and ideas can thrive.
+
+You will join a global team with different nationalities, backgrounds, and experience levels. All team members collaborate to deliver solutions that best satisfy the needs of our customers and business. We are working to create a culture with values that encourages ideas and innovation to best advance Springer Nature’s vision.
+
+We intentionally create teams that are diverse, equitable and inclusive. Diversity is the mix of culture, background, experience, and personality we all bring. Equity ensures all are treated in a just and fair manner, while inclusion is getting the mix to work better together. We want every member of our teams to contribute to our common goals while respecting each other's skills, knowledge, and needs.
+
+Visit springernature.com to learn more about who we are and what we do.
+
+About The Role
+
+The Frontend Enablement team are responsible for supporting development teams and have a focus on frontend concerns including architecture and security, web performance, and data protection compliance. You’ll work closely with Frontend Developers from across different domains, marketing teams, and legal teams to help support the day-to-day operations of the business.
+
+You will have a strong background in Frontend Development, complemented by a deep understanding of how technical decisions align with the wider organisational strategy. This role requires the ability to step back and see how systems and solutions fit together across multiple teams, identifying opportunities for improvement beyond the scope of a single product. You should be comfortable working at scale on complex, long-lived systems where security, robustness, and maintainability take priority over adopting the latest technology.
+
+Your work will involve providing incremental improvements to existing applications as well as designing and building new features—within our Node.js applications, the browser, and tag management systems. Native JavaScript and Node.js expertise are essential, along with strong knowledge of methodologies, tooling, and best practices. You will leverage this knowledge not only to deliver robust solutions but also to guide and enable others, fostering collaboration and driving technical excellence across the organisation.
+
+You will regularly be communicating and collaborating with multiple teams, seeking opportunities to help them provide the most value. You should be experienced working with people from different backgrounds and seniority levels and be comfortable having conversations around technology choices; being able to influence those discussions with knowledge of, and reference to, frontend best practices and ways of working.
+
+The job is based in Berlin, and you will work remotely at times with colleagues in London.
+
+About you:
+
+You have hands-on experience using JavaScript to build robust, scalable client-side functionality, and Node.js to create and maintain backend applications and APIs, alongside working with tag management and deployment systems. 
+You have a keen interest in solving problems that make a positive impact for others. 
+You have experience working with cross-functional teams and collaborating effectively. 
+You have strong communication skills and can explain technical concepts to non-technical audiences, and vice versa. 
+You treat colleagues with respect, listen closely, and demonstrate compassion. 
+You work collaboratively and optimise for team success over individual success. 
+You are self-starting, with strong organisational and decision-making skills, and are happy defining your own work by seeking out areas where you can be useful to the organisation 
+You are comfortable engaging with colleagues and teams both remotely and in person. 
+You have a good command of English; clear communication is key to collaboration in our day-to-day work. 
+
+What you will be doing:
+
+Within 3 months
+
+Build strong working relationships with peers across the Frontend discipline and other areas of the organisation, gaining insight into collaboration, technology, and our ways of working. 
+Contribute to code and discussions in a way that reflects an understanding of the constraints, goals, and strategy of Frontend Enablement. 
+Learn and apply the techniques outlined in our Frontend Playbook. 
+Participate in code reviews within the Frontend Enablement team and review pull requests from other teams. 
+Gain an understanding of the architectural direction of the Frontend Enablement team. 
+With guidance from peers, contribute to cross-discipline meetings and discussions to understand how we integrate and engage with the wider business. 
+Collaborate with peers to identify and undertake training to strengthen your skills in areas such as architecture, compliance, and performance. 
+
+Within 6 months
+
+Continue developing strong relationships with teams across the organisation, fostering collaboration and shared understanding. 
+Demonstrate effective communication in meetings and discussions to help others understand our goals and technologies. 
+Contribute to technology discussions, offering guidance and solutions that promote our preferred development practices. 
+Become familiar with our Consent Management Platform (CMP) architecture and our approach to data privacy and compliance. 
+Identify and complete tasks related to your areas of technical expertise with minimal supervision. 
+Share domain-specific insights with the frontend leadership team to help solve cross-domain problems. 
+Actively contribute to meetings and discussions with other disciplines and the wider business, speaking confidently about the technological landscape within your domain. 
+Contribute to Frontend Enablement playbooks and runbooks. 
+Begin identifying potential issues within team-specific applications or implementations, clearly describe and demonstrate those issues to the wider team, and propose solutions that align with our preferred ways of working. 
+
+Within 12 months
+
+Continue promoting and applying principles that ensure robustness, accessibility, and maintainability in contributions and code reviews, aligning with guidance in our frontend playbooks. 
+Collaborate with peers across disciplines to influence architectural decisions and ensure technical solutions meet organisational goals for scalability, security, and long-term maintainability. 
+Continue contributing to playbooks and runbooks specific to the Frontend Enablement team. 
+Demonstrate strong knowledge of technology across the wider organisation. 
+Advocate and drive development practices that improve the user experience for Frontend Enablement products. 
+Be a trusted source of advice for solving problems, supporting developers and colleagues from less technical backgrounds with constructive feedback. 
+Help others identify their learning needs through informal conversations or structured approaches, enabling developers to build skills for delivering accessible, robust, performant, and secure products. 
+Showcase best practices for frontend architecture. 
+Identify areas of the Frontend Enablement codebases for improvement to mitigate future issues. 
+Contribute to discussions around complex solution design trade-offs, referencing frontend architectural requirements and enabling a wider understanding of user needs. 
+
+Springer Nature Skills associated with this job profile include :
+
+SN-Action-Oriented, SN-Tech Savvy, SN-Quality Management, SN-Process & Systems Design , SN-Data Security & Governance, SN-Collaboration, SN-Software Engineering & Systems Integration , SN-Product Development & Delivery, SN-Drives Results, SN-Cultivates Innovation
+About the job
+Position Overview
+
+Deutsche Bank Technology in Berlin
+
+DB Technology is a global team of tech specialists, spread across multiple trading hubs and tech centres. We have a strong focus on promoting technical excellence – our engineers work at the forefront of financial services innovation using cutting-edge technologies.
+
+Our Berlin location is our most recent addition to our global network of tech centres and growing strongly. We are committed to building a diverse workforce and to creating excellent opportunities for talented engineers and technologists. Our tech teams and business units use agile ways of working to create #GlobalHausbank solutions from our home market.
+
+Autobahn
+
+Autobahn is one of Deutsche Bank’s key strategic platform, enabling delivery of core applications >800 from both the Investment Bank and the Corporate Bank to >24,000 internal users and to >100,000 external client users. Consolidation of architectural vision and ongoing management of Autobahn framework and channels under the Autobahn Group creates significant efficiencies for Deutsche Bank and promotes cross-divisional interoperability and common branding both internally and externally.
+
+It is a technical platform, which streamlines the delivery of apps to end users, addressing many common regulatory and compliance requirements. For end users, it provides a unified access point to multiple apps offered by Deutsche Bank. Rather than launching apps directly, users log into Autobahn and then launch apps from there. The Autobahn Platform hosts client applications, centralizes login and includes a way to search for apps and to bookmark frequently used apps. Interoperability features of home grown opensource library “Plexus Interop” allow apps on Autobahn written in different technologies (Web, .NET, Java...) to communicate between each other.
+
+You will be part of Autobahn Platform UI team which is a responsible for building one of main and perspective channels for a platform as well as building out React component framework used by multiple downstream. You are going to work with very strong professionals on state of art UI framework and platform for other teams to build upon their web offerings: react component framework, microfrontend framework, shared navigation component, and application interoperability framework we have opensourced to github.
+
+> You love this job but feel you cannot tick 100% of the boxes? Send us your CV anyway!
+
+
+Your Key Responsibilities
+
+Design and develop new functionality;
+Participate in full development cycle;
+Document design decisions, components APIs and create usage examples;
+Being technology and product expert, share knowledge via demo sessions;
+Ensure quality metrics of the product meet non-functional requirements;
+Build fault-tolerant functionality and keep in mind production stability;
+Work with QAs and BAs on functional and non-functional requirements;
+Work with UX team on defining new interfaces;
+Work with other development teams that use the frameworks for products delivery.
+
+
+Your Skills And Experiences
+
+Many years of working experience and deep knowledge in building performant web applications
+Solid knowledge of data structures and algorithms
+Very strong JavaScript/Web knowledge
+Deep knowledge and hands-on experience in how browser works
+Strong analytical and problem solving skills
+Proactive and delivery-oriented personality
+Good communication and interpersonal skills
+
+
+What We Offer
+
+We provide you with a comprehensive portfolio of benefits and offerings to support both, your private and professional needs.
+
+Emotionally and mentally balanced A positive mind helps us master the challenges of everyday life – both professionally and privately. We offer consultation in difficult life situations as well as mental health awareness trainings.
+Physically thriving We support you in staying physically fit through an offering to maintain personal health and a professional environment. You can benefit from health check-ups; vaccination drives as well as advice on healthy living and nutrition.
+Socially connected Networking opens up new perspectives, helps us thrive professionally and personally as well as strengthens our self-confidence and well-being. You can benefit from PME family service, FitnessCenter Job, flexible working (e.g parttime, hybrid working, job tandem) as well as an extensive culture of diversity, equity and inclusion.
+Financially secure We provide you with financial security not only during your active career but also for the future. You can benefit from offerings such as pension plans, banking services, company bicycle or “Deutschlandticket”.
+
+
+Since our offerings slightly vary across locations, please contact your recruiter with specific questions.
+
+This job is available in full and parttime.
+
+In case of any recruitment related questions, please get in touch with Luisa Moderzinski
+
+Contact Luisa Moderzinski: +49 (0) 151 56516413
+
+Wir streben eine Unternehmenskultur an, in der wir gemeinsam jeden Tag das Beste geben. Dazu gehören verantwortungsvolles Handeln, wirtschaftliches Denken, Initiative ergreifen und zielgerichtete Zusammenarbeit.
+
+Gemeinsam teilen und feiern wir die Erfolge unserer Mitarbeiter*innen. Gemeinsam sind wir die Deutsche Bank Gruppe.
+
+Wir begrüßen Bewerbungen von allen Menschen und fördern ein positives, faires und integratives Arbeitsumfeld.About the job
+Suitsupply is rapidly expanding in the digital space, and we're seeking a Senior Front-end Developer to join us on our journey to become the global leader in tailored experiences. We believe in empowering autonomous development teams to drive innovation and creativity, ensuring exceptional customer experiences across all touchpoints - online, in-store, or via mobile.
+
+What you will do:
+
+Develop and optimize high-quality, performant client applications using our modern front-end stack (Next.js, React, TypeScript).
+With your team, you take ownership of the end-to-end life-cycle of your applications.
+Collaborate with the front-end community in aligning and standardizing technologies and best practices across teams.
+Implement new front-end technologies to enhance performance, usability, and team productivity.
+Work closely with back-end developers to ensure seamless integration of front-end/UI requirements.
+Utilize Design Systems to build scalable and maintainable front-end components.
+Participate in code reviews, providing and receiving respectful and constructive feedback. Ability to implement front-end initiatives effectively within a team environment.
+Who you are:
+
+5+ years of experience with front-end technologies including HTML, CSS, JavaScript, React, and modern libraries like Next.js.
+You’re pragmatic but precise; you take pride in making your implementations pixel perfect and work efficiently to get there without overcomplicating.
+Familiarity with monorepo (e.g., NX) and CI/CD pipelines.
+Strong understanding of performance optimization and accessibility best practices. Preferably in an Ecommerce environment.
+Experience with CMS platforms like Contentful and e-commerce engines such as Salesforce Commerce Cloud or Shopify is a plus.
+What you will get:
+
+A fast-paced agile environment that appreciates initiative and fosters learning.
+40% discount on all Suitsupply products.
+A modern, state-of-the-art office in Amsterdam.
+Opportunity to impact global customers in over 26 countries and across 120 stores.
+Work in an international, diverse workplace with over 20 nationalities.
+Chance to contribute to shaping the future of front-end technology at Suitsupply.About the job
+Your work days are brighter here.
+
+We’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.
+
+About The Team
+
+Our mission is to change the way business deals get done. In an industry plagued by inefficient and ineffective contract management systems, we provide a solution that accelerates, scales, and protects the business, enabling contract professionals to become their company’s superhero.
+
+We create cutting-edge AI technology that makes contracts searchable and simplifies deal-making processes to supercharge business while helping to reduce costs and manage risk. We automate manual work, facilitate collaboration, and streamline operations so businesses can make better decisions.
+
+By reimagining legal documents, we take the stress out of contract management, empowering brilliant people to do their best work while fueling exponential growth.
+
+About The Role
+
+About the Role
+
+Evisort Engineering is expanding and as a result of that a new Software Development unit is being formed. We are looking for a Software Development Engineer to join this team. As such, you will work with a multidisciplinary team of highly skilled engineers, in close collaboration with your Product and Design partners, with the goal of maintaining and expanding our best-in-class contract management offerings. Your technical expertise and ability to work collaboratively so that the sum is greater than the parts will be crucial in realizing our ambitious vision to deliver best-in class-AI at scale, to transform how major companies optimize and streamline key business processes related to negotiating and managing their contracts.
+
+Your role will be instrumental in advancing our AI initiatives and delivering exceptional value to corporate legal departments and business professionals world-wide.
+
+You will:
+
+Partner closely with engineering, data science, product management, and design teams to execute the vision, strategy and roadmap
+Participate in a collaborative team culture that encourages iteration and innovation, and a deep understanding of both our business domain and of engineering practices to steer engineering decisions
+Have an impact on the professional development and productivity of your teammates
+
+Be part of a team that will own several functional areas of our platform (“you build it, you run it”)
+
+About You
+
+Basic Qualifications
+
+6+ years of experience in software engineering
+Experienced in building and operating SaaS products in cloud environments (AWS preferred)
+Experienced in the technologies and tradeoffs involved in building modern distributed systems
+Advanced knowledge of modern software development practices (devops, automated testing, observability, etc)
+Front End development expert (technologies, tools, practices, etc)
+Highly proficient in typescript
+Highly proficient in React
+Familiarity with multiple programming languages and paradigms a plus
+
+Other Qualifications
+
+Successful track record of operating as part of cross-functional teams in fast-paced, agile environments
+Highly effective communicator with both technical and non-technical audiences
+Excellent communication and interpersonal skills, with the ability to collaborate effectively with legal professionals
+Eager to work openly and collaboratively with a diverse team
+Comfortable navigating ambiguity to turn hard problems into clear and compelling solutions through reasoning and research
+
+Our Approach to Flexible Work
+
+With Flex Work, we’re combining the best of both worlds: in-person time and remote. Our approach enables our teams to deepen connections, maintain a strong community, and do their best work. We know that flexibility can take shape in many ways, so rather than a number of required days in-office each week, we simply spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role). This means you'll have the freedom to create a flexible schedule that caters to your business, team, and personal needs, while being intentional to make the most of time spent together. Those in our remote "home office" roles also have the opportunity to come together in our offices for important moments that matter.
+
+Workday Pay Transparency Statement
+
+Workday pay ranges vary based on work location. As a part of the total compensation package, this role may be eligible for the Workday Bonus Plan or a role-specific commission/bonus, as well as annual refresh stock grants. Recruiters can share more detail during the hiring process. Each candidate’s compensation offer will be based on multiple factors including, but not limited to, geography, experience, skills, job duties, and business need, among other things. For more information regarding Workday’s comprehensive benefits, please click here.
+
+Pursuant to applicable Fair Chance law, Workday will consider for employment qualified applicants with arrest and conviction records.
+
+Workday is an Equal Opportunity Employer including individuals with disabilities and protected veterans.
+
+At Workday, we are committed to providing an accessible and inclusive hiring experience where all candidates can fully demonstrate their skills. If you require assistance or an accommodation at any point, please email accommodations@workday.com.
+
+Are you being referred to one of our roles? If so, ask your connection at Workday about our Employee Referral process!
+
+At Workday, we value our candidates’ privacy and data security. Workday will never ask candidates to apply to jobs through websites that are not Workday Careers.
+
+Please be aware of sites that may ask for you to input your data in connection with a job posting that appears to be from Workday but is not.
+
+In addition, Workday will never ask candidates to pay a recruiting fee, or pay for consulting or coaching services, in order to apply for a job at Workday.About the job
+We’re hiring on behalf of a fast-growing, profitable startup modernising construction technology. This is a Founding Frontend Engineer role with real ownership, building new customer-facing products from scratch and shaping frontend foundations alongside a backend-leaning team.
+
+
+
+What You’ll Do
+
+Build and ship frontend experiences for new SaaS products
+Own end-to-end delivery of user-facing features, from concept to production
+Refactor and modernise frontend code for scale and performance
+Partner closely with product and backend engineers on real customer workflows
+Establish frontend patterns, components, and best practices
+
+
+Tech Stack
+
+TypeScript, React, MobX, CSS, JS, HTML
+
+
+What We’re Looking For
+
+3–10 years building user-facing web applications (frontend-focused)
+Experience at an early-stage startup (Seed–Series C) or strong consumer app company
+Built customer-facing or data-intensive SaaS products
+Full-stack background preferred, with a frontend-heavy focus
+Strong ownership mindset, low ego, highly self-directed
+
+
+Why Join
+
+Profitable for 2+ years with millions in recurring revenue
+Backed by top-tier investors and industry leaders
+Founding-level role with meaningful product ownership
+Build APIs and products that unify fragmented, legacy systems at a massive scale
+Fast iteration, real customer feedback, and daily shipping
+
+
+Compensation
+
+• Salary: $160,000 – $225,000 USD
+• Equity: 0.05% – 0.20%
+• Visa sponsorship available (H-1B, TN, etc.)
+
+
+Benefits
+
+90% employer-covered healthcare (multiple plans)
+401(k) with 100% match up to 4%
+Generous relocation support
+On-site gym and wellness facilities
+
+
+Protip UK Limited and its client are equal opportunity employers. All qualified applicants will receive consideration for employment without regard to race, colour, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, veteran status, marital status, or any other status protected by applicable law. Due to the volume of applications received, only shortlisted candidates may be contacted. By applying for this role, you acknowledge and agree that your personal information may be processed by Protip UK Limited and shared with the client(s) involved in this recruitment process for the purposes of candidate evaluation and hiring. Personal data will be handled in accordance with applicable data protection laws, including, where relevant, the UK GDPR, EU GDPR, and US privacy laws. For further information, please review our Privacy Policy: https://protip.uk/en/privacy-policy.About the job
+About Signal Ocean: 
+
+
+
+Signal Ocean is the technology arm of the Signal Group. Our primary product, The Signal Ocean Platform, enables shipping professionals to securely handle, integrate, and assess intricate collections of private and public shipping data. Driven by advanced machine learning and artificial intelligence, our technology suite provides tailored, exclusive insights that supports our clients in improving performance and efficiency. Insights are delivered over web and mobile applications, as well as through a rich set of APIs and SDKs. Our backend architecture is abstracted to modularly offer deep analytics capabilities our solutions leverage or can be directly embedded in our client's system topologies.
+
+
+
+About the role
+
+As the Signal Ocean Platform continues to grow, we're expanding our engineering team. We're looking for a Front-End Engineer with experience in React, someone who is curious, proactive, and passionate about building high-quality digital solutions. Signal's Software Engineers work closely with data science, design, product, and business analysis professionals to develop robust solutions for the highly entrepreneurial domain of shipping.
+
+
+
+Technology Stack
+
+We build cloud solutions using C#, .NET Core, Typescript, React, MSSQL Server, Azure, Python, MongoDB, Redis, Docker, Kubernetes, Grafana and more. We also offer the opportunity to work on complex architectures and technology stacks, as well as a global, Artificial Intelligence-powered technology product vision, supported by the use of multiple AI tools and accelerators. We use Agile to organize our teams and would love to onboard people who can contribute across product discovery, delivery, optimization, QA, DevOps, and Continuous Integration.
+
+
+
+Requirements
+
+2+ years of front-end development experience building real-world web applications of medium-to-large scale and complexity.
+Practical experience with React, JS/TS, HTML, and CSS.
+Experience in building intuitive web interfaces that present data in compelling ways.
+Ability to iterate tasks quickly with the aim to present UI prototypes.
+Experience in building and consuming REST APIs
+Understanding of unit testing and efficient web testing frameworks.
+Ability to work effectively with remote teams
+Positive, collaborative approach to work and a strong sense of ownership and accountability
+Excellent command of written and spoken English (company's working language)
+Familiarity with C#, .NET Core, Design Patterns, SOLID and cloud infrastructure is a plus.
+Master's or Bachelor's degree in Computer Science, a related technical field, or equivalent practical experience.
+
+
+Benefits
+
+Generous compensation with additional performance incentives.
+Coverage under the company's collective health insurance plan.
+Opportunity to work alongside experienced professionals with deep knowledge in software engineering, data science & shipping business who are always eager to mentor.
+Signal's hybrid work policy currently includes nine on-site working days per month, during which our happy hour events take place.
+2-4 weeks of onboarding training to prepare you for your new role, having the opportunity to meet about 30 trainers while diving deep into our products and/or the shipping world.
+Career growth opportunities and a structured development discussion every 4 months.
+Personal learning budget for training, seminars, conferences (750 to 2000 EUR annually depending on seniority).
+Regular team bonding events and activities.
+Fitness benefits to support your health and wellbeing 
+
+
+All applications will be considered under the terms and conditions of confidentiality in accordance with the regulations of personal data protection.
+
+We are an Equal Opportunity Employer committed to diversity and inclusion in the workplace. At Signal, we believe that diversity of opinions, approaches and viewpoints is key to our innovation and success and we encourage that with our hiring, development and rewards practices. We prohibit discrimination and harassment of any kind based on race, color, sex, religion, sexual orientation, national origin, disability, genetic information, pregnancy, or any other protected characteristics by law and take actions to eliminate those from our workplace.
+About the job
+Who Are We?
+
+Postman is the world’s leading API platform, used by more than 45 million+ developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of the API lifecycle and streamlining collaboration—enabling users to create better APIs, faster.
+
+The company is headquartered in San Francisco and has offices in Boston, New York, Austin, Tokyo, London, and Bangalore - where Postman was founded. Postman is privately held, with funding from Battery Ventures, BOND, Coatue, CRV, Insight Partners, and Nexus Venture Partners. Learn more at postman.com or connect with Postman on X via @getpostman.
+
+P.S: We highly recommend reading The "API-First World" graphic novel to understand the bigger picture and our vision at Postman.
+
+The Opportunity
+
+We Are Investing In a Growth Engineering Team At Postman To Help Developers And Teams Onboard To a Powerful Product Experience That Starts With Single-player Developers, And Grows Into Teams That Collaborate On The Artifact Of The APIs Like How Teams Collaborate With The Artifact Of a Design File Using Figma. We Are Building This Team For a Number Of Reasons, Notably
+
+Optimize sign-up and onboarding experience for both individuals and teams
+Help users uncover the power of Postman (it’s so much more than “just” an API client), gradually and at the right moment
+Guide users to key activation moments (like creating their first collection, or inviting a member to their team) that lead to expansion and a stickier product experience
+
+In effect: we know we have a product experience and funnel that works quite well. Now we want to optimize, tune, and make it even more amazing (and measure even more). We’re looking for an experienced engineer who has worked on projects that generated measurable business impact. You’ll work closely with Postman’s engineering leadership and our product and design teams to achieve our mission of connecting 100M developers in the world. We specifically hope this person is you, because while the team is small right now, we want an eager, curious engineer who cares about building experiences that delight, convert, and measurably impact the business and work with a team of like-minded individuals who care deeply, too.
+
+What You’ll Do
+
+To achieve our goals, we’ll need a talented, experienced, and thoughtful engineer with a special interest and aptitude for growth. We are looking for someone who cares deeply about the details and spends time building user interfaces that delight users. We need an engineer who can be somewhat self-directed and who has great taste, judgment, and can iterate (and ship!) quickly to achieve the iterative improvements to our first-time user experience. To quote Frank Slootman (former Snowflake CEO):
+
+“Strategy is overrated and execution is severely underrated. Mostly all companies plan well and mostly all companies fail at execution. Make execution the king in your company.” – Frank Slootman, Amp it Up
+
+Execution Is Key On The Growth Engineering Team. We’ll Need Someone Who Relentlessly Leads By Example On Execution And Ships Measurably Impactful Changes Regularly To The User Experience Of Postman. We’ll Progress And Continuously Improve Towards Achieving Our Goals And Metrics And Most Importantly We’ll Deliver An Increasingly Delightful Product Experience That Developers Love To Use. You Should Expect To
+
+Own and deliver. Deliver improvements to the core product experience that help us achieve our goals around onboarding and activation
+Deliver little big changes. Deliver small, measured changes that meaningfully impact end users and successful activation of these users
+
+Experiment and identify winners. We have a great foundation of experimentation on the team and you will need to leverage and improve this foundation to ship A/B tested changes that we know have an impact on our goals. 
+
+Own end-to-end workflows. Own end-to-end and understand core workflows, driving measurable improvements to user experience particularly focused on first-time user experience (sign-up, onboarding, and beyond)
+Deeply understand the user. Collaborate and work with end users (developers!) using Postman to understand their core workflows and then use that knowledge to improve our product
+Learn and grow. Broaden your knowledge of the core product and the domain over time, starting with first-time UX but eventually branching out into driving improvement to deeper experiences on the Postman user’s journey, and 
+Collaborate across boundaries and geographies. Collaborate on team processes to streamline collaboration across US and India team members
+
+About You
+
+Must have:
+
+At least 5+ years of experience building frontend and/or full-stack projects and user experiences. 
+Track record of delivering impactful and engaging user experiences that delight users
+Deep expertise in building the modern web with JavaScript, HTML, and CSS. You likely have used libraries or frameworks like React or Next.js, but we care much more about the fundamentals than the tech stack.
+Excellent communication skills. We’re a remote-first team and we’re going to be moving fast together. Good communication is key.
+Detail oriented. We have to care about the details, and while we don’t expect you to be a designer, you need to care about the product experience that our teams are shipping.
+Measure twice, cut once. We expect that you are analytical by nature and have experience in delivering features, improvements, and changes that leverage analytics tools (like LaunchDarkly) and experimentation techniques. 
+Customer obsession. As we are a core product with years of muscle memory, we need an engineer who is able and willing to leverage the voice of the customer to expedite decision making, develop conviction, and most importantly delight our user.
+Based in the San Francisco Bay Area.
+
+Nice-to-have
+
+Experience working with or using full-stack JavaScript / TypeScript
+Experience working in a React application with state management tools like MobX
+Experience working on B2B product and/or developer tools
+
+The reasonably estimated base salary for this role ranges from $110,000 to $180,000, plus a competitive equity package. Actual compensation is based on the candidate's skills, qualifications, and experience.
+
+What Else?
+
+In addition to Postman's pay-on-performance philosophy, and a flexible schedule working with a fun, collaborative team, Postman offers a comprehensive set of benefits, including full medical coverage, flexible PTO, wellness reimbursement, and a monthly lunch stipend. Along with that, our wellness programs will help you stay in the best of your physical and mental health. Our frequent and fascinating team-building events will keep you connected, while our donation-matching program can support the causes you care about. We’re building a long-term company with an inclusive culture where everyone can be the best version of themselves.
+
+At Postman, we embrace a hybrid work model. For all roles based out of San Francisco Bay Area, Boston, Austin, Tokyo, Bangalore, Hyderabad, London, and New York, employees are expected to come into the office 3-days a week. We were thoughtful in our approach which is based on balancing flexibility and collaboration and grounded in feedback from our workforce, leadership team, and peers. The benefits of our hybrid office model will be shared knowledge, brainstorming sessions, communication, and building trust in-person that cannot be replicated via zoom.
+
+Our Values
+
+At Postman, we create with the same curiosity that we see in our users. We value transparency and honest communication about not only successes, but also failures. In our work, we focus on specific goals that add up to a larger vision. Our inclusive work culture ensures that everyone is valued equally as important pieces of our final product. We are dedicated to delivering the best products we can.
+
+Equal opportunity
+
+Postman is an Equal Employment Opportunity and Affirmative Action Employer. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender perception or identity, national origin, age, marital status, protected veteran status, or disability status. Headhunters and recruitment agencies may not submit resumes/CVs through this website or directly to managers. Postman does not accept unsolicited headhunter and agency resumes. Postman will not pay fees to any third-party agency or company that does not have a signed agreement with Postman.
+About the job
+To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts.
+
+Job Category
+
+Software Engineering
+
+Job Details
+
+About Salesforce
+
+Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all.
+
+Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce.
+
+Overview Of The Role
+
+Agentforce Authoring team is looking to add a strong Front-End focused Core Engineer to the Agentforce Builder team. It is the one of the most exciting projects going on at Salesforce and AI Cloud, extensively featured in Agentforce Keynote during Dreamforce 2025.
+
+The Front-End Engineer will work on the Agentforce Builder environment, a cutting-edge Agent Authoring experience, enabling Salesforce customers to create, test, deploy, and monitor their agents.
+
+There is an opportunity to work on all parts of the stack, but primarily in highly complex LWC/Redux layer, supporting Authoring Canvas and Pro-Code view of the editor, as well as the underlying Core services, APIs, and data layer.
+
+Responsibilities
+
+Build key aspects of Agentforce Builder
+Perform design review, code reviews, participate in team meetings
+Hold the quality, performance, scalability, security and accessibility bar according to high Salesforce software development standards.
+Contribute to continual improvement of methodologies, best practices, tools and techniques for more effective product usage
+Master the user of AI tools in UI and Core engineering
+Work with product management to produce a highly configurable and easy to implement product
+
+Required Qualifications
+
+5+ years UI development experience with emphasis on web front-end development
+Experience with in LWC and Redux
+Expert HTML, JavaScript, and CSS knowledge
+BS in CS from a top university, MS in CS preferred
+
+Unleash Your Potential
+
+When you join Salesforce, you’ll be limitless in all areas of your life. Our benefits and resources support you to find balance and be your best, and our AI agents accelerate your impact so you can do your best. Together, we’ll bring the power of Agentforce to organizations of all sizes and deliver amazing experiences that customers love. Apply today to not only shape the future — but to redefine what’s possible — for yourself, for AI, and the world.
+
+Accommodations
+
+If you require assistance due to a disability applying for open positions please submit a request via this Accommodations Request Form.
+
+Posting Statement
+
+Salesforce is an equal opportunity employer and maintains a policy of non-discrimination with all employees and applicants for employment. What does that mean exactly? It means that at Salesforce, we believe in equality for all. And we believe we can lead the path to equality in part by creating a workplace that’s inclusive, and free from discrimination. Know your rights: workplace discrimination is illegal. Any employee or potential employee will be assessed on the basis of merit, competence and qualifications – without regard to race, religion, color, national origin, sex, sexual orientation, gender expression or identity, transgender status, age, disability, veteran or marital status, political viewpoint, or other classifications protected by law. This policy applies to current and prospective employees, no matter where they are in their Salesforce employment journey. It also applies to recruiting, hiring, job assignment, compensation, promotion, benefits, training, assessment of job performance, discipline, termination, and everything in between. Recruiting, hiring, and promotion decisions at Salesforce are fair and based on merit. The same goes for compensation, benefits, promotions, transfers, reduction in workforce, recall, training, and education.
+
+In the United States, compensation offered will be determined by factors such as location, job level, job-related knowledge, skills, and experience. Certain roles may be eligible for incentive compensation, equity, and benefits. Salesforce offers a variety of benefits to help you live well including: time off programs, medical, dental, vision, mental health support, paid parental leave, life and disability insurance, 401(k), and an employee stock purchasing program. More details about company benefits can be found at the following link: https://www.salesforcebenefits.com.Pursuant to the San Francisco Fair Chance Ordinance and the Los Angeles Fair Chance Initiative for Hiring, Salesforce will consider for employment qualified applicants with arrest and conviction records.
+
+At Salesforce, we believe in equitable compensation practices that reflect the dynamic nature of labor markets across various regions. The typical base salary range for this position is $117,200 - $223,900 annually. In select cities within the San Francisco and New York City metropolitan area, the base salary range for this role is $141,200 - $246,000 annually. The range represents base salary only, and does not include company bonus, incentive for sales roles, equity or benefits, as applicable.
+
+
+About the job
+About the Role
+
+DoorDash is building the world's most reliable on-demand, logistics engine for delivery. We are continuing to grow rapidly and expanding our Engineering offices globally! We are looking for Frontend Engineers to build and maintain a large scale 24x7 global infrastructure system that powers DoorDash's 3-sided marketplace of Consumers, Merchants and Dashers.
+
+Frontend Engineers at DoorDash help design and build beautiful, intuitive user interfaces for our web applications to create the best delivery experience possible. Product focused Engineers work at the intersection of product and infrastructure to solve key business problems with elegant technical solutions. You'll work with both technical and business teams to build features that keep our users top of mind.
+
+This role is hybrid with some in-office time expected and will report to an Engineering Manager.
+
+You're excited about this opportunity because you will…
+
+Become a product owner for one of our client facing applications. 
+Write robust, highly tested, well-crafted code that you can be proud of. 
+Fight for the best customer experience through technical and product decisions. 
+
+We're excited about you because you have…
+
+B.S., M.S. or PhD in relevant field 
+2+ years of industry experience
+Understanding of cross-browser compatibility, progressive enhancement and graceful degradation, responsive design, website performance, and accessibility.
+Experience architecting large-scale frontend applications
+Mastery of the foundations of the web: vanilla JS, HTML5, CSS3
+Deep understanding of REST principles and experience working with and implementing backend APIs
+Experience with React/Redux, or similar frameworks
+Experience with documentation, unit and integration testing
+
+Notice to Applicants for Jobs Located in NYC or Remote Jobs Associated With Office in NYC Only
+
+We use Covey as part of our hiring and/or promotional process for jobs in NYC and certain features may qualify it as an AEDT in NYC. As part of the hiring and/or promotion process, we provide Covey with job requirements and candidate submitted applications. We began using Covey Scout for Inbound from August 21, 2023, through December 21, 2023, and resumed using Covey Scout for Inbound again on June 29, 2024.
+
+The Covey tool has been reviewed by an independent auditor. Results of the audit may be viewed here: Covey
+
+Compensation
+
+Actual compensation within the pay range listed below will be decided based on factors including, but not limited to, skills, prior relevant experience, and specific work location. Base salary is localized according to employee work location.
+
+In addition to base salary, the compensation for this role includes opportunities for equity grants. Talk to your recruiter for more information.
+
+DoorDash cares about you and your overall well-being. That's why we offer a comprehensive benefits package for all regular employees, that includes paid time off, paid parental leave, wellness benefit and several paid holidays.
+
+Additionally, for full-time employees, DoorDash offers medical, dental, and vision benefits, disability and basic life insurance, an RRSP including an employer match, and a mental health program, among others.
+
+To learn more about our benefits, visit our careers page here.
+
+The base pay for this position ranges from our lowest geographical market up to our highest geographical market within British Columbia.
+
+$120,000—$150,000 CAD
+
+About DoorDash
+
+At DoorDash, our mission to empower local economies shapes how our team members move quickly, learn, and reiterate in order to make impactful decisions that display empathy for our range of users—from Dashers to merchant partners to consumers. We are a technology and logistics company that started by enabling door-to-door delivery, and we are looking for team members who can help us go from a company that is known as the place you order food to a company that people turn to for any and all goods.
+
+DoorDash is growing rapidly and changing constantly, which gives our team members the opportunity to share their unique perspectives, solve new challenges, and own their careers. We're committed to supporting employees' happiness, healthiness, and overall well-being by providing comprehensive benefits and perks including premium healthcare, wellness expense reimbursement, paid parental leave and more.
+
+Our Commitment to Diversity and Inclusion
+
+We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
+
+If you need any accommodations, please inform your recruiting contact upon initial connection.
+About the job
+At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts.
+
+Our customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet.
+
+Join a team of passionate thinkers, innovators, and dreamers — and help us connect people and build communities to create economic opportunity for all.
+
+About The Team And The Role
+
+Are you interested in making a real impact on a product enjoyed by hundreds of millions of users worldwide? We are eBay's Search Frontend Web team, and we're looking for a passionate, enthusiastic web engineer to join us! As a small team of dedicated engineers, we strive to provide our users with world class experiences. We work closely with Product Managers, Designers, and our fellow Engineers to deliver a robust and responsive web application. If you're interested in seeing the software we are building, please go to www.ebay.com and perform a search.
+
+What You Will Accomplish
+
+Work closely with Product Managers to clarify requirements and provide technical expertise
+Work with Designers to help define best-in-class user experiences
+Work hand-in-hand with our Services team to define interfaces, scope integration efforts, and prototype proof of concepts
+Conduct and participate in design, pull requests, test plan, and release reviews
+Write and maintain unit, functional, and automation tests
+Quickly resolve issues related to speed, security, and accessibility
+Rotational on-call support monitoring production metrics and providing support if issues arise
+
+
+What You Will Bring
+
+BS/MS or equivalent experience in Computer Science/Engineering or related technical field
+Experience in designing, building, debugging, refactoring and releasing large web apps with support for both mobile and desktop browsers
+Expertise in NodeJS, Javascript, HTML, CSS, LESS, JSON, Java, JSP, Typescript and browser dev tools
+Expertise in REST and/or GraphQL API interface design and one or more Javascript UI libraries such as MarkoJS
+Experience in cross browser support and speed optimization techniques for faster page load times
+Proficiency with web template engines, testing frameworks, environment configurations, GIT, and JIRA
+
+
+Want to learn more about Marko? Here are some great resources!
+
+https://markojs.com/docs/10-awesome-marko-features/
+https://markojs.com/docs/why-is-marko-fast/
+https://markojs.com/docs/marko-vs-react/
+
+
+Please see the Talent Privacy Notice for information regarding how eBay handles your personal data collected when you use the eBay Careers website or apply for a job with eBay.
+
+eBay is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, veteran status, and disability, or other legally protected status. If you have a need that requires accommodation, please contact us at talent@ebay.com. We will make every effort to respond to your request for accommodation as soon as possible. View our accessibility statement to learn more about eBay's commitment to ensuring digital accessibility for people with disabilities.
+
+The eBay Jobs website uses cookies to enhance your experience. By continuing to browse the site, you agree to our use of cookies. Visit our Privacy Center for more information.
+About the job
+Minimum qualifications:
+
+Bachelor’s degree or equivalent practical experience.
+2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.
+
+Preferred qualifications:
+
+Master's degree or PhD in Computer Science or related technical fields.
+2 years of experience with data structures or algorithms.
+Experience developing accessible technologies.
+
+About The Job
+
+Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+
+With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.
+
+Google Cloud accelerates every organization’s ability to digitally transform its business and industry. We deliver enterprise-grade solutions that leverage Google’s cutting-edge technology, and tools that help developers build more sustainably. Customers in more than 200 countries and territories turn to Google Cloud as their trusted partner to enable growth and solve their most critical business problems.
+
+Responsibilities
+
+Write product or system development code.
+Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.
+Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).
+Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.
+Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.
+
+
+Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form .
+About the job
+Summary
+
+Imagine what you could do here at Apple. We’re a small team with a big footprint. Have you ever used iCloud.com on the web? Then you already know us! We’re the iCloud Web team. Our engineers flourish with solving important engineering problems that meaningfully improve the experience of millions of global users. We apply creative problem solving to build high quality, beautiful, and intuitive web applications. Do you love building innovative, performant web applications? Do you want to make a large impact at a broad scale with your deep technical expertise?
+
+Come join us on the iCloud.com team.
+
+Our work is critical, complex, challenging, and highly exciting. We can’t wait to meet you!
+
+Description
+
+This is a hands-on role for developing and supporting new and existing features on iCloud.com and related web properties and frameworks. This role requires working closely with cross-functional teams to optimally coordinate the complex interdependencies inherent in application development. A successful candidate has strong technical skills and is eager to create intuitive user experiences; they have a keen eye for the details that surprise and delight our customers.
+
+Minimum Qualifications
+
+5+ years of experience building pixel-perfect, robust, and customer-focused software.
+Extensive experience in the web application space using modern JavaScript/TypeScript frameworks (React, Svelte, Angular, VueJS, etc).
+History developing code for highly performant production applications.
+Experience collaborating across different teams and functions, with a particular focus on Design & QA, to deliver impactful features/products.
+Deep understanding of fundamental computer science algorithms and concepts.
+Strong verbal and written communication skills.
+Driven, motivated, and you take pride and responsibility for the products you build.
+Dedication to learning as well as sharing new ideas
+
+Preferred Qualifications
+
+Experience delivering web applications with a high standard of accessibility.
+Experience integrating with web services using JSON, Protobuf, AJAX, etc.
+Experience integrating with OS services using XPC.
+Experience integrating with asynchronous APIs.
+
+Pay & Benefits
+
+At Apple, base pay is one part of our total compensation package and is determined within a range. This provides the opportunity to progress as you grow and develop within a role. The base pay range for this role is between $181,100 and $318,400, and your base pay will depend on your skills, qualifications, experience, and location.
+
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs. Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan. You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition. Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation. Learn more about Apple Benefits.
+
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program.
+
+Apple is an equal opportunity employer that is committed to inclusion and diversity. We seek to promote equal opportunity for all applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or other legally protected characteristics. Learn more about your EEO rights as an applicant.
+
+Apple accepts applications to this posting on an ongoing basis.
+
+About the job
+Netflix is one of the world's leading entertainment services, with over 300 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.
+
+About Content And Business Products Organization
+
+Content and Business Products Engineering builds the products and services used by our internal and external creative partners producing and managing our global content. Our products enable the entire workflow of content production and promotion, from pitch to play, and provide innovative new ways to develop and manage entertainment at scale.
+
+We are hiring for this role across the following Content and Business Products Engineering teams:
+
+Studio Production Engineering
+
+In this team, you will have a direct impact on how the Netflix studio creates and produces shows, such as “The Witcher”, “The Crown” and “Stranger Things” on a global scale. With an increasing slate of original content being produced every year, our products manage billions of dollars worth of content-spend.
+
+Content Promotion & Distribution Engineering
+
+This team has a direct impact on our business users and consumers by building products that allow us to manage our global entertainment catalog, as well as our next generation off-service experiences.
+
+Your Day-to-Day
+
+Work cross-functionally to build, test, deploy, and launch UIs that operationalize our workflows at scale.
+Participate in product reviews and team meetings, providing technical insight. Help scope, estimate, and prioritize between conflicting needs.
+Evaluate new technologies and approaches to streamline and improve our rapid application development tooling and conventions.
+Regularly learn and influence new systems and tools as the Netflix platform and ecosystem evolve.
+Participate in our on-call rotation and lead the incident reviews.
+Effectively communicate complex technical issues and solutions to stakeholders
+Live company values, actively engage in team discussions and provide mentorship while holding the team accountable for collective standards.
+
+You Will Enjoy Working With Us If You
+
+Are passionate about user experience and have an eye for improving UIs, passionate about building intuitive user interfaces in close partnership with UX Designers and Product Managers
+Love brainstorming with fellow backend and UI engineers, product designers, and product managers, and directly with our users, to understand what they want, figure out what they really need, and finally, what we should build.
+Eager to identify business opportunities that positively impact the organization's bottom line.
+Enjoy working closely with business users to understand their needs, and how best to solve them.
+Strive to embrace best practices and are always searching for opportunities to continually improve.
+Are selfless and willing to flex across the stack or into a new domain to help a teammate when needed, never thinking “that’s someone else’s job”.
+
+We Would Love To Work With You If You
+
+You have experience building media creative apps and/or media workflow, or geared toward financial use cases
+You are passionate about user experience and have an eye for improving UIs
+You are adept at building enterprise applications with HTML/JavaScript/TypeScript/CSS. We currently build our user experiences with React, GraphQL, Node.js, React Native, and Electron libraries & frameworks, and the ability to adapt to changing technology is important.
+You have previous experience working with designers/PMs
+You have previous experience in the Media and Entertainment industry. 
+
+Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other reason during the hiring process, please send a request to your recruiting partner.
+
+We are an equal-opportunity employer and celebrate diversity, recognizing that diversity builds stronger teams. We approach diversity and inclusion seriously and thoughtfully. We do not discriminate on the basis of race, religion, color, ancestry, national origin, caste, sex, sexual orientation, gender, gender identity or expression, age, disability, medical condition, pregnancy, genetic makeup, marital status, or military service.
+
+Job is open for no less than 7 days and will be removed when the position is filled.
+About the job
+Job Description
+
+Join the team redefining how the world experiences design.
+
+Hey, g'day, mabuhay, kia ora, 你好, hallo, vítejte!
+
+Thanks for stopping by. We know job hunting can be a little time consuming and you're probably keen to find out what's on offer, so we'll get straight to the point.
+
+Where And How You Can Work
+
+Our flagship campus is in Sydney. We also have a campus in Melbourne and co-working spaces in Brisbane, Perth and Adelaide. But you have choice in where and how you work, we trust our Canvanauts to choose the balance that empowers them and their team to achieve their goals.
+
+What You’d Be Doing In This Role
+
+Frontend roles at Canva can vary a lot from team to team—each offering its own unique challenges and opportunities. You might be crafting rich, interactive experiences in the Canva Editor used by millions, or shaping end-to-end journeys on surfaces like Canva Docs, Presentations, and Websites. You could contribute to cutting-edge Magic Studio features powered by AI, or help launch fast-paced product experiments that drive real impact. With multiple teams hiring frontend engineers, we’d love to learn what excites you most and find the right fit for your passions and strengths.
+
+As Canva Scales, Change Continues To Be Part Of Our DNA. But We Like To Think That's All Part Of The Fun. So This Will Give You The Flavour Of The Type Of Things You'll Be Working On When You Start, But This Will Likely Evolve. As a General Guide, Here’s What a Frontend Engineer At This Level Typically Focuses On Day To Day
+
+Leading the design and development of performant, delightful user interfaces using modern frontend frameworks
+Driving collaboration with PMs, designers, and fellow engineers to scope, define, and deliver impactful product features
+Evolving and scaling Canva’s frontend architecture through reusable component libraries and shared design systems
+Championing accessibility, performance, and engineering best practices across multiple product surfaces
+Writing robust, well-tested code and proactively identifying areas for technical improvement or refactor
+Guiding design and code reviews, mentoring peers, and raising the technical bar for your team
+
+
+You're probably a match if
+
+You are highly experienced in building complex, user-facing applications using modern frontend technologies (we use React and TypeScript)
+You have strong JavaScript fundamentals and a deep understanding of the web platform
+You’re comfortable taking ownership of features end-to-end—from architecture to delivery—and thrive in environments where you drive the "how"
+You balance attention to detail with pragmatism, and consistently ship quality code at speed
+You’re a thoughtful collaborator who works well across disciplines and proactively brings others on the journey
+You understand the bigger picture—how your work connects to product goals, user experience, and long-term scalability
+You enjoy mentoring others, offering constructive feedback, and lifting the technical bar for your team
+
+
+Engineering at Canva
+
+Join a vibrant engineering community solving complex problems for millions of users, world wide. Here, engineering is about more than writing great code. It’s about rapidly iterating to deliver real value for users - building a product that empowers the world to design.
+
+We care deeply about craft and collaborate closely to achieve hugely ambitious goals. We mentor and support one another generously, grounded in a culture of ownership, purpose, and a shared commitment to excellence.
+
+What's in it for you?
+
+Achieving our crazy big goals motivates us to work hard - and we do - but you'll experience lots of moments of magic, connectivity and fun woven throughout life at Canva, too. We also offer a range of benefits to set you up for every success in and outside of work.
+
+Here's a Taste Of What's On Offer
+
+Equity packages - we want our success to be yours too
+Inclusive parental leave policy that supports all parents & carers
+An annual Vibe & Thrive allowance to support your wellbeing, social connection, office setup & more
+Flexible leave options that empower you to be a force for good, take time to recharge and supports you personally
+
+
+Check out lifeatcanva.com for more info.
+
+Other Stuff To Know
+
+We make hiring decisions based on your experience, skills and passion, as well as how you can enhance Canva and our culture. We see AI as a powerful amplifier of creativity and technology at Canva. We’re evolving how we assess AI skills in our Technology hiring experience - you’ll tackle interactive, real-time challenges that reflect the kind of work we do. In some interviews, you may also be asked to solve a problem using an AI tool to show how you approach challenges with tech by your side.
+
+Please note that interviews are conducted virtually.
+About the job
+About The Team
+
+OpenAI’s mission is to make AGI beneficial for all of humanity and our mission is successful only if AGI drives real benefits across all industries in the world. Our goal in B2B applications is to enable this mission by helping businesses, enterprises & governments redefine how they operate to empower people and accelerate economic growth.
+
+We build and operate the products that bring our cutting-edge research to millions of companies and developers worldwide. We power the OpenAI API and the Enterprise products that empower people around the world to do their jobs better and more efficiently. Our teams span product engineering, backend infrastructure, and safety, working together to ensure that OpenAI’s technology is delivered with reliability, security, and a world-class user experience.
+
+About The Role
+
+We’re looking for frontend engineers to craft the user interfaces that make advanced AI accessible and intuitive. You’ll partner with design, product, and research teams to build responsive, performant, and secure web applications that bring OpenAI’s models, and enterprise-facing products to life.
+
+This role is based in San Francisco, CA or New York City. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.
+
+In This Role, You Will
+
+Build and maintain scalable web applications using modern JavaScript/TypeScript, React, and related technologies.
+Create reusable UI components and front-end infrastructure to accelerate product development.
+Optimize client performance and ensure accessibility across browsers and devices.
+Work closely with designers to implement intuitive, user-friendly interfaces.
+Contribute to end-to-end product planning and decision-making.
+
+You Might Thrive In This Role If You
+
+5+ years of professional experience (excluding internships) building production web applications at scale.
+Are fluent in TypeScript/JavaScript, React, and modern web tooling.
+Care deeply about design fidelity, performance, and accessibility.
+Enjoy iterating quickly to deliver polished, user-focused features.
+Former founder, or early engineer at a startup who has built a product from scratch is a plus.
+Interest in AI/ML (direct experience not required).
+Proven ability to thrive in fast-growing, product-driven companies by effectively navigating loosely defined tasks and managing competing priorities or deadlines.
+
+About OpenAI
+
+OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.
+
+We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.
+
+For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement.
+
+Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.
+
+To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form. No response will be provided to inquiries unrelated to job posting compliance.
+
+We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link.
+
+OpenAI Global Applicant Privacy Policy
+
+At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.
+
+Compensation Range: $230K - $385K
+About the job
+Overview
+
+Viva Engage connects people through communities, bringing leaders and employees together to share knowledge, clarify priorities, and build relationships. Viva Engage (formerly Yammer) is the premier tool to create multi-directional dialogue between tens of millions of employees worldwide every month.
+
+Engage team members are at the forefront of driving AI applications and Copilot adoption to make communication and information sharing easy and authentic. Our work supports top challenges for our customers, including digital safety, trusted security standards, and deep analytics to help our customers maximize reach, reduce inefficiencies, and create a thriving organizational culture. We would love to have you join the team driving innovation, connection, and community for our valued global customers. #VivaEngage 
+
+Our engineers develop cutting-edge, beautiful UX that seamlessly adapts to various apps and form factors and reaches tens of millions of users. As a Front-End engineer, you will develop innovative new features and experiences, run experiments to learn and improve the product, and add core capabilities to our web platform with an eye to performance and accessibility. We are looking for someone who is passionate about delighting users, have an eye for craftsmanship and an opinion about what makes a great user experience.  Our stack includes React, Redux, Relay, GraphQL API gateway and Azure Cloud Services.
+
+Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
+
+Responsibilities
+
+Develop user-facing features and experiences in partnership with design, product, and engineering. 
+Build reusable code and libraries for maintainability and future use. 
+Build responsive, accessible and localized experiences for a diverse user-base. 
+Develop integrations of the Viva Engage client into other M365 apps.
+Experiment, A/B test key hypothesis to make data driven decisions. 
+Optimize for best performance and scalability.         
+
+Qualifications
+
+Required Qualifications:
+
+Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python
+OR equivalent experience. 
+2+ years in web markup including CSS3, HTML5.
+2+ years experience with front-end, API, networking, and the browser itself.
+Other Requirements
+
+Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include but are not limited to the following specialized security screenings:
+
+Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter.
+
+Preferred Qualifications
+
+Master's Degree in Computer Science or related technical field AND 3+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python
+OR Bachelor's Degree in Computer Science or related technical field AND 5+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python 
+OR equivalent experience. 
+Broad experience across multiple FE technologies.
+Good understanding of best practices of building cross browser and device independent interfaces.
+Expertise improving performance (FMP, TTI, bundle size, etc).
+Software Engineering IC3 - The typical base pay range for this role across Canada is CAD $85,000 - CAD $166,800 per year.
+
+Find Additional Pay Information Here
+
+https://careers.microsoft.com/v2/global/en/canada-pay-information.html
+
+Software Engineering IC3 - L'échelle salariale de base typique pour ce rôle dans l'ensemble du Canada est de 85,000 $ CAD à 166,800 $ CAD par année.
+
+Pour plus d'information au sujet de la rémunération, veuillez cliquer ici:
+
+https://careers.microsoft.com/v2/global/en/canada-pay-information.html
+
+Ce poste sera ouvert pendant au moins cinq jours et les candidatures seront acceptées de façon continue jusqu’à ce que le poste soit pourvu.
+
+This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled.
+
+Microsoft est un employeur offrant l’égalité d’accès à l’emploi. Tous les candidats qualifiés seront pris en considération pour l’emploi, sans égard à l’âge, à l’ascendance, à la citoyenneté, à la couleur, aux congés médicaux ou familiaux, à l’identité ou à l’expression de genre, aux renseignements génétiques, à l’état d’immigration, à l’état matrimonial, à l’état de santé, à l’origine nationale, à un éventuel handicap physique ou mental, à l’affiliation politique, au statut de vétéran protégé ou au statut militaire, à la race, à l’ethnie, à la religion, au sexe (y compris la grossesse), à l’orientation sexuelle ou à toute autre caractéristique protégée par les lois, ordonnances et règlements locaux applicables. Si vous avez besoin d’aide avec des accommodements religieux et/ou d’un accommodement raisonnable en raison d’un handicap pendant le processus de candidature, apprenez-en plus sur la demande d’accommodement.
+
+Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.
+About the job
+Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture.
+
+About Superhuman
+
+Grammarly is now part of Superhuman, the AI productivity platform on a mission to unlock the superhuman potential in everyone. The Superhuman suite of apps and agents brings AI wherever people work, integrating with over 1 million applications and websites. The company’s products include Grammarly’s writing assistance, Coda’s collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically. Founded in 2009, Superhuman empowers over 40 million people, 50,000 organizations, and 3,000 educational institutions worldwide to eliminate busywork and focus on what matters. Learn more at superhuman.com and about our values here.
+
+The Opportunity 
+
+To achieve our ambitious goals, we’re looking for Software Engineers to join our engineering teams. Front-End engineers build and own user-focused interfaces, work closely with Product and Design teams, and collaborate with other functional teams across the Engineering organization.
+
+Superhuman's engineers and researchers have the freedom to innovate and uncover breakthroughs—and, in turn, influence our product roadmap. The complexity of our technical challenges is growing rapidly as we scale our interfaces, algorithms, and infrastructure. You can hear more from our team on our technical blog.
+
+Superhuman is growing rapidly. There are opportunities to join a team, learn from experienced peers, and build product offerings and teams from the ground up. Within our growing engineering organization, there is plenty of room for ownership and direct impact on users.
+
+As a Software Engineer At Superhuman, You Will
+
+Ship production-grade code to over 40 million daily active users.
+Grow and maintain the team’s technical excellence by focusing on best practices for the team and product.
+Contribute to the company's technical culture.
+Harness engagement metrics to identify and build new impactful features.
+Work on fun and technically challenging projects to deliver impactful apps on popular browsers.
+Use React and TypeScript while building super-refined and elegant user interfaces.
+Collaborate with internal teams such as Core, Growth, Enterprise, Trust, and Data to deliver delightful product offerings to our customers.
+Make a meaningful impact on the lives of writers everywhere!
+
+Qualifications
+
+Brings at least 10 years of experience in front-end development.
+Has expert-level software engineering fundamentals, including knowledge of algorithms and data structures.
+Has expert-level knowledge of JavaScript (and/or TypeScript), HTML, and CSS.
+Has extensive experience with ReactJS, AngularJS, or similar UI frameworks.
+Tackles infrastructure challenges when needed.
+Has extensive experience with modern web client development and testing tools.
+Has a deep understanding and extensive knowledge of continuous integration and delivery methods.
+Experienced mentor for junior engineers
+Track record of solving complex technical challenges, including the necessary stakeholder alignments.
+Has a demonstrated ability to work independently with minimal guidance, proactively manages tasks and priorities across multiple projects, analyzes and executes work efficiently, collaborates effectively with cross-functional teams, and thrives in fast-paced, results-driven environments.
+
+Bonus Points For
+
+Functional programming experience.
+Experience running experiments and A/B tests. 
+
+Support for you, professionally and personally
+
+Professional growth: We hire people we trust, and we give team members autonomy to do their best work. We also support professional development with training, coaching, and regular feedback.
+A connected team: Superhuman builds a product that helps people connect, and we apply this mindset to our own team. We have a highly collaborative culture. We also take time to celebrate our colleagues and accomplishments with global, local, and team-specific events and programs.
+Comprehensive benefits: Superhuman offers all team members competitive pay along with a benefits package that includes superior healthcare. We also offer ample and defined time off, catered lunches, gym and recreation stipends, admission discounts, and more.
+Relocation support: We can help you relocate to Berlin and make the experience smooth and easy. Superhuman provides a relocation bonus, legal and visa support, temporary housing, moving support and travel expenses, assistance in finding schools for your kids—and all other information you might need.
+
+We encourage you to apply
+
+At Superhuman, we value our differences, and we encourage all—especially those whose identities are traditionally underrepresented in tech organizations—to apply. Superhuman is an equal opportunity company. We do not discriminate on the basis of race or ethnic origin, religion or belief, color, gender expression or identity, sexual orientation, sexual identity, national origin, citizenship, age, marital status, veteran status, disability status, criminal prosecution, judgment in a criminal case, or any other characteristic protected by law.
+
+For more details about the personal data Superhuman collects during the recruitment process, for what purposes, and how you can address your rights, please see the Superhuman Data Privacy Notice for Candidates here.
+About the job
+At NiCE, we don’t limit our challenges. We challenge our limits. Always. We’re ambitious. We’re game changers. And we play to win. We set the highest standards and execute beyond them. And if you’re like us, we can offer you the ultimate career opportunity that will light a fire within you.
+
+So, what’s the role all about?
+
+You will be welcomed into our Engineering department, which is divided into cross-functional, verticalized development teams, who are focused on delivering continuous improvements, features and developing new products. To support the delivery process and stability of our products, we can also count on our Product Support team, QA team, and SRE team who, alongside our Product and People team, Director/Architect and VP Engineering, are constantly looking to overcome new challenges, to innovate, and to ensure the success of our products and satisfaction of our customers.
+
+How will you make an impact? 
+
+Producing clean, readable and well-tested frontend code
+You have an eye on the look and feel of our user interface and will participating in planning meetings with our UX engineers to design the future of our product
+Helping us to build-up automated cross-browser testing procedures
+Implementing and improving our frontend development pipeline to increase the productivity and automating time-consuming build-jobs
+Providing guidance to other frontend developers and act as a mentor
+
+Have you got what it takes?
+
+Several years of experience with React.JS in conjunction with Typescript
+Several years of experience with bundlers like Webpack and Rollup – you can not only use these tools, but you also love to tweak their configuration files
+You have “a feeling for good design” – padding and margin are not just CSS properties for you, you love to create pixcel-perfect user interfaces
+Experience with Realtime communication protocols such as WebSocket or WebRTC
+Experience with testing frameworks and libraries such as Mocha, Chai and Cypress
+Experience in debugging client-side browser applications
+Good communication skills and the ability to present new concepts in front of our management
+
+What’s in it for you?
+
+Join an ever-growing, market disrupting, global company where the teams – comprised of the best of the best – work in a fast-paced, collaborative, and creative environment! As the market leader, every day at NICE is a chance to learn and grow, and there are endless internal career opportunities across multiple roles, disciplines, domains, and locations. If you are passionate, innovative, and excited to constantly raise the bar, you may just be our next NICEr!
+
+Enjoy NICE-FLEX! 
+
+At NICE, we work according to the NICE-FLEX hybrid model, which enables maximum flexibility: 2 days working from the office and 3 days of remote work, each week. Naturally, office days focus on face-to-face meetings, where teamwork and collaborative thinking generate innovation, new ideas, and a vibrant, interactive atmosphere.
+
+About Cognigy
+
+NiCE Cognigy delivers AI that works—fast, human, and enterprise-ready. As the leading AI-first CX platform built for real-world scale, we combine Generative and Conversational AI through orchestration, tools, and enterprise systems to power Agentic AI. Backed by global CX leader NiCE, we empower brands with AI Agents that redefine customer experiences and achieve measurable ROI—instantly, across every channel and in 100+ languages.
+
+Requisition ID: 9327
+
+Reporting into: 
+
+Role Type: Individual Contributor
+
+About NiCE
+
+NICE Ltd. (NASDAQ: NICE) software products are used by 25,000+ global businesses, including 85 of the Fortune 100 corporations, to deliver extraordinary customer experiences, fight financial crime and ensure public safety. Every day, NiCE software manages more than 120 million customer interactions and monitors 3+ billion financial transactions. 
+
+Known as an innovation powerhouse that excels in AI, cloud and digital, NiCE is consistently recognized as the market leader in its domains, with over 8,500 employees across 30+ countries. 
+
+NiCE is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, age, sex, marital status, ancestry, neurotype, physical or mental disability, veteran status, gender identity, sexual orientation or any other category protected by law.
+
+About the job
+Job ID: 55988
+Job Category: Information Technology
+Division & Section: Technology Services Division, Digital Gov & Modernization 
+Work Location: Metro Hall, 55 John Street, Toronto, Ontario, M5V 3C6
+Job Type & Duration: Temporary, Full Time, 12 months
+Salary Range: $113,683.00 - $155,216.00
+
+Ideal Hiring Zone: $115,280.00 - $124,988.00
+
+Shift Information: Monday to Friday, 35 hours per week
+
+Affiliation: Non-Union
+Number of Positions Open: 2
+Posting Period: 9-January-2026 to 23-January-2026
+
+Job Summary
+
+To design and develop client-facing applications using front-end development technologies and create a Rapid Application Development Framework for scalable, efficient applications. To collaborate with cross-functional teams for seamless integration with back-end systems, manage Continuous Integration and Continuous Deployment (CI/CD) pipelines for automated testing and deployment and design enterprise solutions meeting business needs, while driving innovation and ensuring applications comply with security, privacy and accessibility standards.
+
+Major Responsibilities
+
+Implements detailed plans and recommends policies/procedures regarding program specific requirements.
+Supervises, motivates and trains assigned staff, ensuring effective teamwork, high standards of work quality and organizational performance, continuous learning and encourages innovation in others.
+Supervises the day to day operation of all assigned staff including the scheduling, assigning and reviewing of work. Authorizes and coordinates vacation and overtime requests. Monitors and evaluates staff performance, approves salary increments, hears grievances and recommends disciplinary action when necessary.
+Provides input into and administers assigned budget, ensuring that expenditures are controlled and maintained within approved budget limitations.
+Designs and develops client facing applications using various Front-End development technologies.
+Develops a Rapid Application Development Framework to facilitate the creation of scalable and efficient applications.
+Collaborates with cross-functional teams to integrate front-end applications with back-end systems.
+Establishes and manages CI/CD pipelines to automate testing, building and deployment processes.
+Designs enterprise solutions and software components to meet business requirements and drive innovation.
+Utilizes mobile frameworks for hybrid mobile development, ensuring the delivery of smooth and captivating mobile experiences.
+Identifies and analyzes current business processes and practices in the context of evolving information architecture and performance measures; prepares feasibility studies and recommends overall technical solutions for business initiatives and leverages existing enterprise infrastructure investments.
+Recommends and implements security, privacy and quality assurance requirements consistent with the Municipal Freedom of Information Privacy and Protection Act (MFIPPA), corporate and legislated standards regarding the storage, processing and retention of confidential data.
+Identifies, recommends, develops and implements IT systems in areas where automation and technology solutions/systems can be applied. Streamlines business processes and operations and reducing or reallocating employee hours, potentially leading to downsizing/restructuring/contracting out etc.
+Informs and educates Senior Managers, business users and technology peers on technology trends and the effective use of business and technology solutions and information management.
+Builds digital accessibility compliant mapping applications using the City's standard mapping technologies and solutions.
+Communicates with business teams on advantages, drawbacks, tradeoffs (cost, timelines, or quality) for different solutions and developing new applications from business requirements, to working solutions that utilize existing technical capabilities within the environment.
+Leads, advises and mentors staff, providing guidance and support as needed.
+Accesses, manages and utilizes confidential information and intellectual property to guide informed decision making on technology development.
+Assesses and analyzes organizational effectiveness concerns and prepares confidential reports on program and service delivery changes, systems, processes and practices.
+Works with management to provide oversight and evaluates the work performance of external service providers with respect to quality, timeline, cost and completion of required tasks.
+Develops business cases and reports and provides in-depth advice and makes recommendations to senior management related to changes in staffing levels/resource requirements/allocations, financial and operational plans, alternate service delivery, changes in business methods and processes, operational and/or labour utilization issues including opportunities for efficiencies and savings. Leads recruitment efforts to meet project and business requirements.
+Leads, facilitates and contributes to the design, development and sustainment of corporate standards for the division, including formalized project management and methodology, data warehousing architecture, data modeling, metadata, change management and application development and migration.
+Provides technical leadership on projects and recommends timelines on work, resources required and automation integrations and identifies, addresses and mitigates scope creep, challenges, and procurement requirements.
+Provides assessments and recommendations of modern technology trends on the effective use, acquisition and integration of technology by the City.
+Ensures that all applications adhere to the City's Digital Accessibility Standards and are AODA compliant, promoting inclusivity and accessibility.
+Assesses and recommends scalable multi-jurisdictional business and technical solutions that meet client and business requirements in the context of corporate standards, policies and procedures for information technologies and architectures, including determining requirements, conducting research and evaluations and obtaining all approvals and signoffs.
+Provides operational support for production issues and provides recommendations.
+Follows industry standard Software Development methodologies, IT industry best practices and corporate policies and maintains awareness of the latest technologies and best practices in front-end development.
+
+Key Qualifications
+
+Post-secondary education in Computer Science or a related discipline, or the approved equivalent combination of education and/or experience developing and maintaining large-scale IT applications with multidisciplinary teams
+Extensive experience as a front-end developer, including demonstrated leadership and mentoring skills in designing configurable enterprise solutions
+Experience in building reusable solutions that meet non-functional requirements while conducting root cause analysis and troubleshooting, ensuring high-quality and reliable software that works across different platforms and browsers.
+Extensive experience with system architecture to integrate front-end and back-end components and developing with JavaScript, jQuery, HTML5, CSS3, Bootstrap, responsive design, and REST APIs is required. TypeScript, Web Components, ReactJs, Cordova, or others are considered an asset.
+Experience with industry best practices for web application development, including source control (Git), web security, web performance, and web accessibility (WCAG 2.x AA, AODA) is required. Continuous Integration and Deployment (CI/CD) are considered an asset.
+Ability to work in fast-paced environments, delivering high-quality solutions under tight deadlines, with strong problem-solving skills and proven ability to use communication and collaboration effectively.
+
+Equity, Diversity and Inclusion
+
+The City is an equal opportunity employer, dedicated to creating a workplace culture of inclusiveness that reflects the diverse residents that we serve. Learn more about the City’s commitment to employment equity.
+
+Accommodation
+
+The City of Toronto is committed to creating an accessible and inclusive organization. We are committed to providing barrier-free and accessible employment practices in compliance with the Accessibility for Ontarians with Disabilities Act (AODA). Should you require Code-protected accommodation through any stage of the recruitment process, please make them known when contacted and we will work with you to meet your needs. Disability-related accommodation during the application process is available upon request. Learn more about the City’s Hiring Policies and Accommodation Process.
+About the job
+Company Description
+
+LinkedIn is the worlds largest professional network, built to create economic opportunity for every member of the global workforce. Our products help people make powerful connections, discover exciting opportunities, build necessary skills, and gain valuable insights every day. Were also committed to providing transformational opportunities for our own employees by investing in their growth. We aspire to create a culture thats built on trust, care, inclusion, and fun where everyone can succeed. Join us to transform the way the world works.
+
+Job Description
+
+Location:
+
+At LinkedIn, our approach to flexible work is centered on trust and optimized for culture, connection, clarity, and the evolving needs of our business.The work location of this role is hybrid, meaning it will be performed both from home and from a LinkedIn office on select days, as determined by the business needs of the team.
+
+Responsibilities:
+
+You will own the front-end development for one or more of our products and collaborate with visual/interaction designers, other engineers, and product managers to launch new products, iterate on existing features, and build a world-class user experience.
+You will implement cutting-edge technologies and will be writing state-of-the-art code to keep LinkedIn at the cutting edge of current technology.
+Your specific expertise will be required to make the site delightful, secure, performant and accessible to all our members.
+You will meet with colleagues including product managers, designers and other engineers assigned to your project(s).
+
+
+Qualifications
+
+Basic Qualifications:
+
+BA/BS in Computer Science or related technical field or equivalent practical experience
+2+ years of industry experience in software design, development, and algorithm related solutions.
+2+ years programming experience in languages such as Javascript, HTML, CSS, Python, Java, C/C++, C#, Objective-C, Ruby, etc.
+
+
+Preferred Qualifications:
+
+BS and 5+ years of relevant work experience, MS and 4+ years of relevant work experience, or PhD and 2+ years of relevant work experience.
+Experience writing clean JavaScript including experience with modern frameworks (Angular/Ember/React) and debugging tools (Chrome Dev Tools, etc. )
+Expert-level knowledge of Ember.
+Knowledge of (and a passion for) current trends and best practices in front-end architecture, including performance, accessibility, security and usability.
+Prior experience building public API's with Java.
+Experience building large-scale consumer facing products.
+
+
+Suggested Skills:
+
+Javascript
+HTML/CSS
+Web Development
+Advanced Programming Skills
+
+
+You will Benefit from our Culture:
+
+We strongly believe in the well-being of our employees and their families. That is why we offer generous health and wellness programs and time away for employees of all levels.
+
+Compensation:
+
+LinkedIn is committed to fair and equitable compensation practices. The pay range for this role is $125,000 - $206,000. Actual compensation packages are based on a wide array of factors unique to each candidate, including but not limited to skill set, years & depth of experience, certifications and specific office location. This may differ in other locations due to cost of labor considerations.
+
+The total compensation package for this position may also include annual performance bonus, stock, benefits and/or other applicable incentive compensation plans. For additional information, visit: https://careers.linkedin.com/benefits.
+
+Additional Information
+
+Equal Opportunity Statement 
+
+We seek candidates with a wide range of perspectives and backgrounds and we are proud to be an equal opportunity employer. LinkedIn considers qualified applicants without regard to race, color, religion, creed, gender, national origin, age, disability, veteran status, marital status, pregnancy, sex, gender expression or identity, sexual orientation, citizenship, or any other legally protected class.
+
+LinkedIn is committed to offering an inclusive and accessible experience for all job seekers, including individuals with disabilities. Our goal is to foster an inclusive and accessible workplace where everyone has the opportunity to be successful.
+
+If you need a reasonable accommodation to search for a job opening, apply for a position, or participate in the interview process, connect with us at accommodations@linkedin.com and describe the specific accommodation requested for a disability-related limitation.
+
+Reasonable accommodations are modifications or adjustments to the application or hiring process that would enable you to fully participate in that process. Examples of reasonable accommodations include but are not limited to:
+
+Documents in alternate formats or read aloud to you
+Having interviews in an accessible location
+Being accompanied by a service dog
+Having a sign language interpreter present for the interview
+
+
+A request for an accommodation will be responded to within three business days. However, non-disability related requests, such as following up on an application, will not receive a response.
+
+LinkedIn will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by LinkedIn, or (c) consistent with LinkedIn's legal duty to furnish information.
+
+San Francisco Fair Chance Ordinance 
+
+Pursuant to the San Francisco Fair Chance Ordinance, LinkedIn will consider for employment qualified applicants with arrest and conviction records.
+
+Pay Transparency Policy Statement 
+
+As a federal contractor, LinkedIn follows the Pay Transparency and non-discrimination provisions described at this link: https://lnkd.in/paytransparency.
+
+Global Data Privacy Notice for Job Candidates 
+
+Please follow this link to access the document that provides transparency around the way in which LinkedIn handles personal data of employees and job applicants: https://legal.linkedin.com/candidate-portal.
+About the job
+Responsibilities
+The Design Foundation team powers design excellence across TikTok’s monetization products. We achieve this through design systems, creative design, and design technology:
+
+- Design System (Keystone): Scalable libraries, tokens, and tooling that enable hundreds of designers and engineers to deliver high-quality, consistent experiences across 10+ products.
+- Creative Design: Campaigns, motion, and visual experiences that elevate brand storytelling, drive user engagement, and generate direct revenue.
+- Design Technology: Technology for design systems, creative design, and content design — including plugins, automation, and AI-powered utilities that enhance design efficiency and bridge design-to-code workflows.
+
+As a cross-functional group, we set the foundation for quality, consistency, and efficiency across the entire product ecosystem.
+
+About the Role
+We’re seeking a Staff / Lead Design Technologist to bridge the worlds of design and technology. In this role, you’ll spearhead innovative technology solutions that scale our design system, accelerate creative storytelling, and empower content design — ensuring our design org works smarter, faster, and with greater impact.
+
+Responsibilities
+- Deliver high-quality design technology solutions across design systems, creative design, and content design.
+- Define technical best practices for design–engineering collaboration and design technology adoption.
+- Build internal tools, Figma plugins, and AI-powered utilities that improve efficiency, consistency, and scalability.
+- Mentor and guide designers and engineers in prototyping, AI literacy, and design technology usage.
+- Partner cross-functionally to drive adoption of developed technologies and best practices.
+- Explore emerging platforms, AI tools, and generative technologies to extend our design foundation.
+- Influence roadmap strategy for design system evolution, creative innovation, and content workflows.
+
+Qualifications
+Minimum Qualifications
+- Extensive years of experience in design engineering, creative technology, or front-end development roles.
+- Strong skills in React, JavaScript frameworks, prototyping, and integrations/ plugins for Figma.
+- Experience with AI/ML-adjacent tools: prompt engineering, AI-assisted coding, or generative design workflows.
+- Proven ability to lead cross-functional projects and influence senior stakeholders.
+- Track record of building or contributing to large-scale design systems, creative tooling, or content workflows.
+- Solid understanding of design systems, visual design, content design, accessibility, and internationalization best practices.
+
+Preferred Qualifications:
+- Excellent collaboration and communication skills — able to bridge between design, engineering, and product teams.
+- Strong portfolio or GitHub showcasing design engineering and prototyping work.
+- Background in creative technology for campaigns, motion, or experimental interaction design a plus.
+
+About TikTok
+TikTok is the leading destination for short-form mobile video. At TikTok, our mission is to inspire creativity and bring joy. TikTok's global headquarters are in Los Angeles and Singapore, and we also have offices in New York City, London, Dublin, Paris, Berlin, Dubai, Jakarta, Seoul, and Tokyo.​
+
+
+Why Join Us
+Inspiring creativity is at the core of TikTok's mission. Our innovative product is built to help people authentically express themselves, discover and connect – and our global, diverse teams make that possible. Together, we create value for our communities, inspire creativity and bring joy - a mission we work towards every day.​
+We strive to do great things with great people. We lead with curiosity, humility, and a desire to make impact in a rapidly growing tech company. Every challenge is an opportunity to learn and innovate as one team. We're resilient and embrace challenges as they come. By constantly iterating and fostering an "Always Day 1" mindset, we achieve meaningful breakthroughs for ourselves, our company, and our users. When we create and grow together, the possibilities are limitless. Join us.​
+​
+Diversity & Inclusion​
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.​
+
+
+TikTok Accommodation
+TikTok is committed to providing reasonable accommodations in our recruitment processes for candidates with disabilities, pregnancy, sincerely held religious beliefs or other reasons protected by applicable laws. If you need assistance or a reasonable accommodation, please reach out to us at https://tinyurl.com/RA-request​
+
+
+Job Information
+【For Pay Transparency】Compensation Description (Annually)
+The base salary range for this position in the selected city is $172800 - $318960 annually.​
+Compensation may vary outside of this range depending on a number of factors, including a candidate’s qualifications, skills, competencies and experience, and location. Base pay is one part of the Total Package that is provided to compensate and recognize employees for their work, and this role may be eligible for additional discretionary bonuses/incentives, and restricted stock units.​
+Benefits may vary depending on the nature of employment and the country work location. Employees have day one access to medical, dental, and vision insurance, a 401(k) savings plan with company match, paid parental leave, short-term and long-term disability coverage, life insurance, wellbeing benefits, among others. Employees also receive 10 paid holidays per year, 10 paid sick days per year and 17 days of Paid Personal Time (prorated upon hire with increasing accruals by tenure).​
+The Company reserves the right to modify or change these benefits programs at any time, with or without notice.​
+For Los Angeles County (unincorporated) Candidates:​
+Qualified applicants with arrest or conviction records will be considered for employment in accordance with all federal, state, and local laws including the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Our company believes that criminal history may have a direct, adverse and negative relationship on the following job duties, potentially resulting in the withdrawal of the conditional offer of employment:​
+1. Interacting and occasionally having unsupervised contact with internal/external clients and/or colleagues;​
+2. Appropriately handling and managing confidential information including proprietary and trade secret information and access to information technology systems; and​
+3. Exercising sound judgment.​
+
+
+About the job
+Note: By applying to this position you will have an opportunity to share your preferred working location from the following: Kirkland, WA, USA; Sunnyvale, CA, USA.Minimum qualifications:
+
+Bachelor’s degree or equivalent practical experience.
+2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.
+2 years of experience with front-end and user interface development.
+Experience applying CSS to build and style web application user interfaces.
+Experience developing and maintaining production quality software using TypeScript.
+Experience developing web applications using HTML.
+
+Preferred qualifications:
+
+Master's degree or PhD in Computer Science or related technical fields.
+2 years of experience with data structures or algorithms.
+Experience developing accessible technologies.
+
+About The Job
+
+Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+
+As a Software Engineer on the Colab Shared Notebook Experience team, you will be working on a product that is used and loved by millions of people across the world. Over the past year, we've leaned heavily into making Colab an AI-first product by integrating a powerful coding agent that works alongside you to streamline and improve your velocity and reduce your time to value as a developer. We expect to continue investing heavily in making Colab the world's best notebook platform for data science and prototyping, now superpowered by the capabilities of Gemini.
+
+The ML, Systems, & Cloud AI (MSCA) organization at Google designs, implements, and manages the hardware, software, machine learning, and systems infrastructure for all Google services (Search, YouTube, etc.) and Google Cloud. Our end users are Googlers, Cloud customers and the billions of people who use Google services around the world.
+
+We prioritize security, efficiency, and reliability across everything we do - from developing our latest TPUs to running a global network, while driving towards shaping the future of hyperscale computing. Our global impact spans software and hardware, including Google Cloud’s Vertex AI, the leading AI platform for bringing Gemini models to enterprise customers.
+
+The US base salary range for this full-time position is $141,000-$202,000 + bonus + equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
+
+Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits. Learn more about benefits at Google .
+
+Responsibilities
+
+Write product or system development code.
+Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.
+Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).
+Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.
+Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.
+
+
+Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form .

@@ -1,0 +1,218 @@
+You are an experienced resume writer and career expert with a background in recruiting for top FAANG companies and Frontend developer roles.
+i Will share latest raw details of me, make a resume with this content which is ATS freindly and make it look like the top resume which have maximum callback rate, i have shared screenshot of it,
+
+My details as a protfolio raw data: (like am kinda trying to modernize my resume with icluding manu ai, since ai has impacted jobs now)
+VIGNESHWAR S
+senior frontend developer (senior position not yet given in my office but in talks so shouldi add senior?)
+chennai | india
+vigneshwar.s1996@gmail.com
+linkedin.com/in/vigneshwar-sv
+portfolio-vigneshwar.vercel.app (if needed)
+open to relocation (add for international resume and remove this text alone for indian resume)
+
+wanna include about section: (dont wanna mention like i am desperate for job but mention like trying oppurtunity in new countris or culture and keep learning and adapt to cultures and new tech as we work. also include 8 years of experience in this web field. need to make more very short and easy to get first appearance of me. make it only 2 lines)
+
+
+SKILLS (should skill come after experice?)
+Frontend: React, JavaScript (ES6+), TypeScript, HTML5, CSS3, SCSS/LESS
+State & Data: Redux Toolkit, RTK Query, Context API, React Hook Form, Formik, Yup, REST APIs, Axios
+Architecture: Component-Driven UI, Micro Frontends, Web Components, i18n
+Performance & Quality: Core Web Vitals (LCP, CLS, FID), WCAG 2.1, SEO, Jest, RTL
+Tooling: Git, Vite, Webpack, npm
+
+also have experience in but dont know how to say this, since skill section is already full.
+dark theme easily using less variable with ai, 
+right to left website support, 
+japanese language website making, so basically i18n i think
+ai tools to build chrome extension
+ai tools to create web components easily by adding codebase and instrcution for it for components and training the model to work on it. (gpt mini, claude sonnet and opus, grok, gemini, cursor)
+wcag 2.2, 
+
+
+EXPERIENCE
+
+ZOHO Corporation: Web Developer (Feb 2020 – Present)
+Built and localized production UI for Zoho Japan products (CRM, Desk, Campaigns, SalesIQ, Forms).
+Increased Zoho Japan CRM signup conversion by ~30% via CRM Academy platform, supporting ~5,000+ MAU.
+Implemented Web Component–based micro-frontends across ManageEngine products and enabled Copilot-assisted HTML scaffolding from design inputs, improving UI development speed by ~50%.
+handled zoholics and zoho inspire events from frontend part.
+
+K2B Solutions: UI Developer (Jan 2018 – Feb 2020)
+• Built an Awwwards-recognized, fully responsive website for UK client Bluestone98, which resulted in the client awarding additional projects to the team.
+• Contributed to enterprise UI for Singapore Land Authority, implementing pixel-accurate, responsive components.
+• Improved UX/UI for Sheridon Homes Australia real estate platform, enhancing navigation and mobile usability.
+
+Doodleblue Innovations: UI / UX Design Intern (Oct 2017 – Dec 2017) (going to remove this intern this makes my profile light, instead i can add one more project)
+Supported design-to-development workflow including wireframes, UI foundations, and responsive layouts.
+
+---
+
+PROJECTS
+JAPAN CRM Academy: (include japan text at start to get quick grasp of the text japan)
+it had login, dashboard, leasson of each topics, bookmark option, histiry tracking, email otp authentication while login, 1 week logout concept. collab with backend and design team for this project. (this is kinda my big projetc)
+
+Engineering Productivity & Automation Tools (Zoho) - i wanna move this to zoho corp work experice section, but it may get not noticed?
+Built AI-assisted browser tools and Chrome extensions (ChatGPT, Copilot) to automate SEO checks, UI validation, and component reviews, reducing manual testing effort by ~30%.
+
+Movie Discovery App (React) - should i list or remove doe this impact positve or negative?
+Developed a TMDB-based React application with search, pagination, favorites, and client-side caching.
+
+---
+
+EDUCATION
+Bachelor of Engineering — Electronics & Communication Engineering
+Jawahar Engineering College, Anna University | 2013–2017
+
+---
+
+LANGUAGES (should i need to include this section? or attach with any other section? or should i include soft skill or hobbies section or other section and include all my details there? suggest me..) - but i am thinking to remove (since english is alone relevant for applying and my resume is in english)
+English (Professional) | Tamil (Native) | Sourashtra (Conversational)
+
+----------------------------
+
+so yea this is my content. so basically wanna make this resume to appeal to global and international recruiters.
+also the content should be within one page too, as recommended by many professionals.
+
+
+----------------------------
+
+personal notes for experice section:
+what did i do, how did i do it, what was the result 
+accomplised x as measured by y by doing z
+
+----------------------------
+
+also how to tell without telling i may be the best canditate for your company?
+
+----------------------------
+
+also after resume creating, i saw a hack, adding all ats keywords in my resume on out of bounds part and hiding it using white text and add extra text that says(modern ats probem require modern ats solution). 
+
+i actually find this funny, but will this work for interview calls? since i think this is silly, but mayb be risky?
+
+one more quote i saw now is - your resume should be selling your experience, not summarising it
+
+----------------------------
+
+also i have statistics info from a top website - https://cultivatedculture.com/resume-statistics/
+
+Resume Statistics: A Summary Of Our Key Findings
+1Including a LinkedIn profile has been shown to boost interview rates, but only 48% of resumes included a link to a LinkedIn profile
+2Including relevant skills and keywords boosts your chances of landing an interview, but candidates only included 51% of relevant keywords in their resume (with a 60% match rate for hard skills and only a 28% match rate for soft skills)
+3Metrics and numbers are a best practice for illustrating and selling a candidate's value, but only 26% of resumes included at least five instances of measurable results, metrics, or value and 36% of resumes had zero instances of metrics
+4Recent data shows that the ideal resume length is 475 – 600 words, 77% of resumes were outside of that range
+5One of the easiest ways to lose your reader is by including too much fluff and too many irrelevant buzzwords — 51% of resumes included fluffy buzzwords, cliches, or the incorrect use of pronouns
+
+so need to make this 5 golden rule in my resume
+
+------------------------------------------------------------------
+
+for softskills ask me the below relevant questions based on the content i provided
+
+Growth mindset: An ability to learn continuously and willingness to adapt to change
+Creativity: Developing new ideas, applying new solutions to address existing problems
+Focus mastery: Harnessing concentration to make better short- and long-term decisions
+ Innovation: Improving upon an existing idea, concept, process or method to achieve a desired outcome
+Communication skills: Interpreting information though speaking, listening and observing
+ Storytelling: Organizing thoughts and data points into a comprehensive, holistic narrative
+ Culture awareness: Ability to effectively interact, work and develop meaningful relationships with those of various cultural backgrounds within the organization
+Critical thinking: Objective analysis and evaluation in order to form a judgment on a topic
+Leadership: Providing guidance within an organization
+ Emotional intelligence: Practicing control, expression and observation of interpersonal relationships among people in a workplace
+
+----------------------------
+
+also need content for linkied in too: updating my linked profile too based on the updates:
+
+YOUR HEADLINE = YOUR TITLE + VALUE
+KEYWORDS IN LINKEDIN ABOUT SECTION
+ADD 5 SKILLS “CORRECTLY” TO YOUR PROFILE
+USE A CUSTOM LINKEDIN URL
+ADD AN UP-TO-DATE INDUSTRY & LOCATION
+ADD AT LEAST THREE POSITIONS TO YOUR WORK EXPERIENCE SECTION
+ADD YOUR EDUCATION TO YOUR PROFILE
+CONNECT WITH 50+ PEOPLE
+INTRO (Years of experience and expand upon the value you bring)
+[Compelling Action Word] [Insert Job Title Keyword] with X+ years of experience in [Insert Field / Job Title]. I help companies do [Insert Pitch Or Value Proposition With Metrics Or Social Proof].
+
+EXAMPLES (Backed up by quantifiable metrics)
+
+Some examples include:
+
+Case Study Bullet #1
+
+Case Study Bullet #2
+
+Case Study Bullet #3
+
+CLOSE (Types of opportunities you're looking for)
+
+I get excited about opportunities where I [Insert Specifics About What You’re Looking For In A New Role].
+
+I love connecting with new people, you can reach me at name@email.com.
+
+i have applied for many jobs, and these are the top keywords (add it in about section top 5 - 7 keywords thats it) used in all jobs took this words from https://www.freewordcloudgenerator.com/generatewordcloud
+
+150	experience	
+100	work	
+88	product	
+88	team	
+83	design	
+64	job	
+57	development	
+55	teams	
+53	business	
+51	role	
+51	frontend	
+50	web	
+50	technology	
+49	including	
+46	technical	
+45	applications
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+Vigneshwar
+vigneshwar.s1996@gmail.com | +91 9500013901 | Chennai, India
+Portfolio | portfolio-vigneshwar.vercel.app (if needed)
+
+SKILLS
+•	Skills: Frontend: React, JavaScript (ES6+), TypeScript, HTML5, CSS3, SCSS/LESS
+•	State & Data: Redux Toolkit, RTK Query, Context API, React Hook Form, Formik, REST APIs
+•	AI & Productivity: Prompt Engineering (Claude Opus/Sonnet, GPT-4o), AI-driven Code Generation (Cursor), Chrome Extension Development, Automated UI Scaffolding.
+•	Architecture: Component-Driven UI, Micro Frontends, Web Components, i18n, RTL
+•	Performance & Accessibility: Core Web Vitals (LCP, CLS, FID), WCAG 2.2, SEO
+•	Testing & Tooling: Jest, React Testing Library, Git, Vite, Webpack, npmWORK EXPERIENCE
+ZOHO Corporation
+Web Developer 2020 – Present Chennai, India
+•	Delivered and localized production UI for Zoho Japan products, supporting region-specific product adoption.
+•	Owned frontend architecture for Japan CRM & edesks products utilizing signing by ~30%.
+•	Collaborated with Japan stakeholders to align workflows and localization standards.
+•	Implemented micro-frontend architectures, improving modular deployment and UI consistency.
+•	Introduced AI-assisted HTML scaffolding, improving frontend development speed by ~50%.
+•	Built internal Chrome extensions for SEO audits, reducing manual QA effort by ~30%.
+•	Enabled RTL layout support and structured i18n for multilingual deployments.
+•	Contributed frontend execution for global events including Zoholics and Zoho Inspire.
+K2B Solutions
+UI Developer 2018 – 2020 Chennai, India
+•	Developed an Awwward-recognized website for UK client Bluestone98, enhancing client engagements.
+•	Delivered pixel-accurate UI components for Singapore Land Authority systems.
+•	Improved navigation architecture for Sheridan Homes Australia real estate platform.
+Doodleblue Innovations
+UI / UX Design Intern 2017 – 2018 Chennai, India
+•	Assisted in UI/UX design projects, contributing to user-centered interface enhancements.
+EDUCATION
+Anna University, Jawahar Engineering College
+Bachelor of Engineering, Electronics & Communication Engineering 2013 – 2017 Chennai, India
+PROJECTS
+Japan CRM Academy
+•	Built and localized a production learning platform for Zoho Japan, supporting 5,000+ MAU and increasing CRM sign-up conversion by ~30%.
+•	Tech: JavaScript, SCSS, REST APIs, i18n
+AI Productivity & Automation Tools
+•	Developed AI-assisted Chrome extensions and internal tools to automate SEO checks and UI validation, reducing manual review effort by ~30% and accelerating frontend workflows.
+•	Tech: JavaScript, Chrome Extension API, GPT APIs, Claude APIs.
+LANGUAGES & INTERESTS
+•	Languages: English (Professional); Tamil (Native); Sourashtra (Conversational)
+•	Interests: Weightlifting; Building Computers
+
