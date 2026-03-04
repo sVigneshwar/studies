@@ -13,12 +13,12 @@
 *** Valid Palindrome (two pointers - remove space from left and right and lowercase and compare element )
 *** 3Sum (sort, [start+left+right], total > 0 or < 0 or =0 right-- or left++ or left++, check same numbers and skip it)
 *** Container With Most Water (max, area, left, right - right-left*minheight - (max, area) - left++ right--)
-*** Best Time to Buy and Sell Stock
-*** Longest Substring Without Repeating Characters | Medium
-*** Longest Repeating Character Replacement
-*** Valid Parentheses  | Easy
-*** Find Minimum in Rotated Sorted Array
-*** Search in Rotated Sorted Array
+*** Best Time to Buy and Sell Stock (left 0, right 1, while r<length, l < r => right - left, amtch max for profit, else left = right, right++)
+*** Longest Substring Without Repeating Characters - hashmap set - left, max, res - while left same delete left and left++, get max res, size
+*** Longest Repeating Character Replacement - // EXPAND right always // SHRINK left when: (r - l + 1) - maxFreq > k // ANSWER is max valid window size
+*** Valid Parentheses - psh open brackets in stack, remove closed brackets from stack before checking last open bracket is same as current bracket
+*** Find Minimum in Rotated Sorted Array - get left 0, right last, run while, if left is smaller return else get middle, math.min res middle, middle > left , l+1 else r-1
+*** Search in Rotated Sorted Array - get middle, if middle is target set result else check if it inside left sorted portion or right, and move left right accordingly. 
 *** Maximum Product Subarray
 *** Maximum Subarray
 
@@ -90,3 +90,56 @@ For Question 4 (Efficiency & Logic)
 - **Mentorship:** How you help junior devs grow.
 - **"Why PayPay?":** Focus on "Cashless Japan" and financial inclusion.
 - **Ownership:** A time you fixed a production issue at Zoho without being asked.
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+# 📋 Interview Rounds — Quick Summary
+
+## 1. The CodeSignal & DSA Battleground (Round 1)
+- **Binary Array Management:** The "L-C" index tracking (finding smallest 0, setting to 0).
+- **String Manipulation:** Vowel reversing, pattern matching (vowels as 0, consonants as 1), and palindromes.
+- **Array Optimization:** Max profit (Buy/Sell Stock), Two Sum (HashMaps), and Sliding Windows.
+- **Matrix Simulation:** 2D array traversal (like Spiral Matrix or Tetris-style logic).
+- **Efficiency:** Optimizing $O(n^2)$ to $O(n \log n)$ or $O(n)$ using Binary Search or Frequency Maps.
+
+---------------------------------------------------------------
+
+## 2. Frontend Performance & SEO (The "Japan Team" Round)
+- **Core Web Vitals:** Measuring and improving LCP, CLS, and FID/INP.
+- **Critical Rendering Path:** The sequence from HTML/CSS to pixels (DOM → CSSOM → Render Tree → Layout → Paint).
+- **Rendering Paradigms:** Use cases for CSR (Client), SSR (Server), SSG (Static), and ISR (Incremental).
+- **SEO Strategies:** Improving crawlability, meta-tags, and performance impact on search rankings.
+- **Performance Bottlenecks:** Handling "Heavy Data" (rendering 10,000+ items) without freezing the UI.
+
+---------------------------------------------------------------
+
+## 3. JavaScript & React Deep-Dive (Technical Screen)
+- **JS Internals:** Event Loop (Microtasks vs. Macrotasks), Closures, and Prototypal Inheritance.
+- **React Optimization:** React.memo, useMemo, and useCallback (The "when" and "why").
+- **State Management:** Differences between Context API vs. Redux/Zustand.
+- **Browser APIs:** Differences between Cookies, LocalStorage, and SessionStorage.
+- **Utilities:** Implementing Debounce and Throttle from scratch.
+
+---------------------------------------------------------------
+
+## 4. System Architecture & Quality (The "Senior" Round)
+- **Framework Migration:** Strategies for migrating large apps (Feature Flags, Branch Syncing, Compatibility).
+- **Security:** SSL Pinning, preventing XSS/CSRF, and handling sensitive data without storage.
+- **Quality Assurance:** Unit Testing (Jest/RTL), Code Reviews, and preventing production regressions.
+- **API Design:** Handling "Divergence" between frontend and backend during long-term projects.
+
+---------------------------------------------------------------
+
+## 5. Leadership & Culture (The "MD/Hiring Manager" Round)
+- **Stakeholder Management:** Communicating timelines, resource management, and setting expectations.
+- **Conflict Resolution:** Handling disagreements with peers or managers using the STAR method.
+- **AI Productivity:** Using GitHub Copilot and AI agents to speed up development.
+- **Motivation (The "Why"):** Your interest in moving to Tokyo and the "PayPay 5 Senses."
+- **Problem Solving:** Stepping in during a crisis (e.g., an SEO migration fail or production outage).
+
+---------------------------------------------------------------

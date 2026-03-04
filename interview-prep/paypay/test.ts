@@ -1,4 +1,39 @@
+const prices:number[] = [10,1,5, 3, 4 ,6,7,1];
 
+function maxProfit(prices:number[]):number {
+    
+    let left:number = 0;
+    let right:number = 1;
+    let maximumProfit = 0;
+
+    while(right < prices.length){
+
+        console.log(`checking index ${left} and ${right}, checking values are ${prices[left]} and ${prices[right]} of array [${prices}]`)
+
+        const leftPrice = prices[left];
+        const rightPrice = prices[right];
+
+        if(leftPrice !== undefined && rightPrice !== undefined && leftPrice < rightPrice){
+
+            let profit = rightPrice - leftPrice
+
+            maximumProfit = Math.max(profit, maximumProfit)
+
+        }else{
+            left = right
+        }
+
+        right++
+
+    }
+
+    console.log(maximumProfit);
+    
+    return maximumProfit;
+    
+}
+
+maxProfit(prices)
 // -------------------------------------------------------------------
 
 /* const strs = ["act","pots","tops","cat","stop","hat"]
