@@ -1,4 +1,7 @@
-const prices:number[] = [10,1,5, 3, 4 ,6,7,1];
+
+
+// -------------------------------------------------------------------
+/* const prices:number[] = [10,1,5, 3, 4 ,6,7,1];
 
 function maxProfit(prices:number[]):number {
     
@@ -33,7 +36,7 @@ function maxProfit(prices:number[]):number {
     
 }
 
-maxProfit(prices)
+maxProfit(prices) */
 // -------------------------------------------------------------------
 
 /* const strs = ["act","pots","tops","cat","stop","hat"]

@@ -1,0 +1,100 @@
+# Vigneshwar S
+
+**Senior Frontend Engineer · AI-Integrated Frontend Platform · Developer Experience**
+
+📧 [vigneshwar.s1996@gmail.com](mailto:vigneshwar.s1996@gmail.com)  |  📞 +91 9500013901
+🌍 Chennai, India
+🔗 linkedin.com/in/vigneshwar-sv  |  github.com/sVigneshwar  |  portfolio-vigneshwar.vercel.app
+
+**Open to relocation (AU · NZ · Germany · Ireland) · Visa sponsorship required · Remote across ANZ**
+
+---
+
+## PROFILE
+
+Senior Frontend Engineer focused on AI-integrated frontend engineering and developer experience optimisation. Built AI-powered tooling and multi-agent workflows that reduced development time by 50% and manual QA effort by 30%.
+
+At Zoho, owned frontend architecture for a Japan-market CRM platform, delivering localised, high-performance UI and improving sign-up conversion.
+
+Experienced in building scalable frontend systems using React and TypeScript with strong emphasis on performance and platform-level engineering.
+
+---
+
+## SKILLS
+
+**Frontend:** React, TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS
+**AI & Automation:** LLM workflows (Claude, GPT, Cursor), multi-agent systems, AI-assisted scaffolding, Chrome Extensions
+**Architecture:** Component-driven development, Micro Frontends, Design Systems, Web Components, i18n / RTL
+**Build & Tooling:** Webpack, Vite, npm, Git, CI/CD pipelines
+**State & Data:** Redux Toolkit, RTK Query, Context API, React Hook Form, REST APIs
+**Quality:** Jest, React Testing Library, Core Web Vitals, WCAG 2.2, Cross-browser compatibility
+
+---
+
+## WORK EXPERIENCE
+
+### Senior Frontend Engineer · Zoho Corporation
+
+**Feb 2020 – Present | Chennai, India**
+
+* Architected and owned the frontend for Japan CRM Academy — a production learning platform (5,000+ MAU) — improving sign-up conversion by ~30% through performance-optimised, localised React UI
+* Collaborated with Japan stakeholders to align frontend delivery with regional product workflows and localisation standards
+* Led Core Web Vitals optimisation (LCP, CLS, FID) and configured Webpack/Vite pipelines to improve bundle performance across product lines
+* Implemented structured i18n and RTL support enabling scalable multilingual deployments across global markets
+
+#### Frontend Platform & Developer Experience
+
+* Designed and shipped a shared Web Component architecture defining reusable patterns, edge case handling, and token-based theming across multiple product surfaces
+* Improved developer experience by creating reusable abstractions and tooling that accelerated feature delivery across teams
+
+#### AI-Powered Engineering & Tooling
+
+Designed and implemented an AI-powered UI scaffolding system using Claude and GPT APIs, standardising component creation patterns and accelerating frontend development workflows
+Built internal AI-driven tools including SEO/link checker, schema validator with live URL binding, and mailer template generator to reduce manual QA effort and improve development efficiency
+Developed Chrome extensions for automated UI validation and workflow automation, reducing repetitive manual tasks across teams
+Designed structured multi-step LLM workflows for handling complex frontend tasks such as screen flow generation, component scaffolding, and code refinement
+Applied model selection and token optimisation strategies based on task complexity to improve efficiency and output quality in AI-assisted workflows
+
+---
+
+### UI Developer · K2B Solutions
+
+**Jan 2018 – Feb 2020 | Chennai, India**
+
+* Built an Awwwards-recognised website for UK client Bluestone98, delivering high-quality interaction-driven UI
+* Delivered enterprise-grade UI components for Singapore Land Authority systems
+* Improved navigation architecture and UX for Sheridon Homes Australia real estate platform
+
+---
+
+### UI/UX Design Intern · Doodleblue Innovations
+
+**Oct 2017 – Dec 2017 | Chennai, India**
+
+* Contributed to user-centred interface design and UI/UX improvements across client projects
+
+---
+
+## KEY PROJECTS
+
+**Japan CRM Academy**
+Production learning platform for Zoho Japan with localisation, i18n, and React-driven UI — improved sign-up conversion by ~30%
+
+**AI Developer Tooling Suite**
+Internal tools for SEO/link checking, schema validation, and mailer generation using LLM APIs — reduced QA effort by ~30%
+
+**JobHunter Chrome Extension (In Development)**
+AI-powered job search tool for LinkedIn/Seek: analyses job listings, filters visa sponsorship roles, and assists with application workflows
+
+---
+
+## EDUCATION
+
+Bachelor of Engineering, Electronics & Communication Engineering
+Anna University, Jawahar Engineering College  ·  2013 – 2017  ·  Chennai, India
+
+---
+
+## LANGUAGES
+
+English (Professional) · Tamil (Native) · Sourashtra (Conversational)
