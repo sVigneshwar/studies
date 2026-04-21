@@ -1,0 +1,212 @@
+1. Tell me about yourself
+
+frontend developer
+8 years
+zoho corportation chennai
+tech stack
+zoho japan
+zoho manageneninge ui
+past year i ve been working with llms, like claude, cursor, copilot, and integrated most of the AI into my day to day workflow
+snce 8 years experince i think am ready for bigger challenge and want to work in gobal environment and contribute my impact
+
+
+------------------------------------------------------------------------------
+2. Motivation for applying
+
+particulary intrested in this role because luxurty escapes operates at scale
+small frontend imporvemnets can directly impact conversio nand user expericne
+i enjooy working on performance, experimnetations, and improiving customer journeys, amnd this role aligns very well with my intrest and expericen.
+
+------------------------------------------------------------------------------
+3. Top 3 considerations when taking a job
+
+my top 3 are impact, growth, team culture
+i want to work on a product at very large scale
+i want to keep growing by working closely on strong enginerrs
+be a part of a collaborative team and contribute effectively
+------------------------------------------------------------------------------
+🌐 SECTION 1 — WEB FUNDAMENTALS (HIGH PRIORITY)
+4. What happens when you type a URL?
+
+cache
+dns lookup to resolve domain into ip adress
+tcp established
+https - tls handshake occurs
+browser send http request and get responce
+browser parses html, css, excecute js, and renders the page 
+
+
+dns - domain name system
+tcp - transmission control protocol
+tls - transport layer security
+
+------------------------------------------------------------------------------
+5. What is DNS?
+
+it is a domain name system
+tranlstes human readable text like googl.com into and ip adress where computers can locate the server
+it also uses caching to improve performance
+------------------------------------------------------------------------------
+6. HTTP vs HTTPS
+
+http is a protocol for trasnferring data over the web and this is not secure
+https is a secure transmission with uses ssl/tls encryption to protect data dureing transmission.
+it prevents attacks like "man in the middle"
+
+port 80 - not secure for tranmission
+port 443 - secure for transmisstions like password and payments
+------------------------------------------------------------------------------
+7. What is SSL/TLS?
+
+ssl/tls is a secuirty protocol which encrypts data between client and the server.
+it usies confidentiality, integrity, authencity using certifivates
+------------------------------------------------------------------------------
+8. How browser sends and receives request
+
+http request
+header and optional body
+server returns response with status code
+browser then render the response
+
+------------------------------------------------------------------------------
+9. HTTP Status Codes
+
+https status codes indicates the result if the request
+100 - continue
+200 - success
+301 - redirection
+400 - client error
+500 - server error
+
+100 - continue
+101 - switching protocol
+
+200 - ok
+201 - created
+204 - no content
+
+301 - moved permenantly
+302 - found
+304 - not modified
+
+400 - bad request
+401 - unauthorized
+403 - forbidden
+404 - not found
+429 - too many request
+
+500 - internal server error
+502 - bad gateway
+503 - service unavaulable
+504 - gateway timeout
+
+------------------------------------------------------------------------------
+⚡ SECTION 2 — JAVASCRIPT CORE
+10. var vs let vs const
+
+var is function scroped which can be reassigned can lead to buds.
+let and const are block scoped, where let can be reassigned, but const cant. 
+in modern js we avoid using var, and prefer only let and const.
+------------------------------------------------------------------------------
+11. What is a Promise?
+
+a promise is a asynchronoues operation which can be in pending, fullfilled or rejected.
+it allows handling of async operation more cleanly than callbacks
+
+const myPromise = new Promise((resolve, reject) => {
+  const success = true;
+
+  if (success) {
+    resolve("Operation was successful!"); // Sets state to fulfilled
+  } else {
+    reject("Something went wrong."); // Sets state to rejected
+  }
+});
+
+myPromise
+  .then((message) => {
+    console.log("Success: " + message);
+  })
+  .catch((error) => {
+    console.log("Error: " + error);
+  })
+  .finally(() => {
+    console.log("Process completed.");
+  });
+  
+------------------------------------------------------------------------------
+
+12. Async/Await
+
+async/await is writerrn on top of promises, allowing us to write async code synchronouselt for better readability.
+
+------------------------------------------------------------------------------
+13. Event Loop
+
+js is a single threaded
+event loop handles async opertations
+it process call stack
+handles task from ques like microtask and macrotask
+
+------------------------------------------------------------------------------
+14. What is closure?
+
+a closure is a function where it has access to its outer scope even after the outer scope has finished executing.
+it is used for data encapsulation.
+------------------------------------------------------------------------------
+
+15. Hoisting
+
+hosting is js behaviour
+variables and function declarations are movecd to the top of thir scope before exceuting
+variables declared with var are hoisted differently when compared to let and const
+
+
+------------------------------------------------------------------------------
+🧩 SECTION 3 — DATA STRUCTURES & ALGORITHMS
+16. List vs Set
+------------------------------------------------------------------------------
+17. Stack vs Queue
+
+------------------------------------------------------------------------------
+18. Time complexity of nested loops
+
+------------------------------------------------------------------------------
+19. Hash collision handling
+
+💻 SECTION 4 — CODING (VERY IMPORTANT)
+20. Two Sum
+
+------------------------------------------------------------------------------
+21. Valid Parentheses
+------------------------------------------------------------------------------
+22. Remove duplicates (sorted array)
+------------------------------------------------------------------------------
+23. Remove duplicates (unsorted)
+------------------------------------------------------------------------------
+🌍 SECTION 5 — SYSTEM / BACKEND BASICS
+24. What is REST API?
+------------------------------------------------------------------------------
+25. What is caching?
+------------------------------------------------------------------------------
+26. What is load balancer?
+------------------------------------------------------------------------------
+27. What is CDN?
+------------------------------------------------------------------------------
+
+⚛️ SECTION 6 — REACT (SHORT BUT IMPORTANT)
+28. How React works
+------------------------------------------------------------------------------
+
+29. Performance optimization
+
+------------------------------------------------------------------------------
+💼 SECTION 7 — BEHAVIORAL
+30. Disagree with manager
+------------------------------------------------------------------------------
+
+31. Biggest technical challenge
+------------------------------------------------------------------------------
+
+32. Array sum
+------------------------------------------------------------------------------

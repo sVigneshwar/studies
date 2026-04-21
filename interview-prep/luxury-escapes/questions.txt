@@ -1,0 +1,196 @@
+1. Tell me about yourself
+
+Answer:
+
+“I’m a frontend developer with experience building scalable web applications using React and JavaScript. I’ve worked on improving performance, building reusable components, and collaborating closely with product and design teams. Recently, I’ve been focusing on optimizing user experience and application performance, which directly impacts business metrics. I’m now looking for an opportunity to work on a larger-scale product where I can contribute to impactful user journeys.”
+
+2. Motivation for applying
+
+“I’m particularly interested in this role because Luxury Escapes operates at scale, and small frontend improvements can directly impact conversion and user experience. I enjoy working on performance, experimentation, and improving customer journeys, and this role aligns very well with my interests and experience.”
+
+3. Top 3 considerations when taking a job
+
+“The top three for me are impact, growth, and team culture. I want to work on products used at scale, continue learning from strong engineers, and be part of a collaborative team where I can contribute effectively.”
+
+🌐 SECTION 1 — WEB FUNDAMENTALS (HIGH PRIORITY)
+4. What happens when you type a URL?
+
+“When a user enters a URL, the browser first checks cache. If not found, it performs a DNS lookup to resolve the domain into an IP address. Then a TCP connection is established, and if HTTPS is used, a TLS handshake occurs. The browser sends an HTTP request to the server, which processes it and returns a response. The browser then parses HTML into the DOM, CSS into CSSOM, executes JavaScript, and finally renders the page on the screen.”
+
+5. What is DNS?
+
+“DNS stands for Domain Name System. It translates a human-readable domain name like google.com into an IP address that computers use to locate servers. It also uses caching to improve performance.”
+
+6. HTTP vs HTTPS
+
+“HTTP is a protocol for transferring data over the web, but it is not secure. HTTPS is the secure version that uses SSL/TLS encryption to protect data during transmission. It prevents attacks like man-in-the-middle.”
+
+7. What is SSL/TLS?
+
+“SSL/TLS is a security protocol that encrypts data between client and server. It ensures confidentiality, integrity, and authenticity using certificates.”
+
+8. How browser sends and receives request
+
+“The browser sends an HTTP request to the server, including headers and optional body. The server processes it and returns a response with status code and data. The browser then renders the response.”
+
+9. HTTP Status Codes
+
+“HTTP status codes indicate the result of a request. 200 means success, 400 indicates client error, and 500 indicates server error. They help identify where a problem occurred.”
+
+⚡ SECTION 2 — JAVASCRIPT CORE
+10. var vs let vs const
+
+“var is function-scoped and can be redeclared, which can lead to bugs. let and const are block-scoped. const cannot be reassigned, while let can. In modern JavaScript, we avoid var and prefer let and const.”
+
+11. What is a Promise?
+
+“A Promise represents an asynchronous operation that can be in pending, fulfilled, or rejected state. It allows handling async operations more cleanly than callbacks.”
+
+12. Async/Await
+
+“Async/await is built on top of Promises and allows writing asynchronous code in a synchronous style, improving readability.”
+
+13. Event Loop
+
+“JavaScript is single-threaded, and the event loop manages asynchronous operations. It processes the call stack and handles tasks from queues like microtasks and macrotasks.”
+
+14. What is closure?
+
+“A closure is a function that has access to its outer scope even after the outer function has finished executing. It is commonly used for data encapsulation.”
+
+15. Hoisting
+
+“Hoisting is JavaScript behavior where variable and function declarations are moved to the top of their scope during execution. Variables declared with var are hoisted differently than let and const.”
+
+🧩 SECTION 3 — DATA STRUCTURES & ALGORITHMS
+16. List vs Set
+
+“A list (array) allows duplicates and maintains order, while a set stores only unique values and provides faster lookup operations.”
+
+17. Stack vs Queue
+
+“A stack follows LIFO order, while a queue follows FIFO order. Stacks are used in recursion, while queues are used in BFS and task scheduling.”
+
+18. Time complexity of nested loops
+
+“If two loops run n times each, the time complexity is O(n²). The complexity depends on how the loops are nested.”
+
+19. Hash collision handling
+
+“Collisions in hash maps can be handled using techniques like chaining, where multiple elements are stored in a linked list, or open addressing.”
+
+💻 SECTION 4 — CODING (VERY IMPORTANT)
+20. Two Sum
+function twoSum(nums, target) {
+  const map = new Map();
+
+  for (let i = 0; i < nums.length; i++) {
+    const diff = target - nums[i];
+
+    if (map.has(diff)) {
+      return [map.get(diff), i];
+    }
+
+    map.set(nums[i], i);
+  }
+}
+
+Explain:
+
+“I use a hashmap to store values and indices. For each element, I check if the complement exists. This gives O(n) time complexity.”
+
+21. Valid Parentheses
+function isValid(s) {
+  const stack = [];
+  const map = { ')': '(', '}': '{', ']': '[' };
+
+  for (let char of s) {
+    if (!map[char]) {
+      stack.push(char);
+    } else {
+      if (stack.pop() !== map[char]) return false;
+    }
+  }
+
+  return stack.length === 0;
+}
+22. Remove duplicates (sorted array)
+function removeDuplicates(nums) {
+  let i = 0;
+
+  for (let j = 1; j < nums.length; j++) {
+    if (nums[i] !== nums[j]) {
+      i++;
+      nums[i] = nums[j];
+    }
+  }
+
+  return i + 1;
+}
+23. Remove duplicates (unsorted)
+function removeDuplicates(nums) {
+  return [...new Set(nums)];
+}
+🌍 SECTION 5 — SYSTEM / BACKEND BASICS
+24. What is REST API?
+
+“REST is an architectural style where communication is stateless and uses HTTP methods like GET, POST, PUT, and DELETE. It typically returns JSON data.”
+
+25. What is caching?
+
+“Caching stores frequently accessed data so it can be retrieved faster, reducing server load and improving performance.”
+
+26. What is load balancer?
+
+“A load balancer distributes incoming traffic across multiple servers to ensure high availability and prevent overload.”
+
+27. What is CDN?
+
+“A CDN is a distributed network of servers that deliver content closer to users, reducing latency and improving performance.”
+
+⚛️ SECTION 6 — REACT (SHORT BUT IMPORTANT)
+28. How React works
+
+“React uses a virtual DOM to efficiently update the UI. It compares previous and current states and updates only the changed parts.”
+
+29. Performance optimization
+
+“We can improve performance using memoization, lazy loading, code splitting, and reducing unnecessary re-renders.”
+
+💼 SECTION 7 — BEHAVIORAL
+30. Disagree with manager
+
+“I would first understand their perspective, then share my viewpoint with reasoning or data. I would focus on aligning with the team’s goal and maintaining a collaborative approach.”
+
+31. Biggest technical challenge
+
+“One challenge I faced was improving performance in a large React application. I identified unnecessary re-renders and optimized components using memoization and lazy loading, which significantly improved load time.”
+
+32. Array sum
+function arraySum(arr) {
+  return arr.reduce((sum, num) => sum + num, 0);
+}
+🎯 FINAL REVISION PRIORITY
+
+If you are short on time:
+
+👉 Focus on:
+
+URL flow
+HTTP/HTTPS
+Promise + Event Loop
+Two Sum
+Stack vs Queue
+Load balancer + Cache
+Motivation answer
+🔥 FINAL NOTE
+
+This is now:
+👉 Exactly what they will ask
+👉 Exactly how you should answer
+
+If you're ready:
+
+👉 Say “start mock interview”
+
+I’ll simulate real interview (strict mode).

@@ -1,0 +1,26 @@
+I want to tailor my resume for a specific job. Here is the job description:
+[Insert job description or link here]
+
+And here is my current resume:
+
+Please optimize my resume for this job by doing the following:
+
+Do not fabricate anything — do not invent or exaggerate skills, tools, or experience I don’t have. Use only what’s already in my resume.
+
+Identify the top 5 responsibilities, skills, or values the job is emphasizing, and ensure my professional summary reflects that I offer those exact things.
+
+Ensure the work experience section is aligned with the job description:
+
+Emphasize relevant experience
+
+Use clear, measurable achievements
+
+Match my real work to the job's language and structure (e.g., project lifecycle, tools used, stakeholder impact). dont hesitate to ask me any doubts.
+
+Optimize for ATS (Applicant Tracking Systems) — clean formatting, role-relevant keywords, clear section headers.
+
+Highlight any certifications, tools, or methodologies listed in the job that I already possess (e.g., PMP, Jira, Agile, Salesforce).
+
+Keep the resume professional, easy to scan, and job-ready.
+
+Final deliverable: An optimized resume that truthfully reflects my background and is tailored to this specific job.
