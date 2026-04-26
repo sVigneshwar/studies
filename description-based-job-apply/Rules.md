@@ -201,3 +201,6 @@ You now have:
 - Communication templates ✅
 
 👉 This is a complete job application engine
+
+
+remember to add claude, cursor, copilot, ai working points in all resumes
