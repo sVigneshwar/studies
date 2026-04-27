@@ -2,20 +2,45 @@ Not feasable until now:
 - US (high cost) 
 - AUS (high cost) 
 - NZ (high cost) 
-
+- Canada (long period 2 years so high cost)
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 Noted for now: 
---- Canada 45L 2 years 
-one issue is need to study 2 years so this also high cost
 
---- Ireland 27L 1 year 
-low cost, 1 year course available
+--- Ireland: 28-29L 1 year 
 
---- swedon 21L 1 year
-Languge?
+- National College of Ireland
+Course: MSc in Cloud Computing or MSc in Cybersecurity (1 Year).
+Total Cost (1 yr): ~₹28–29 Lakh (including Dublin living costs).
 
---- netherland 29L 1 year
-Languge?
+- Technological University Dublin
+Course: MSc in Computer Science (Advanced Software Development).
+Total Cost (1 yr): ~₹27 Lakh.
 
+- University of Limerick 
+Course: MSc Software Eng
+------------------------------------------------------------------------------------------
 --- germany 19L
-Languge?
+Languge: german need to study
 
+- IU International University of Applied Sciences (Private)
+Course: Master of Computer Science (1 Year / 60 ECTS track).
+Total Cost (1 yr): ~₹18–20 Lakh (including the €11.9k Blocked Account for living).
+
+
+------------------------------------------------------------------------------------------
+--- netherland 29L 1 year
+Languge? dutch
+VU Amsterdam (60 ECTS track)
+------------------------------------------------------------------------------------------
+--- swedon 21L 1 year
+Languge? swedish
+------------------------------------------------------------------------------------------
+--- poland 10L
+Languge? polish
+Warsaw Univ. of Tech (Hidden Gem)
+------------------------------------------------------------------------------------------
+--- Spain 19L
+Languge? spanish
+------------------------------------------------------------------------------------------
