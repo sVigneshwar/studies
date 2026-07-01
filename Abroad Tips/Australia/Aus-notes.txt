@@ -1,0 +1,74 @@
+Natti:
+https://www.naati.com.au/migration-assessments/ccl/
+-------------------------------------------
+Official SkillSelect:
+https://skillselect.gov.au/SKILLSELECTSTS/Login.aspx?ReturnUrl=%2fSKILLSELECTSTS%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252fauth.dis.gov.au%252fadfs%252fservices%252ftrust%26wctx%3d7fc8902e-62b0-485d-8719-5143063d7cba%26client-request-id%3d6eee080a-833e-4f67-ad0a-0080000000e4&wa=wsignin1.0&wtrealm=http%3a%2f%2fauth.dis.gov.au%2fadfs%2fservices%2ftrust&wctx=7fc8902e-62b0-485d-8719-5143063d7cba&client-request-id=6eee080a-833e-4f67-ad0a-0080000000e4
+
+Official Home Affairs explanation:
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect?utm_source=chatgpt.com
+
+When you are ready to enter the pool, you submit your Expression of Interest (EOI) entirely through the official federal government portal called SkillSelect:
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+-------------------------------------------
+
+States (6)
+New South Wales:
+https://www.nsw.gov.au/visas-and-migration/skilled-visas/skilled-nominated-visa-subclass-190?utm_source=chatgpt.com
+
+Victoria:
+https://liveinmelbourne.vic.gov.au/migrate/skilled-migration-visas?utm_source=chatgpt.com
+
+Queensland:
+https://migration.qld.gov.au/?utm_source=chatgpt.com
+
+South Australia:
+https://migration.sa.gov.au/?utm_source=chatgpt.com
+
+Western Australia:
+https://migration.wa.gov.au/our-services-support/state-nominated-migration-program?utm_source=chatgpt.com
+
+Tasmania:
+https://www.migration.tas.gov.au/?utm_source=chatgpt.com
+
+Territories (2)
+Australian Capital Territory (ACT):
+https://www.act.gov.au/migration?utm_source=chatgpt.com
+
+Northern Territory (NT):
+https://australiasnorthernterritory.com.au/move/migrate-to-work/nt-government-visa-nomination?utm_source=chatgpt.com
+
+
+Total = 8 jurisdictions
+-------------------------------------------
+
+- The Main Federal Portal
+Before interacting with any state website, your journey begins here:
+
+- Federal SkillSelect Portal: SkillSelect Application Portal
+
+- You will create one master profile here. Once completed, your EOI will sit in the federal pool, and it is the prerequisite for all 8 jurisdictions.
+
+- Which of the 8 Jurisdictions Require an Extra Application?
+Because you are an offshore applicant applying from outside Australia, the 8 jurisdictions are split into two very distinct categories.
+
+- Category 1: "Set It and Forget It" (Only EOI Required)
+For these three states, submitting the federal EOI is the only step you take initially. They actively scan the SkillSelect pool and will email you directly if they want to nominate your profile.
+
+- New South Wales (NSW): No extra step. You simply select NSW as a preferred state in your SkillSelect EOI.
+
+- Western Australia (WA): No extra step. You select WA in your EOI, and if selected, they will email you a link to their formal application form.
+
+- South Australia (SA): This is a massive advantage for your current location. While people currently living onshore in South Australia must submit a formal Registration of Interest (ROI), offshore applicants are completely exempt and are invited directly from their SkillSelect EOI.
+
+- Category 2: The Extra Step (EOI + State ROI/Application)
+For the remaining five jurisdictions, the EOI is only half the battle. After submitting your EOI on SkillSelect, you must visit their specific websites to lodge a formal request for them to review your profile.
+
+- Victoria (VIC): Requires you to submit a "Registration of Interest" (ROI) through their Live in Melbourne portal.
+
+- Queensland (QLD): Requires you to submit a separate ROI directly through the Migration Queensland portal.
+
+- Tasmania (TAS): Requires you to log into the "Migration Tasmania Gateway" and submit an ROI.
+
+- Australian Capital Territory (ACT): Requires you to submit a "Canberra Matrix" on their portal, which is a unique point-scoring application specifically for the ACT.
+
+- Northern Territory (NT): Requires you to submit a direct online nomination application via the MigrationNT portal.
