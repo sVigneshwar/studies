@@ -1,0 +1,35 @@
+antecedent = predecessor = something that came before
+
+predecessor = earlier version
+
+subsequent = later
+
+consecutive = one after another
+
+simultaneous = at the same time
+
+allocate = assign
+
+deteriorate = become worse
+
+mitigate = reduce
+
+substantial = large
+
+predominantly = mainly
+
+feasible = possible
+
+inevitable = unavoidable
+
+adverse = harmful
+
+decline = decrease
+
+surplus = extra
+
+shortage = lack
+
+conceal = hide
+
+compensate = make up for
