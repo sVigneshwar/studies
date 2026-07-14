@@ -6,10 +6,10 @@ Reading: Table Completion - 1 (15 min) - [Completed] - [5/7]
 Reading: Match the headings - 1 (15 min) - [Completed] - [7/7]
 Reading: Table Completion - 2 (15 min) - [Completed] - [5/5]
 Reading: Summary Completion - 1 (15 min) - [Completed] - [5/8]
-Reading: Notes Completion - 1 (15 min)
-Reading: Short Answer - 2 (15 min)
-Reading: Diagram Label Completion - 1 (15 min)
-Reading: Flow Chart Completion - 1 (15 min)
+Reading: Notes Completion - 1 (15 min) - [Completed] - [6/6]
+Reading: Short Answer - 2 (15 min) - [Completed] - [1/3]
+Reading: Diagram Label Completion - 1 (15 min) - [Completed] - [3/4]
+Reading: Flow Chart Completion - 1 (15 min) - [Completed] - [4/4]
 Reading: Mock Test - 1 (60 min)
 Reading: Mock Test - 2 (60 min)
 Reading: Mock Test - 3 (60 min)
@@ -21,8 +21,8 @@ Reading: Mock Test - 5 (60 min)
 Listening Test: [Total-15]
 
 Diagnostic Test - Listening (5 min) - [Completed] - [4/8]
-Listening: Note Completion - 1 (15 min)
-Listening: Table Completion - 1 (15 min)
+Listening: Note Completion - 1 (15 min) - [Completed] - [9/10]
+Listening: Table Completion - 1 (15 min) - [Completed] - [6/10]
 Listening: Flow Chart - 1 (15 min)
 Listening: Flow Chart - 2 (15 min)
 Listening: Sentence Completion - 1 (15 min)
