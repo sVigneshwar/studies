@@ -23,13 +23,14 @@ Listening Test: [Total-15]
 Diagnostic Test - Listening (5 min) - [Completed] - [4/8]
 Listening: Note Completion - 1 (15 min) - [Completed] - [9/10]
 Listening: Table Completion - 1 (15 min) - [Completed] - [6/10]
-Listening: Flow Chart - 1 (15 min)
-Listening: Flow Chart - 2 (15 min)
-Listening: Sentence Completion - 1 (15 min)
-Listening: Form/Chart Completion - 1 (15 min)
-Listening: Multiple Choice Questions - 1 (15 min)
-Listening: Plan/Map/Diagram Labelling - 1 (15 min)
-Listening: Short Answer Questions - 1 (15 min)
+Listening: Short Answer Questions (15 min) - [Completed] - [10/10]
+Listening: Flow Chart - 1 (15 min) - [Completed] - [8/10]
+Listening: Flow Chart - 2 (15 min) - [Completed] - [4/6]
+Listening: Sentence Completion - 1 (15 min) - [Completed] - [4/5]
+Listening: Form/Chart Completion - 1 (15 min) - [Completed] - [8/10]
+Listening: Multiple Choice Questions - 1 (15 min) - [Completed] - [3/4]
+Listening: Plan/Map/Diagram Labelling - 1 (15 min)  - [Completed] - [4/4]
+Listening: Short Answer Questions - 1 (15 min) - [Completed] - [4/4]
 Listening: Mock Test - 1 (35 min)
 Listening: Mock Test - 2 (35 min)
 Listening: Mock Test - 3 (35 min)
