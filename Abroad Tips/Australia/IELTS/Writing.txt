@@ -127,3 +127,40 @@ to conlcude, i firml beivle, thta online b can be usefil but wornt replace opino
 
 
 -----------------------------------------------------------------------------
+
+task 1 format:
+para1: paraphrase the question
+- background
+- shorter (20-30 words)
+
+para2: bullet point 1
+- 50 words
+- one thing
+    - 2 things from it
+
+para3: bullet point 2
+- 50 words
+- one thing
+    - 2 things from it
+
+para4: bullet point 3
+- 50 words
+- one thing
+    - 2 things from it
+
+
+formal vs informal
+
+i am - i'm
+do not - don't
+lol
+asap
+lol
+
+kind regards
+Vigneshwar
+
+
+------------------------------------------
+
+task 2:
